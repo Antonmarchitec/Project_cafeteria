@@ -54,10 +54,81 @@ grilla_section
   grid-area: grilla_section;
 }
 
+/*
+cont_header
+block_logo
+block_navigation
+
+*/
+.cont_header {
+  width: 100%;
+  max-width: 1600px;
+  padding: 10px 0px;
+  background: rgb(186, 94, 94);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /************/
+}
+.cont_header .block_logo {
+  width: 120px;
+  height: 120px;
+  padding: 5px;
+  border: 1px solid black;
+}
+.cont_header .block_navigation {
+  width: 500px;
+  padding: 5px;
+  border: 1px solid black;
+}
+.cont_header .block_navigation .block_navigation_sup {
+  padding: 5px;
+  background: rgb(71, 48, 48);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cont_header .block_navigation .block_navigation_sup .menu_secundario {
+  padding: 5px;
+  background: green;
+}
+.cont_header .block_navigation .block_navigation_sup .menu_secundario .menu_secundario_ul {
+  padding: 5px;
+  background: teal;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+.cont_header .block_navigation .block_navigation_sup .menu_secundario .menu_secundario_ul .menu_secundario_ul_item {
+  padding: 5px;
+  background: brown;
+}
+.cont_header .block_navigation .block_navigation_sup .redes {
+  padding: 3px 15px;
+  background: rgb(255, 255, 255);
+}
+.cont_header .block_navigation .block_navigation_sup .redes .iconRedes {
+  color: rgb(63, 63, 63);
+  font-size: 26px;
+  margin: 0px 3px;
+  cursor: pointer;
+}
+.cont_header .block_navigation .block_navigation_inf {
+  padding: 5px;
+  background: rgb(75, 75, 75);
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
 }
 
 /*# sourceMappingURL=main.css.map */
