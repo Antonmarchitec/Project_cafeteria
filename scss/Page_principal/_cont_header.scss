@@ -10,12 +10,16 @@ block_navigation
 .cont_header{
     width: 100%;
     max-width: 1600px;
-    padding: 10px 0px;
-    background:rgb(53, 53, 53);
+    padding: 5px 0px;
+    background:rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 5px solid rgb(192, 190, 190);
+
+    /**************/
     .block_logo{
+        margin-left: 40px;
         width: 150px;
         height: 150px;
     }
@@ -24,6 +28,7 @@ block_navigation
     .block_navigation{
         width: 700px;
         padding: 5px 0px;
+        margin-right: 40px;
         //background: rgb(130, 130, 130);
         /*************/
         .block_navigation_sup{
@@ -53,6 +58,7 @@ block_navigation
                         text-align: center;
                         .link{
                             color: variables.$color_grey;
+                            font-size: 15px;
                         }
                     }
                 }
@@ -65,7 +71,7 @@ block_navigation
                 //background: rgb(255, 255, 255);
                 .iconRedes{
                     color: rgb(63, 63, 63);
-                    font-size: 26px;
+                    font-size: 22px;
                     margin: 0px 3px;
                     cursor: pointer;
                 }
@@ -75,24 +81,26 @@ block_navigation
 
         /***********/
         .block_navigation_inf{
-            padding: 5px;
-            background: rgb(75, 75, 75);
+            padding: 2px 0px;
+            background: rgb(255, 255, 255);
             .block_navigation_inf_ul{
                 padding: 0px 5px;
-                background: greenyellow;
+                //background: greenyellow;
                 display: flex;
                 flex-direction: row;
-                justify-content: space-around;
+                justify-content: flex-start;
                 align-items: center;
-                .block_navigation_inf_ul_item{
+                .block_navigation_inf_ul_li{
                     padding: 5px;
-                    background: rgb(68, 67, 67);
+                    //background: rgb(68, 67, 67);
+                    margin-left: 16px;
                     list-style: none;
-                    .item{
+                    .link{
                         font-size: 16px;
-                        color: white;
+                        color: variables.$color_grey;
                         text-transform: uppercase;
                         text-decoration: none;
+                        font-weight: 500;
                     }
                 }
             }

@@ -63,20 +63,24 @@ block_navigation
 .cont_header {
   width: 100%;
   max-width: 1600px;
-  padding: 10px 0px;
-  background: rgb(53, 53, 53);
+  padding: 5px 0px;
+  background: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 5px solid rgb(192, 190, 190);
+  /**************/
   /************/
 }
 .cont_header .block_logo {
+  margin-left: 40px;
   width: 150px;
   height: 150px;
 }
 .cont_header .block_navigation {
   width: 700px;
   padding: 5px 0px;
+  margin-right: 40px;
   /*************/
   /***********/
 }
@@ -107,38 +111,39 @@ block_navigation
 }
 .cont_header .block_navigation .block_navigation_sup .menu_secundario .menu_secundario_ul .menu_secundario_ul_li .link {
   color: rgb(109, 109, 109);
+  font-size: 15px;
 }
 .cont_header .block_navigation .block_navigation_sup .redes {
   padding: 5px 10px;
 }
 .cont_header .block_navigation .block_navigation_sup .redes .iconRedes {
   color: rgb(63, 63, 63);
-  font-size: 26px;
+  font-size: 22px;
   margin: 0px 3px;
   cursor: pointer;
 }
 .cont_header .block_navigation .block_navigation_inf {
-  padding: 5px;
-  background: rgb(75, 75, 75);
+  padding: 2px 0px;
+  background: rgb(255, 255, 255);
 }
 .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul {
   padding: 0px 5px;
-  background: greenyellow;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
 }
-.cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul .block_navigation_inf_ul_item {
+.cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul .block_navigation_inf_ul_li {
   padding: 5px;
-  background: rgb(68, 67, 67);
+  margin-left: 16px;
   list-style: none;
 }
-.cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul .block_navigation_inf_ul_item .item {
+.cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul .block_navigation_inf_ul_li .link {
   font-size: 16px;
-  color: white;
+  color: rgb(109, 109, 109);
   text-transform: uppercase;
   text-decoration: none;
+  font-weight: 500;
 }
 
 * {
@@ -153,7 +158,6 @@ block_navigation
 
 a {
   text-decoration: none;
-  color: grey;
 }
 
 /*# sourceMappingURL=main.css.map */
