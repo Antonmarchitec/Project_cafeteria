@@ -11,50 +11,58 @@ block_navigation
     width: 100%;
     max-width: 1600px;
     padding: 10px 0px;
-    background:rgb(186, 94, 94);
+    background:rgb(53, 53, 53);
     display: flex;
     justify-content: space-between;
     align-items: center;
     .block_logo{
-        width: 120px;
-        height: 120px;
-        padding: 5px;
-        border: 1px solid black;
+        width: 150px;
+        height: 150px;
     }
 
     /************/
     .block_navigation{
-        width: 500px;
-        padding: 5px;
-        border: 1px solid black;
+        width: 700px;
+        padding: 5px 0px;
+        //background: rgb(130, 130, 130);
+        /*************/
         .block_navigation_sup{
-            padding: 5px;
-            background: rgb(71, 48, 48);
+            width: 100%;
+            padding: 5px 0px;
+            background: white;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+
+            /****************/
             .menu_secundario{
                 padding: 5px;
-                background: green;
+                //background: green;
                
                 .menu_secundario_ul{
-                    padding: 5px;
-                    background: teal;
+                    //background: teal;
                     display: flex;
                     justify-content: space-evenly;
                     align-items: center;
                     list-style: none;
-                    .menu_secundario_ul_item{
-                        padding: 5px;
-                        background: brown;
+                    .menu_secundario_ul_li{
+                        padding: 0px 20px;
+                        margin: 0px 2px;
+                        //background: brown;
+                        text-align: center;
+                        .link{
+                            color: variables.$color_grey;
+                        }
                     }
                 }
                 
             }
+
+            /*****************/
             .redes{
-                padding: 3px 15px;
-                background: rgb(255, 255, 255);
+                padding: 5px 10px;
+                //background: rgb(255, 255, 255);
                 .iconRedes{
                     color: rgb(63, 63, 63);
                     font-size: 26px;
@@ -64,9 +72,31 @@ block_navigation
             }
 
         }
+
+        /***********/
         .block_navigation_inf{
             padding: 5px;
             background: rgb(75, 75, 75);
+            .block_navigation_inf_ul{
+                padding: 0px 5px;
+                background: greenyellow;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .block_navigation_inf_ul_item{
+                    padding: 5px;
+                    background: rgb(68, 67, 67);
+                    list-style: none;
+                    .item{
+                        font-size: 16px;
+                        color: white;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                    }
+                }
+            }
+        
         }
     }
 }
