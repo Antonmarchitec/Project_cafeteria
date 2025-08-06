@@ -1,0 +1,28 @@
+
+.cont_slader{
+    background: teal;
+    //padding: 10px 0px;
+    .container_swiper{
+        width: 80%;
+        height: 1000px;
+        height: auto;
+        margin: auto;
+         .swiper{
+            background: transparent;
+                .swiper-wrapper{
+                    //background:rgb(196, 187, 187);
+                    .swiper-slide{
+                        background:transparent;
+                        background: thistle;
+                        .cont_imagen{
+                            width: 100%;
+                            height: 600px;
+                    }
+                }
+            }
+        }
+           
+    }
+}
+
+    

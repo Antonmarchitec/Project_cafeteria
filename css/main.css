@@ -1,22 +1,22 @@
-.container_swiper {
-  width: 90%;
+.cont_slader {
+  background: teal;
+}
+.cont_slader .container_swiper {
+  width: 80%;
   height: 1000px;
   height: auto;
   margin: auto;
 }
-.container_swiper .swiper {
+.cont_slader .container_swiper .swiper {
   background: transparent;
 }
-.container_swiper .swiper .swiper-wrapper {
+.cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide {
   background: transparent;
-  background: rgb(76, 87, 87);
+  background: thistle;
 }
-.container_swiper .swiper .swiper-wrapper .swiper-slide {
-  background: transparent;
-}
-.container_swiper .swiper .swiper-wrapper .swiper-slide .cont_imagen {
+.cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .cont_imagen {
   width: 100%;
-  height: 400px;
+  height: 600px;
 }
 
 /*
@@ -54,12 +54,6 @@ grilla_section
   grid-area: grilla_section;
 }
 
-/*
-cont_header
-block_logo
-block_navigation
-
-*/
 .cont_header {
   width: 100%;
   max-width: 1600px;
