@@ -24,7 +24,8 @@ grilla_section
     ;
 
     .grilla_header{
-        background: rgb(126, 126, 126);
+        height: 170px;
+        //background: rgb(126, 126, 126);
         padding: 10px 0px;
         grid-area:grilla_header;
     }
@@ -41,4 +42,92 @@ grilla_section
         grid-area:grilla_section;
     }
 
+}
+
+
+
+/* Móviles grandes y phablets (481px a 768px) */
+@media (min-width:481px) and (max-width:768px){ 
+    
+.cont_grilla{
+    width: 100%;
+    max-width: 1600px;
+    padding: 10px 0px;
+    margin: auto;
+    background: rgb(49, 49, 49);
+    display: grid;
+    gap:10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "grilla_header     grilla_header     grilla_header"
+    "grilla_slader     grilla_slader     grilla_slader"
+    "grilla_section    grilla_section    grilla_section"
+    ;
+
+    .grilla_header{
+        height: 110px;
+        //background: rgb(126, 126, 126);
+        padding: 10px 0px;
+        grid-area:grilla_header;
+    }
+
+    .grilla_slader{
+        background: rgb(126, 126, 126);
+        padding: 10px 0px;
+        grid-area:grilla_slader;
+    }
+
+    .grilla_section{
+        background: rgb(126, 126, 126);
+        padding: 10px 0px;
+        grid-area:grilla_section;
+    }
+
+}
+}
+
+
+
+
+
+/* Móviles pequeños (hasta 480px) */
+@media (min-width:423px) and (max-width:480px){
+     
+.cont_grilla{
+    width: 100%;
+    max-width: 1600px;
+    padding: 10px 0px;
+    margin: auto;
+    background: rgb(49, 49, 49);
+    display: grid;
+    gap:10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "grilla_header     grilla_header     grilla_header"
+    "grilla_slader     grilla_slader     grilla_slader"
+    "grilla_section    grilla_section    grilla_section"
+    ;
+
+    .grilla_header{
+        height: 110px;
+        //background: rgb(126, 126, 126);
+        padding: 10px 0px;
+        grid-area:grilla_header;
+    }
+
+    .grilla_slader{
+        background: rgb(126, 126, 126);
+        padding: 10px 0px;
+        grid-area:grilla_slader;
+    }
+
+    .grilla_section{
+        background: rgb(126, 126, 126);
+        padding: 10px 0px;
+        grid-area:grilla_section;
+    }
+
+}
 }

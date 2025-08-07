@@ -40,7 +40,7 @@ grilla_section
   grid-template-areas: "grilla_header     grilla_header     grilla_header" "grilla_slader     grilla_slader     grilla_slader" "grilla_section    grilla_section    grilla_section";
 }
 .cont_grilla .grilla_header {
-  background: rgb(126, 126, 126);
+  height: 170px;
   padding: 10px 0px;
   grid-area: grilla_header;
 }
@@ -55,36 +55,103 @@ grilla_section
   grid-area: grilla_section;
 }
 
+/* Móviles grandes y phablets (481px a 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .cont_grilla {
+    width: 100%;
+    max-width: 1600px;
+    padding: 10px 0px;
+    margin: auto;
+    background: rgb(49, 49, 49);
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "grilla_header     grilla_header     grilla_header" "grilla_slader     grilla_slader     grilla_slader" "grilla_section    grilla_section    grilla_section";
+  }
+  .cont_grilla .grilla_header {
+    height: 110px;
+    padding: 10px 0px;
+    grid-area: grilla_header;
+  }
+  .cont_grilla .grilla_slader {
+    background: rgb(126, 126, 126);
+    padding: 10px 0px;
+    grid-area: grilla_slader;
+  }
+  .cont_grilla .grilla_section {
+    background: rgb(126, 126, 126);
+    padding: 10px 0px;
+    grid-area: grilla_section;
+  }
+}
+/* Móviles pequeños (hasta 480px) */
+@media (min-width: 423px) and (max-width: 480px) {
+  .cont_grilla {
+    width: 100%;
+    max-width: 1600px;
+    padding: 10px 0px;
+    margin: auto;
+    background: rgb(49, 49, 49);
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "grilla_header     grilla_header     grilla_header" "grilla_slader     grilla_slader     grilla_slader" "grilla_section    grilla_section    grilla_section";
+  }
+  .cont_grilla .grilla_header {
+    height: 110px;
+    padding: 10px 0px;
+    grid-area: grilla_header;
+  }
+  .cont_grilla .grilla_slader {
+    background: rgb(126, 126, 126);
+    padding: 10px 0px;
+    grid-area: grilla_slader;
+  }
+  .cont_grilla .grilla_section {
+    background: rgb(126, 126, 126);
+    padding: 10px 0px;
+    grid-area: grilla_section;
+  }
+}
 /* Escritorios grandes (más de 1440px) */
 .cont_header {
   width: 100%;
-  max-width: 1600px;
+  height: 170px;
+  background: #f465ea;
   padding: 5px 0px;
-  background: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 5px solid rgb(192, 190, 190);
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin: auto;
+  z-index: 100;
   /**************/
   /************/
   /*************/
 }
 .cont_header .block_logo {
+  margin-top: 80px;
   margin-left: 40px;
-  width: 150px;
-  height: 150px;
+  width: 320px;
+  height: 320px;
 }
 .cont_header .block_navigation {
+  margin-top: 30px;
   width: 700px;
   padding: 5px 0px;
   margin-right: 40px;
+  background: #f465ea;
   /*************/
   /***********/
 }
 .cont_header .block_navigation .block_navigation_sup {
   width: 100%;
   padding: 5px 0px;
-  background: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -108,20 +175,20 @@ grilla_section
 }
 .cont_header .block_navigation .block_navigation_sup .menu_secundario .menu_secundario_ul .menu_secundario_ul_li .link {
   color: rgb(109, 109, 109);
+  color: white;
   font-size: 15px;
 }
 .cont_header .block_navigation .block_navigation_sup .redes {
   padding: 5px 10px;
 }
 .cont_header .block_navigation .block_navigation_sup .redes .iconRedes {
-  color: rgb(63, 63, 63);
+  color: #D1F2EB;
   font-size: 22px;
   margin: 0px 3px;
   cursor: pointer;
 }
 .cont_header .block_navigation .block_navigation_inf {
   padding: 2px 0px;
-  background: rgb(255, 255, 255);
 }
 .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul {
   padding: 0px 5px;
@@ -137,7 +204,7 @@ grilla_section
 }
 .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul .block_navigation_inf_ul_li .link {
   font-size: 16px;
-  color: rgb(109, 109, 109);
+  color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 500;
@@ -145,7 +212,8 @@ grilla_section
   transition: 0.3s all;
 }
 .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul .block_navigation_inf_ul_li .link:hover {
-  border-bottom: 2px solid rgb(109, 109, 109);
+  border-bottom: 2px solid #E7D0FF;
+  color: #E7D0FF;
 }
 .cont_header .block_btnResponsive {
   width: 50px;
@@ -159,33 +227,40 @@ grilla_section
 @media (min-width: 1025px) and (max-width: 1439px) {
   .cont_header {
     width: 100%;
-    max-width: 1600px;
+    height: 170px;
+    background: #f465ea;
     padding: 5px 0px;
-    background: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 5px solid rgb(192, 190, 190);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    z-index: 100;
     /**************/
     /************/
     /*************/
   }
   .cont_header .block_logo {
+    margin-top: 80px;
     margin-left: 40px;
-    width: 150px;
-    height: 150px;
+    width: 320px;
+    height: 320px;
   }
   .cont_header .block_navigation {
-    width: 500px;
+    margin-top: 30px;
+    width: 700px;
     padding: 5px 0px;
     margin-right: 40px;
+    background: #f465ea;
     /*************/
     /***********/
   }
   .cont_header .block_navigation .block_navigation_sup {
     width: 100%;
     padding: 5px 0px;
-    background: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -209,20 +284,20 @@ grilla_section
   }
   .cont_header .block_navigation .block_navigation_sup .menu_secundario .menu_secundario_ul .menu_secundario_ul_li .link {
     color: rgb(109, 109, 109);
+    color: white;
     font-size: 15px;
   }
   .cont_header .block_navigation .block_navigation_sup .redes {
     padding: 5px 10px;
   }
   .cont_header .block_navigation .block_navigation_sup .redes .iconRedes {
-    color: rgb(63, 63, 63);
+    color: #D1F2EB;
     font-size: 22px;
     margin: 0px 3px;
     cursor: pointer;
   }
   .cont_header .block_navigation .block_navigation_inf {
     padding: 2px 0px;
-    background: rgb(255, 255, 255);
   }
   .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul {
     padding: 0px 5px;
@@ -238,7 +313,7 @@ grilla_section
   }
   .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul .block_navigation_inf_ul_li .link {
     font-size: 16px;
-    color: rgb(109, 109, 109);
+    color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 500;
@@ -246,7 +321,8 @@ grilla_section
     transition: 0.3s all;
   }
   .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul .block_navigation_inf_ul_li .link:hover {
-    border-bottom: 2px solid rgb(109, 109, 109);
+    border-bottom: 2px solid #E7D0FF;
+    color: #E7D0FF;
   }
   .cont_header .block_btnResponsive {
     width: 50px;
@@ -260,33 +336,40 @@ grilla_section
 @media (min-width: 769px) and (max-width: 1024px) {
   .cont_header {
     width: 100%;
-    max-width: 1600px;
+    height: 170px;
+    background: #f465ea;
     padding: 5px 0px;
-    background: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 5px solid rgb(192, 190, 190);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    z-index: 100;
     /**************/
     /************/
     /*************/
   }
   .cont_header .block_logo {
-    margin-left: 20px;
-    width: 150px;
-    height: 150px;
+    margin-top: 80px;
+    margin-left: 10px;
+    width: 30%;
+    height: auto;
   }
   .cont_header .block_navigation {
-    width: 480px;
+    margin-top: 30px;
+    width: 500px;
     padding: 5px 0px;
-    margin-right: 20px;
+    margin-right: 10px;
+    background: #f465ea;
     /*************/
     /***********/
   }
   .cont_header .block_navigation .block_navigation_sup {
     width: 100%;
     padding: 5px 0px;
-    background: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -310,20 +393,20 @@ grilla_section
   }
   .cont_header .block_navigation .block_navigation_sup .menu_secundario .menu_secundario_ul .menu_secundario_ul_li .link {
     color: rgb(109, 109, 109);
+    color: white;
     font-size: 15px;
   }
   .cont_header .block_navigation .block_navigation_sup .redes {
     padding: 5px 10px;
   }
   .cont_header .block_navigation .block_navigation_sup .redes .iconRedes {
-    color: rgb(63, 63, 63);
+    color: #D1F2EB;
     font-size: 22px;
     margin: 0px 3px;
     cursor: pointer;
   }
   .cont_header .block_navigation .block_navigation_inf {
     padding: 2px 0px;
-    background: rgb(255, 255, 255);
   }
   .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul {
     padding: 0px 5px;
@@ -339,7 +422,7 @@ grilla_section
   }
   .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul .block_navigation_inf_ul_li .link {
     font-size: 16px;
-    color: rgb(109, 109, 109);
+    color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 500;
@@ -347,7 +430,8 @@ grilla_section
     transition: 0.3s all;
   }
   .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul .block_navigation_inf_ul_li .link:hover {
-    border-bottom: 2px solid rgb(109, 109, 109);
+    border-bottom: 2px solid #E7D0FF;
+    color: #E7D0FF;
   }
   .cont_header .block_btnResponsive {
     width: 50px;
@@ -361,26 +445,34 @@ grilla_section
 @media (min-width: 481px) and (max-width: 768px) {
   .cont_header {
     width: 100%;
-    max-width: 1600px;
+    height: 110px;
+    background: #f465ea;
     padding: 5px 0px;
-    background: rgb(100, 100, 100);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 5px solid rgb(192, 190, 190);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    z-index: 100;
     /**************/
     /************/
     /*************/
   }
   .cont_header .block_logo {
+    margin-top: 50px;
     margin-left: 20px;
-    width: 100px;
-    height: 100px;
+    width: 220px;
+    height: 220px;
   }
   .cont_header .block_navigation {
+    margin-top: 30px;
     width: 500px;
     padding: 5px 0px;
-    margin-right: 40px;
+    margin-right: 10px;
+    background: #f465ea;
     display: none;
     /*************/
     /***********/
@@ -388,7 +480,6 @@ grilla_section
   .cont_header .block_navigation .block_navigation_sup {
     width: 100%;
     padding: 5px 0px;
-    background: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -412,20 +503,20 @@ grilla_section
   }
   .cont_header .block_navigation .block_navigation_sup .menu_secundario .menu_secundario_ul .menu_secundario_ul_li .link {
     color: rgb(109, 109, 109);
+    color: white;
     font-size: 15px;
   }
   .cont_header .block_navigation .block_navigation_sup .redes {
     padding: 5px 10px;
   }
   .cont_header .block_navigation .block_navigation_sup .redes .iconRedes {
-    color: rgb(63, 63, 63);
+    color: #D1F2EB;
     font-size: 22px;
     margin: 0px 3px;
     cursor: pointer;
   }
   .cont_header .block_navigation .block_navigation_inf {
     padding: 2px 0px;
-    background: rgb(255, 255, 255);
   }
   .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul {
     padding: 0px 5px;
@@ -441,7 +532,7 @@ grilla_section
   }
   .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul .block_navigation_inf_ul_li .link {
     font-size: 16px;
-    color: rgb(109, 109, 109);
+    color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 500;
@@ -449,40 +540,50 @@ grilla_section
     transition: 0.3s all;
   }
   .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul .block_navigation_inf_ul_li .link:hover {
-    border-bottom: 2px solid rgb(109, 109, 109);
+    border-bottom: 2px solid #E7D0FF;
+    color: #E7D0FF;
   }
   .cont_header .block_btnResponsive {
     width: 50px;
     height: 50px;
     background: grey;
-    margin-right: 30px;
+    margin-right: 20px;
     display: block;
+    cursor: pointer;
   }
 }
 /* Móviles pequeños (hasta 480px) */
-@media (min-width: 423px) and (max-width: 480px) {
+@media (min-width: 420px) and (max-width: 480px) {
   .cont_header {
     width: 100%;
-    max-width: 1600px;
+    height: 110px;
+    background: #f465ea;
     padding: 5px 0px;
-    background: rgb(177, 88, 88);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 5px solid rgb(192, 190, 190);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    z-index: 100;
     /**************/
     /************/
     /*************/
   }
   .cont_header .block_logo {
-    margin-left: 20px;
-    width: 100px;
-    height: 100px;
+    margin-top: 50px;
+    margin-left: initial;
+    width: 200px;
+    height: 200px;
   }
   .cont_header .block_navigation {
+    margin-top: 30px;
     width: 500px;
     padding: 5px 0px;
-    margin-right: 40px;
+    margin-right: 10px;
+    background: #f465ea;
     display: none;
     /*************/
     /***********/
@@ -490,7 +591,6 @@ grilla_section
   .cont_header .block_navigation .block_navigation_sup {
     width: 100%;
     padding: 5px 0px;
-    background: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -514,20 +614,20 @@ grilla_section
   }
   .cont_header .block_navigation .block_navigation_sup .menu_secundario .menu_secundario_ul .menu_secundario_ul_li .link {
     color: rgb(109, 109, 109);
+    color: white;
     font-size: 15px;
   }
   .cont_header .block_navigation .block_navigation_sup .redes {
     padding: 5px 10px;
   }
   .cont_header .block_navigation .block_navigation_sup .redes .iconRedes {
-    color: rgb(63, 63, 63);
+    color: #D1F2EB;
     font-size: 22px;
     margin: 0px 3px;
     cursor: pointer;
   }
   .cont_header .block_navigation .block_navigation_inf {
     padding: 2px 0px;
-    background: rgb(255, 255, 255);
   }
   .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul {
     padding: 0px 5px;
@@ -543,7 +643,7 @@ grilla_section
   }
   .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul .block_navigation_inf_ul_li .link {
     font-size: 16px;
-    color: rgb(109, 109, 109);
+    color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 500;
@@ -551,14 +651,16 @@ grilla_section
     transition: 0.3s all;
   }
   .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul .block_navigation_inf_ul_li .link:hover {
-    border-bottom: 2px solid rgb(109, 109, 109);
+    border-bottom: 2px solid #E7D0FF;
+    color: #E7D0FF;
   }
   .cont_header .block_btnResponsive {
     width: 50px;
     height: 50px;
     background: grey;
-    margin-right: 30px;
+    margin-right: 20px;
     display: block;
+    cursor: pointer;
   }
 }
 * {

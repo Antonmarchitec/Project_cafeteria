@@ -4,32 +4,39 @@
 /* Escritorios grandes (más de 1440px) */
 .cont_header{
     width: 100%;
-    max-width: 1600px;
+    height: 170px;
+    //max-width: 1600px;
+    background: variables.$color_rosa;
     padding: 5px 0px;
-    background:rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 5px solid rgb(192, 190, 190);
-
+    position: fixed;
+    left: 0;    
+    top: 0;
+    right: 0;
+    margin: auto;
+    z-index: 100;
     /**************/
     .block_logo{
+        margin-top: 80px;
         margin-left: 40px;
-        width: 150px;
-        height: 150px;
+        width: 320px;
+        height: 320px;
     }
 
     /************/
     .block_navigation{
+        margin-top: 30px;
         width: 700px;
         padding: 5px 0px;
         margin-right: 40px;
-        //background: rgb(130, 130, 130);
+        background: variables.$color_rosa;
         /*************/
         .block_navigation_sup{
             width: 100%;
             padding: 5px 0px;
-            background: white;
+            //background: white;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -53,6 +60,7 @@
                         text-align: center;
                         .link{
                             color: variables.$color_grey;
+                            color: white;
                             font-size: 15px;
                         }
                     }
@@ -65,7 +73,7 @@
                 padding: 5px 10px;
                 //background: rgb(255, 255, 255);
                 .iconRedes{
-                    color: rgb(63, 63, 63);
+                    color: variables.$color_menta_suave;
                     font-size: 22px;
                     margin: 0px 3px;
                     cursor: pointer;
@@ -77,7 +85,7 @@
         /***********/
         .block_navigation_inf{
             padding: 2px 0px;
-            background: rgb(255, 255, 255);
+            //background: rgb(255, 255, 255);
             .block_navigation_inf_ul{
                 padding: 0px 5px;
                 //background: greenyellow;
@@ -92,7 +100,7 @@
                     list-style: none;
                     .link{
                         font-size: 16px;
-                        color: variables.$color_grey;
+                        color: variables.$color_blanco;
                         text-transform: uppercase;
                         text-decoration: none;
                         font-weight: 500;
@@ -100,7 +108,9 @@
                         transition: 0.3s all;
                     }
                     .link:hover{
-                        border-bottom: 2px solid variables.$color_grey;
+                        border-bottom: 2px solid variables.$color_lila_pastel;
+                        color: variables.$color_lila_pastel;
+
                     }
                 }
             }
@@ -123,34 +133,41 @@
 
 /* Laptops y escritorios (1025px a 1440px) */
 @media (min-width:1025px) and (max-width:1439px){ 
-    .cont_header{
+   .cont_header{
         width: 100%;
-        max-width: 1600px;
+        height: 170px;
+        //max-width: 1600px;
+        background: variables.$color_rosa;
         padding: 5px 0px;
-        background:rgb(255, 255, 255);
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 5px solid rgb(192, 190, 190);
-
+        position: fixed;
+        left: 0;    
+        top: 0;
+        right: 0;
+        margin: auto;
+        z-index: 100;
         /**************/
         .block_logo{
+            margin-top: 80px;
             margin-left: 40px;
-            width: 150px;
-            height: 150px;
+            width: 320px;
+            height: 320px;
         }
 
         /************/
         .block_navigation{
-            width: 500px;
+            margin-top: 30px;
+            width: 700px;
             padding: 5px 0px;
             margin-right: 40px;
-            //background: rgb(130, 130, 130);
+            background: variables.$color_rosa;
             /*************/
             .block_navigation_sup{
                 width: 100%;
                 padding: 5px 0px;
-                background: white;
+                //background: white;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
@@ -174,6 +191,7 @@
                             text-align: center;
                             .link{
                                 color: variables.$color_grey;
+                                color: white;
                                 font-size: 15px;
                             }
                         }
@@ -186,7 +204,7 @@
                     padding: 5px 10px;
                     //background: rgb(255, 255, 255);
                     .iconRedes{
-                        color: rgb(63, 63, 63);
+                        color: variables.$color_menta_suave;
                         font-size: 22px;
                         margin: 0px 3px;
                         cursor: pointer;
@@ -198,7 +216,7 @@
             /***********/
             .block_navigation_inf{
                 padding: 2px 0px;
-                background: rgb(255, 255, 255);
+                //background: rgb(255, 255, 255);
                 .block_navigation_inf_ul{
                     padding: 0px 5px;
                     //background: greenyellow;
@@ -213,7 +231,7 @@
                         list-style: none;
                         .link{
                             font-size: 16px;
-                            color: variables.$color_grey;
+                            color: variables.$color_blanco;
                             text-transform: uppercase;
                             text-decoration: none;
                             font-weight: 500;
@@ -221,7 +239,9 @@
                             transition: 0.3s all;
                         }
                         .link:hover{
-                            border-bottom: 2px solid variables.$color_grey;
+                            border-bottom: 2px solid variables.$color_lila_pastel;
+                            color: variables.$color_lila_pastel;
+
                         }
                     }
                 }
@@ -246,34 +266,41 @@
 
 /* Tablets (769px a 1024px) */
 @media (min-width:769px) and (max-width:1024px){ 
-    .cont_header{
+   .cont_header{
         width: 100%;
-        max-width: 1600px;
+        height: 170px;
+        //max-width: 1600px;
+        background: variables.$color_rosa;
         padding: 5px 0px;
-        background:rgb(255, 255, 255);
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 5px solid rgb(192, 190, 190);
-
+        position: fixed;
+        left: 0;    
+        top: 0;
+        right: 0;
+        margin: auto;
+        z-index: 100;
         /**************/
         .block_logo{
-            margin-left: 20px;
-            width: 150px;
-            height: 150px;
+            margin-top: 80px;
+            margin-left: 10px;
+            width: 30%;
+            height: auto;
         }
 
         /************/
         .block_navigation{
-            width: 480px;
+            margin-top: 30px;
+            width: 500px;
             padding: 5px 0px;
-            margin-right: 20px;
-            //background: rgb(130, 130, 130);
+            margin-right: 10px;
+            background: variables.$color_rosa;
             /*************/
             .block_navigation_sup{
                 width: 100%;
                 padding: 5px 0px;
-                background: white;
+                //background: white;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
@@ -297,6 +324,7 @@
                             text-align: center;
                             .link{
                                 color: variables.$color_grey;
+                                color: white;
                                 font-size: 15px;
                             }
                         }
@@ -309,7 +337,7 @@
                     padding: 5px 10px;
                     //background: rgb(255, 255, 255);
                     .iconRedes{
-                        color: rgb(63, 63, 63);
+                        color: variables.$color_menta_suave;
                         font-size: 22px;
                         margin: 0px 3px;
                         cursor: pointer;
@@ -321,7 +349,7 @@
             /***********/
             .block_navigation_inf{
                 padding: 2px 0px;
-                background: rgb(255, 255, 255);
+                //background: rgb(255, 255, 255);
                 .block_navigation_inf_ul{
                     padding: 0px 5px;
                     //background: greenyellow;
@@ -336,7 +364,7 @@
                         list-style: none;
                         .link{
                             font-size: 16px;
-                            color: variables.$color_grey;
+                            color: variables.$color_blanco;
                             text-transform: uppercase;
                             text-decoration: none;
                             font-weight: 500;
@@ -344,7 +372,9 @@
                             transition: 0.3s all;
                         }
                         .link:hover{
-                            border-bottom: 2px solid variables.$color_grey;
+                            border-bottom: 2px solid variables.$color_lila_pastel;
+                            color: variables.$color_lila_pastel;
+
                         }
                     }
                 }
@@ -368,34 +398,42 @@
 
 /* Móviles grandes y phablets (481px a 768px) */
 @media (min-width:481px) and (max-width:768px){ 
-    .cont_header{
+     .cont_header{
         width: 100%;
-        max-width: 1600px;
+        height: 110px;
+        //max-width: 1600px;
+        background: variables.$color_rosa;
         padding: 5px 0px;
-        background:rgb(100, 100, 100);
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 5px solid rgb(192, 190, 190);
-
+        position: fixed;
+        left: 0;    
+        top: 0;
+        right: 0;
+        margin: auto;
+        z-index: 100;
         /**************/
         .block_logo{
+            margin-top:50px;
             margin-left: 20px;
-            width: 100px;
-            height: 100px;
+            width: 220px;
+            height: 220px;
         }
 
         /************/
         .block_navigation{
+            margin-top: 30px;
             width: 500px;
             padding: 5px 0px;
-            margin-right: 40px;
+            margin-right: 10px;
+            background: variables.$color_rosa;
             display: none;
             /*************/
             .block_navigation_sup{
                 width: 100%;
                 padding: 5px 0px;
-                background: white;
+                //background: white;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
@@ -419,6 +457,7 @@
                             text-align: center;
                             .link{
                                 color: variables.$color_grey;
+                                color: white;
                                 font-size: 15px;
                             }
                         }
@@ -431,7 +470,7 @@
                     padding: 5px 10px;
                     //background: rgb(255, 255, 255);
                     .iconRedes{
-                        color: rgb(63, 63, 63);
+                        color: variables.$color_menta_suave;
                         font-size: 22px;
                         margin: 0px 3px;
                         cursor: pointer;
@@ -443,7 +482,7 @@
             /***********/
             .block_navigation_inf{
                 padding: 2px 0px;
-                background: rgb(255, 255, 255);
+                //background: rgb(255, 255, 255);
                 .block_navigation_inf_ul{
                     padding: 0px 5px;
                     //background: greenyellow;
@@ -458,7 +497,7 @@
                         list-style: none;
                         .link{
                             font-size: 16px;
-                            color: variables.$color_grey;
+                            color: variables.$color_blanco;
                             text-transform: uppercase;
                             text-decoration: none;
                             font-weight: 500;
@@ -466,7 +505,9 @@
                             transition: 0.3s all;
                         }
                         .link:hover{
-                            border-bottom: 2px solid variables.$color_grey;
+                            border-bottom: 2px solid variables.$color_lila_pastel;
+                            color: variables.$color_lila_pastel;
+
                         }
                     }
                 }
@@ -479,8 +520,9 @@
             width: 50px;
             height: 50px;
             background: grey;
-            margin-right: 30px;
+            margin-right: 20px;
             display: block;
+            cursor: pointer;
         }
     }
 }
@@ -490,35 +532,43 @@
 
 
 /* Móviles pequeños (hasta 480px) */
-@media (min-width:423px) and (max-width:480px){ 
+@media (min-width:420px) and (max-width:480px){ 
      .cont_header{
         width: 100%;
-        max-width: 1600px;
+        height: 110px;
+        //max-width: 1600px;
+        background: variables.$color_rosa;
         padding: 5px 0px;
-        background:rgb(177, 88, 88);
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 5px solid rgb(192, 190, 190);
-
+        position: fixed;
+        left: 0;    
+        top: 0;
+        right: 0;
+        margin: auto;
+        z-index: 100;
         /**************/
         .block_logo{
-            margin-left: 20px;
-            width: 100px;
-            height: 100px;
+            margin-top:50px;
+            margin-left: initial;
+            width: 200px;
+            height: 200px;
         }
 
         /************/
         .block_navigation{
+            margin-top: 30px;
             width: 500px;
             padding: 5px 0px;
-            margin-right: 40px;
+            margin-right: 10px;
+            background: variables.$color_rosa;
             display: none;
             /*************/
             .block_navigation_sup{
                 width: 100%;
                 padding: 5px 0px;
-                background: white;
+                //background: white;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
@@ -542,6 +592,7 @@
                             text-align: center;
                             .link{
                                 color: variables.$color_grey;
+                                color: white;
                                 font-size: 15px;
                             }
                         }
@@ -554,7 +605,7 @@
                     padding: 5px 10px;
                     //background: rgb(255, 255, 255);
                     .iconRedes{
-                        color: rgb(63, 63, 63);
+                        color: variables.$color_menta_suave;
                         font-size: 22px;
                         margin: 0px 3px;
                         cursor: pointer;
@@ -566,7 +617,7 @@
             /***********/
             .block_navigation_inf{
                 padding: 2px 0px;
-                background: rgb(255, 255, 255);
+                //background: rgb(255, 255, 255);
                 .block_navigation_inf_ul{
                     padding: 0px 5px;
                     //background: greenyellow;
@@ -581,7 +632,7 @@
                         list-style: none;
                         .link{
                             font-size: 16px;
-                            color: variables.$color_grey;
+                            color: variables.$color_blanco;
                             text-transform: uppercase;
                             text-decoration: none;
                             font-weight: 500;
@@ -589,7 +640,9 @@
                             transition: 0.3s all;
                         }
                         .link:hover{
-                            border-bottom: 2px solid variables.$color_grey;
+                            border-bottom: 2px solid variables.$color_lila_pastel;
+                            color: variables.$color_lila_pastel;
+
                         }
                     }
                 }
@@ -602,10 +655,12 @@
             width: 50px;
             height: 50px;
             background: grey;
-            margin-right: 30px;
+            margin-right: 20px;
             display: block;
+            cursor: pointer;
         }
     }
+    
 }
 
 
