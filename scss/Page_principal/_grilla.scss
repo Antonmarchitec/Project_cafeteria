@@ -24,15 +24,15 @@ grilla_section
     ;
 
     .grilla_header{
-        height: 170px;
+        height: 160px;
         //background: rgb(126, 126, 126);
         padding: 10px 0px;
         grid-area:grilla_header;
     }
 
     .grilla_slader{
-        background: rgb(126, 126, 126);
-        padding: 10px 0px;
+        //background: rgb(126, 126, 126);
+        //padding: 10px 0px;
         grid-area:grilla_slader;
     }
 
