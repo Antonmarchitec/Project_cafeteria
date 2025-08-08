@@ -8,6 +8,12 @@
 
 
 
+@font-face{
+    src: url(../fonts/BLACKR~1.TTF);
+    font-family: "BlackRose";
+}
+
+
 *{
   padding: 0;
   margin: 0;
@@ -17,6 +23,7 @@
   font-style: normal;
   font-size: 16px;
   transition: 0.5s all ease-in-out;
+  
 }
 
 a{
