@@ -331,10 +331,6 @@
   color: #E7D0FF;
 }
 .cont_header .block_btnResponsive {
-  width: 50px;
-  height: 50px;
-  background: grey;
-  margin-right: 20px;
   display: none;
 }
 
@@ -440,10 +436,6 @@
     color: #E7D0FF;
   }
   .cont_header .block_btnResponsive {
-    width: 50px;
-    height: 50px;
-    background: grey;
-    margin-right: 20px;
     display: none;
   }
 }
@@ -549,10 +541,6 @@
     color: #E7D0FF;
   }
   .cont_header .block_btnResponsive {
-    width: 50px;
-    height: 50px;
-    background: grey;
-    margin-right: 20px;
     display: none;
   }
 }
@@ -667,12 +655,7 @@
     color: #E7D0FF;
   }
   .cont_header .block_btnResponsive {
-    width: 50px;
-    height: 50px;
-    background: grey;
-    margin-right: 20px;
     display: block;
-    cursor: pointer;
   }
 }
 @font-face {
