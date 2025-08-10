@@ -33,13 +33,13 @@ grilla_section
     .grilla_slader{
         //background: rgb(126, 126, 126);
         //padding: 10px 0px;
-        grid-area:grilla_slader;
+        grid-area:grilla_slader;display: none;
     }
 
     .grilla_section{
         background: rgb(126, 126, 126);
         padding: 10px 0px;
-        grid-area:grilla_section;
+        grid-area:grilla_section;display: none;
     }
 
 }
@@ -67,7 +67,7 @@ grilla_section
 
     .grilla_header{
         height: 110px;
-        //background: rgb(126, 126, 126);
+        background: rgb(126, 126, 126);
         padding: 10px 0px;
         grid-area:grilla_header;
     }
@@ -76,12 +76,14 @@ grilla_section
         background: rgb(126, 126, 126);
         padding: 10px 0px;
         grid-area:grilla_slader;
+        display: none;
     }
 
     .grilla_section{
         background: rgb(126, 126, 126);
         padding: 10px 0px;
         grid-area:grilla_section;
+        display: none;
     }
 
 }
@@ -121,12 +123,14 @@ grilla_section
         background: rgb(126, 126, 126);
         padding: 10px 0px;
         grid-area:grilla_slader;
+        display: none;
     }
 
     .grilla_section{
         background: rgb(126, 126, 126);
         padding: 10px 0px;
         grid-area:grilla_section;
+        display: none;
     }
 
 }

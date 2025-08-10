@@ -419,6 +419,7 @@
             margin-left: 20px;
             width: 220px;
             height: 220px;
+            z-index: 100;
         }
 
         /************/
@@ -428,7 +429,8 @@
             padding: 5px 0px;
             margin-right: 10px;
             background: variables.$color_rosa;
-            display: none;
+            position: absolute;
+            top:150px;
             /*************/
             .block_navigation_sup{
                 width: 100%;
