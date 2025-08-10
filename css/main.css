@@ -1,25 +1,17 @@
 @charset "UTF-8";
 /* Escritorios grandes (más de 1440px) */
-.cont_slader .container_swiper {
-  width: 90%;
+.cont_slader .container_swiper { /******mi contenedor controla el WIDTH Y HEIGHT************************/
+  width: 95%;
   margin: auto;
 }
-.cont_slader .container_swiper .swiper {
-  background: brown;
-  padding: 10px 0px;
-}
-.cont_slader .container_swiper .swiper .swiper-wrapper {
-  background: rgb(196, 187, 187);
-  padding: 10px 0px;
-}
-.cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide {
-  background: rgb(175, 171, 171);
-  padding: 10px 0px;
+.cont_slader .container_swiper .swiper { /*********width y height NO AFECTAN*************/ }
+.cont_slader .container_swiper .swiper .swiper-wrapper { /*********width y height NO AFECTAN*************/ }
+.cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide { /*********width y height NO AFECTAN*************/
   position: relative;
   /******Estilos las tres imagenes**************/
   /******fin Estilos las tres imagenes**************/
 }
-.cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_imageFondo1 {
+.cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_imageFondo1 { /*******mi contenedor controla el WIDTH Y HEGHT********************/
   width: 100%;
   height: 500px;
   background-image: url(/source/Ice_cream.png);
@@ -169,7 +161,7 @@
   max-width: 1600px;
   padding: 10px 0px;
   margin: auto;
-  background: rgb(49, 49, 49);
+  background: rgb(27, 27, 27);
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(3, 1fr);
