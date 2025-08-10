@@ -156,6 +156,7 @@ grilla_section
 }
 .cont_grilla .grilla_header {
   height: 160px;
+  background: rgb(126, 126, 126);
   padding: 10px 0px;
   grid-area: grilla_header;
 }
@@ -561,7 +562,7 @@ grilla_section
     display: none;
   }
 }
-/* Móviles grandes y phablets (481px a 768px) */
+/* Móviles grandes y phablets (481px a 768px) -------------------CAMBIO BTN---------*/
 @media (min-width: 481px) and (max-width: 768px) {
   .cont_header {
     width: 100%;
@@ -590,62 +591,66 @@ grilla_section
   }
   .cont_header .block_navigation {
     margin-top: 30px;
-    width: 500px;
-    padding: 5px 0px;
+    width: 220px;
+    height: 85vh;
+    padding: 0px;
     margin-right: 10px;
     background: #f465ea;
     position: absolute;
-    top: 150px;
+    top: 80px;
     /*************/
     /***********/
   }
   .cont_header .block_navigation .block_navigation_sup {
     width: 100%;
-    padding: 5px 0px;
+    padding: initial;
+    padding-top: 60px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: #E7D0FF;
     /****************/
     /*****************/
   }
   .cont_header .block_navigation .block_navigation_sup .menu_secundario {
-    padding: 5px;
+    padding: 10px 0px;
   }
   .cont_header .block_navigation .block_navigation_sup .menu_secundario .menu_secundario_ul {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     list-style: none;
   }
   .cont_header .block_navigation .block_navigation_sup .menu_secundario .menu_secundario_ul .menu_secundario_ul_li {
     padding: 0px 20px;
     margin: 0px 2px;
-    text-align: center;
+    text-align: start;
   }
   .cont_header .block_navigation .block_navigation_sup .menu_secundario .menu_secundario_ul .menu_secundario_ul_li .link {
     color: rgb(109, 109, 109);
-    color: white;
+    color: #f465ea;
     font-size: 15px;
   }
   .cont_header .block_navigation .block_navigation_sup .redes {
-    padding: 5px 10px;
+    padding: 10px 20px;
   }
   .cont_header .block_navigation .block_navigation_sup .redes .iconRedes {
-    color: #D1F2EB;
+    color: #f465ea;
     font-size: 22px;
     margin: 0px 3px;
     cursor: pointer;
   }
   .cont_header .block_navigation .block_navigation_inf {
-    padding: 2px 0px;
+    padding: 20px 0px;
   }
   .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul {
     padding: 0px 5px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
   }
   .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul .block_navigation_inf_ul_li {
     padding: 5px;

@@ -396,7 +396,7 @@
 
 
 
-/* Móviles grandes y phablets (481px a 768px) */
+/* Móviles grandes y phablets (481px a 768px) -------------------CAMBIO BTN---------*/
 @media (min-width:481px) and (max-width:768px){ 
      .cont_header{
         width: 100%;
@@ -425,41 +425,43 @@
         /************/
         .block_navigation{
             margin-top: 30px;
-            width: 500px;
-            padding: 5px 0px;
+            width: 220px;
+            height: 85vh;
+            padding: 0px;
             margin-right: 10px;
             background: variables.$color_rosa;
             position: absolute;
-            top:150px;
+            top:80px;
             /*************/
             .block_navigation_sup{
                 width: 100%;
-                padding: 5px 0px;
+                padding: initial;
+                padding-top: 60px;
                 //background: white;
                 display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                align-items: center;
-
+                flex-direction: column-reverse;
+                justify-content: flex-start;
+                align-items: flex-start;
+                background: variables.$color_lila_pastel;
                 /****************/
                 .menu_secundario{
-                    padding: 5px;
-                    //background: green;
-                
+                    padding: 10px 0px;
+                    
                     .menu_secundario_ul{
                         //background: teal;
                         display: flex;
-                        justify-content: space-evenly;
-                        align-items: center;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: flex-start;
                         list-style: none;
                         .menu_secundario_ul_li{
                             padding: 0px 20px;
                             margin: 0px 2px;
                             //background: brown;
-                            text-align: center;
+                            text-align: start;
                             .link{
                                 color: variables.$color_grey;
-                                color: white;
+                                color: variables.$color_rosa;
                                 font-size: 15px;
                             }
                         }
@@ -469,10 +471,10 @@
 
                 /*****************/
                 .redes{
-                    padding: 5px 10px;
+                    padding: 10px 20px;
                     //background: rgb(255, 255, 255);
                     .iconRedes{
-                        color: variables.$color_menta_suave;
+                        color: variables.$color_rosa;
                         font-size: 22px;
                         margin: 0px 3px;
                         cursor: pointer;
@@ -483,15 +485,15 @@
 
             /***********/
             .block_navigation_inf{
-                padding: 2px 0px;
+                padding: 20px 0px;
                 //background: rgb(255, 255, 255);
                 .block_navigation_inf_ul{
                     padding: 0px 5px;
                     //background: greenyellow;
                     display: flex;
-                    flex-direction: row;
+                    flex-direction: column;
                     justify-content: flex-start;
-                    align-items: center;
+                    align-items: flex-start;
                     .block_navigation_inf_ul_li{
                         padding: 5px;
                         //background: rgb(68, 67, 67);
