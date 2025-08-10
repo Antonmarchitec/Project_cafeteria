@@ -1,4 +1,4 @@
-RESPONSIVE DESING OFICIAL NUEVO
+## RESPONSIVE DESING OFICIAL NUEVO
 @media (min-width:1025px) and (max-width:1200px){}     175px
 @media (min-width:900px)  and (max-width:1024px){}     124px
 @media (min-width:770px)  and (max-width:899px){}      129px
@@ -11,7 +11,7 @@ RESPONSIVE DESING OFICIAL NUEVO
 
 
 
-RESPONSIVE APLICANDO MOVIL FIRST
+## RESPONSIVE APLICANDO MOVIL FIRST
 
 /* Móviles pequeños (hasta 480px) */
 @media (max-width: 480px) { ... }
