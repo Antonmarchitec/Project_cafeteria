@@ -1,10 +1,4 @@
-/*
-cont_grilla
-grilla_header
-grilla_slader
-grilla_section
-
-*/
+@use "../variables";
 
 
 .cont_grilla{
@@ -94,7 +88,7 @@ grilla_section
 
 
 /* Móviles pequeños (hasta 480px) */
-@media (min-width:423px) and (max-width:480px){
+@media (min-width:350px) and (max-width:480px){
      
 .cont_grilla{
     width: 100%;
@@ -114,7 +108,7 @@ grilla_section
 
     .grilla_header{
         height: 110px;
-        //background: rgb(126, 126, 126);
+        background: rgb(126, 126, 126);
         padding: 10px 0px;
         grid-area:grilla_header;
     }

@@ -13,6 +13,10 @@
   <!--SWIPER JS CDN-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
+  <!--<link href="dist/hamburgers.css" rel="stylesheet">-->
+  <link href="dist/hamburgers.css" rel="stylesheet">
+
+
   <title>Document</title>
 </head>
 <body>
@@ -56,8 +60,12 @@
           </nav>
         </div>
 
-        <div class="block_btnResponsive">
-          
+        <div class="block_btnResponsive" id="btnResponsive">
+          <button class="hamburger hamburger--collapse is-active" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
         </div>
 
 
@@ -145,10 +153,11 @@
 </body>
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./js/swiper.js"></script>
-
     <script src="https://kit.fontawesome.com/b7fb745aab.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <script src="./js/swiper.js"></script>
+    <script src="./js/menu.js"></script>
 
 </html>
