@@ -13,17 +13,18 @@
 
 ## RESPONSIVE APLICANDO MOVIL FIRST
 
-/* Móviles pequeños (hasta 480px) */
+##### /* Móviles pequeños (hasta 480px) */
 @media (max-width: 480px) { ... }
 
-/* Móviles grandes y phablets (481px a 768px) */
+##### /* Móviles grandes y phablets (481px a 768px) */
 @media (min-width: 481px) and (max-width: 768px) { ... }
 
-/* Tablets (769px a 1024px) */
+##### /* Tablets (769px a 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) { ... }
 
-/* Laptops y escritorios (1025px a 1440px) */
+##### /* Laptops y escritorios (1025px a 1440px) */
 @media (min-width: 1025px) and (max-width: 1440px) { ... }
 
-/* Escritorios grandes (más de 1440px) */
+##### /* Escritorios grandes (más de 1440px) */
 @media (min-width: 1441px) { ... }
+
