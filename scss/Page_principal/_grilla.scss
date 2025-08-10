@@ -19,19 +19,20 @@
 
     .grilla_header{
         height: 160px;
-        background: rgb(126, 126, 126);
+        background: rgb(72, 72, 72);
         padding: 10px 0px;
         grid-area:grilla_header;
     }
 
     .grilla_slader{
-        //background: rgb(126, 126, 126);
-        //padding: 10px 0px;
-        grid-area:grilla_slader;display: none;
+        margin-top: 100px;
+        background: rgb(72, 72, 72);
+        padding: 20px 0px;
+        grid-area:grilla_slader;
     }
 
     .grilla_section{
-        background: rgb(126, 126, 126);
+        background: rgb(72, 72, 72);
         padding: 10px 0px;
         grid-area:grilla_section;display: none;
     }

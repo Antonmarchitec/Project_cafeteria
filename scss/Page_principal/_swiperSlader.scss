@@ -6,33 +6,56 @@
     //background: rgb(7, 24, 56);
     //padding: 10px 0px;
     .container_swiper{
-        width: 100%;
+        width: 90%;
         margin: auto;
         .swiper{
-            //background: brown;
-            //padding: 10px 0px;
-            .swiper-wrapper{//
-                //background:rgb(196, 187, 187);
-                //padding: 10px 0px;
+            background: brown;
+            padding: 10px 0px;
+            .swiper-wrapper{
+                background:rgb(196, 187, 187);
+                padding: 10px 0px;
                 .swiper-slide{
-                    //background:rgb(180, 38, 38);
-                    width: 100%;
-                    //padding: 10px 0px;
+                    background:rgb(175, 171, 171);
+                    padding: 10px 0px;
                     position: relative;
                     
-                    .slade_imageFondo{
+                    /******Estilos las tres imagenes**************/
+
+                    .slade_imageFondo1{
                         width: 100%;
                         height: 500px;
-                       
+                        background-image: url(/source/Ice_cream.png);
+                        background-repeat: no-repeat;
+                        background-size: 100% 100%;
+                        background-position: center;
                     }
+
+                    .slade_imageFondo2{
+                        width: 100%;
+                        height: 500px;
+                        background-image: url(/source/Ice_cream2.png);
+                        background-repeat: no-repeat;
+                        background-size: 100% 100%;
+                        background-position: center;
+                    }
+
+                    .slade_imageFondo3{
+                        width: 100%;
+                        height: 500px;
+                        background-image: url(/source/Ice_cream3.png);
+                        background-repeat: no-repeat;
+                        background-size: 100% 100%;
+                        background-position: center;
+                    }
+                    /******fin Estilos las tres imagenes**************/
+
 
                     .slade_cubierta{
                         width: 100%;
-                        height: 450px;
-                        background: rgba(0, 0, 0, 0.522);
+                        height: 500px;
+                        //background: rgba(252, 40, 216, 0.055);
                         position: absolute;
                         top: 0;
-                        display: none;
                     }
 
                     .slade_text{
