@@ -1,6 +1,7 @@
 .cont_ondas{
     width: 95%;
     margin: auto;
+    z-index: 10;
     /*background: gold;*/
 }
 
