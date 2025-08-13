@@ -15,10 +15,79 @@
     position: relative;
     display: block;
     width: calc(131% + 1.3px);
-    height: 246px;
+    height: 230px;
     transform: rotateY(180deg);
 }
 
 .custom-shape-divider-top-1754886228 .shape-fill {
     fill: #F38EEC;
+}
+
+
+
+
+
+/* Móviles grandes y phablets (481px a 768px)-------------------CAMBIO BTN--------*/
+@media (min-width:481px) and (max-width:768px){
+    .cont_ondas{
+        width:100%;
+        margin: auto;
+        z-index: 10;
+        /*background: gold;*/
+    }
+
+        
+    .custom-shape-divider-top-1754886228 {
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+
+    .custom-shape-divider-top-1754886228 svg {
+        position: relative;
+        display: block;
+        width: calc(131% + 1.3px);
+        height: 156px;
+        transform: rotateY(180deg);
+    }
+
+    .custom-shape-divider-top-1754886228 .shape-fill {
+        fill: #F38EEC;
+    }
+
+
+}
+
+
+
+
+/*Móviles pequeños (hasta 480px) ******************/
+@media (min-width:350px) and (max-width:480px){
+    .cont_ondas{
+        width:100%;
+        margin: auto;
+        z-index: 10;
+        /*background: gold;*/
+    }
+
+        
+    .custom-shape-divider-top-1754886228 {
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+
+    .custom-shape-divider-top-1754886228 svg {
+        position: relative;
+        display: block;
+        width: calc(131% + 1.3px);
+        height: 120px;
+        transform: rotateY(180deg);
+    }
+
+    .custom-shape-divider-top-1754886228 .shape-fill {
+        fill: #F38EEC;
+    }
+
+        
 }
