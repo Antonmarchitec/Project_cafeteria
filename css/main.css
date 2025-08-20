@@ -231,7 +231,6 @@
   background: rgb(72, 72, 72);
   padding: 10px 0px;
   grid-area: grilla_section;
-  display: none;
 }
 
 /* Laptops y escritorios (1025px a 1440px) */
@@ -830,6 +829,12 @@
     display: block;
   }
 }
+.cont_section {
+  width: 100%;
+  padding: 20px 0px;
+  background: orange;
+}
+
 @font-face {
   src: url(../fonts/BLACKR~1.TTF);
   font-family: "BlackRose";
