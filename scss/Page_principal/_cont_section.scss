@@ -1,7 +1,68 @@
 @use "../variables";
 
-.cont_section{
+.cont_sectionCards{
     width: 100%;
-    padding: 20px 0px;
-    background: orange;
+    padding: 100px 0px;
+    background: rgb(26, 128, 26);
+    .cont_sectionCards_h2{
+        color: white;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .cont_sectionCards_block{
+        width: 95%;
+        padding: 10px 0px;
+        background: rgb(208, 204, 204);
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        .cont_sectionCards_block_target{
+            width:calc(50% - 150px);
+            height: 500px;
+            background: rgb(70, 70, 70);
+            position: relative;
+            .target_fondo{
+                width: 100%;
+                height: 250px;
+                background: rgb(188, 107, 226);
+                position: absolute;
+                top: 80px;
+            }
+
+            .target_image{
+                width:400px;
+                height:400px;
+                position: absolute;
+                top: 0px;
+                left: calc(20%);
+            }
+
+             .target_legend{
+                text-align: center;
+                color: white;
+                font-size: 32px;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                background: teal;
+            }
+        }
+    }
+
+    
 }
+
+
+/**
+cont_sectionCards_h2
+cont_sectionCards_block
+cont_sectionCards_block_target
+target_fondo
+target_legend
+target_image
+
+*/
