@@ -1,62 +1,72 @@
 @use "../variables";
 
+
+/* Escritorios grandes (más de 1440px) */
 .cont_sectionCards{
     width: 100%;
     padding: 100px 0px;
-    background: rgb(255, 255, 255);
+    background:rgb(253, 253, 253);
     .cont_sectionCards_h2{
-        color: rgb(221, 77, 250);
+        width: 50%;
+        margin: auto;
+        color: rgb(255, 47, 47);
         font-size: 45px;
         text-align: center;
         text-transform: uppercase;
         font-weight: 700;
+        font-family: cursive;
     }
 
     .cont_sectionCards_block{
-        width: 100%;
-        padding: 100px 0px;
+        width: 82%;
+        padding: 100px 80px;
         background: rgb(255, 255, 255);
         margin: auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
         .cont_sectionCards_block_target{
-            width:calc(50% - 150px);
+            width:380px;
             height: 500px;
-            //background: rgb(70, 70, 70);
+            background: rgba(70, 70, 70, 0);
             position: relative;
             margin-bottom: 100px;
-            border-bottom: 4px solid rgb(187, 187, 187);
+            border-bottom: 4px solid rgb(223, 255, 43);
             border-radius: 20px;
             .target_fondo{
                 width: 100%;
-                height: 250px;
-                background: rgb(120, 255, 131);
+                height: 220px;
+                background: rgb(242, 235, 45);
                 position: absolute;
                 top: 80px;
                 border-radius: 20px;
             }
 
             .target_image{
-                width:400px;
-                height:400px;
+                width:320px;
+                height:380px;
                 position: absolute;
                 top: 0px;
                 left: calc(20%);
-                transform: rotate(20deg);
+                transform: rotate(10deg);
             }
 
              .target_legend{
-                text-align: center;
-                color: rgb(71, 71, 71);
-                font-size: 42px;
+                width: 200px;
+                line-height: 38px;
+                color: rgb(255, 31, 31);
+                font-size: 55px;
+                font-weight: 500;
                 position: absolute;
-                bottom: 10px;
-                right: 10px;
+                bottom: 40px;
+                left: 40px;
+                font-family: curvita;
             }
         }
+
+       
     }
 
     
@@ -72,3 +82,16 @@ target_legend
 target_image
 
 */
+
+
+
+
+
+
+/* Laptops y escritorios (1025px a 1440px) */
+
+/* Tablets (769px a 1024px) */
+
+/* Móviles grandes y phablets (481px a 768px) -------------------CAMBIO BTN---------*/
+
+/* Móviles pequeños (hasta 480px) */

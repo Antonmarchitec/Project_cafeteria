@@ -8,11 +8,16 @@
 @use "../scss/Page_principal/cont_section";
 
 
-
-@font-face{
-    src: url(../fonts/BLACKR~1.TTF);
+@font-face {
     font-family: "BlackRose";
+    src: url("../fonts/BLACKROSE.TTF") format("truetype");
 }
+
+@font-face {
+    font-family: "curvita";
+    src: url("../fonts/kberry.ttf") format("truetype");
+}
+
 
 
 *{
