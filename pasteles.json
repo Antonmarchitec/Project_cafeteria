@@ -23,29 +23,15 @@
         "dataGitHub":"dataGitHub3",
         "imagenFondo":"./img/IMG_TEMPLATES/RESTAURANT-TEMPLATE.jpg"
     },
+
     {
-        "id":4,
-        "title1":"Landing Fashion",
-        "title2":"GitHub",
-        "dataImage":"dataImage4",
-        "dataGitHub":"dataGitHub4",
-        "imagenFondo":"./img/IMG_TEMPLATES/TIENDA_ROPA.jpg"
-    },
-    {
-        "id":5,
-        "title1":"Landing VisitTokio",
-        "title2":"GitHub",
-        "dataImage":"dataImage5",
-        "dataGitHub":"dataGitHub5",
-        "imagenFondo":"./img/IMG_TEMPLATES/VISITTOKIO-TEMPLATE.jpg"
-    },
-    {
-        "id":6,
-        "title1":"Landing Restaurant Two",
-        "title2":"GitHub",
-        "dataImage":"dataImage6",
-        "dataGitHub":"dataGitHub6",
-        "imagenFondo":"./img/IMG_TEMPLATES/RESTAURANT-TEMPLATE2.jpg"
+        "id":1,
+        "legend":" Descripcion name",
+        "figure":"./img/IMG_TEMPLATES/RESTAURANT-TEMPLATE2.jpg",
+        "image": "https://example.com/logo.png",
+        "color": "#ff0000",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "textColor": "blue"
     }
 ]  
 
