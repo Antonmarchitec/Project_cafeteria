@@ -836,20 +836,25 @@
   background: rgb(253, 253, 253);
 }
 .cont_sectionCards .cont_sectionCards_h2 {
-  width: 50%;
+  width: 60%;
   margin: auto;
-  color: rgb(255, 47, 47);
-  font-size: 45px;
+  font-size: 50px;
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: cursive;
+}
+.cont_sectionCards .cont_sectionCards_descripcion {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
 }
 .cont_sectionCards .cont_sectionCards_block {
-  width: 82%;
-  padding: 100px 80px;
-  background: rgb(255, 255, 255);
   margin: auto;
+  margin-top: 80px;
+  width: 91%;
+  padding: 10px 80px;
+  background: rgb(199, 199, 199);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -857,8 +862,8 @@
   align-items: center;
 }
 .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target {
-  width: 380px;
-  height: 500px;
+  width: 410px;
+  height: 530px;
   background: rgba(70, 70, 70, 0);
   position: relative;
   margin-bottom: 100px;
@@ -884,13 +889,11 @@
 .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target .target_legend {
   width: 200px;
   line-height: 38px;
-  color: rgb(255, 31, 31);
-  font-size: 55px;
+  font-size: 30px;
   font-weight: 500;
   position: absolute;
   bottom: 40px;
   left: 40px;
-  font-family: curvita;
 }
 
 /**
@@ -923,6 +926,7 @@ target_image
   font-style: normal;
   font-size: 16px;
   transition: 0.5s all ease-in-out;
+  color: grey;
 }
 
 a {

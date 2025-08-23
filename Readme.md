@@ -31,3 +31,8 @@
 
 ##### /* Móviles pequeños (hasta 480px) */
 @media (max-width: 480px) { ... }
+
+
+
+Desaparece linea horizontal
+//Toggle Word Wrap
