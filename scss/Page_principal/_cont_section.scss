@@ -27,6 +27,7 @@
         margin-top: 80px;
         width: 91%;
         padding: 10px 80px;
+        background: rgba(199, 199, 199, 0.148);
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -35,7 +36,6 @@
         .cont_sectionCards_block_target{
             width:410px;
             height: 530px;
-            background: rgba(70, 70, 70, 0);
             position: relative;
             margin-bottom: 100px;
             border-bottom: 4px solid rgb(223, 255, 43);
@@ -69,6 +69,19 @@
             }
         }
 
+        .cont_sectionCards_block_target:hover{
+            background:transparent;
+              .target_fondo{
+                    transform: rotate(2deg);
+                }
+
+                .target_image{
+                    transform: rotate(5deg);
+
+                }
+        }
+
+   
        
     }
 

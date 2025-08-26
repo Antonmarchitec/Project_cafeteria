@@ -854,6 +854,7 @@
   margin-top: 80px;
   width: 91%;
   padding: 10px 80px;
+  background: rgba(199, 199, 199, 0.148);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -863,7 +864,6 @@
 .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target {
   width: 410px;
   height: 530px;
-  background: rgba(70, 70, 70, 0);
   position: relative;
   margin-bottom: 100px;
   border-bottom: 4px solid rgb(223, 255, 43);
@@ -894,6 +894,15 @@
   bottom: 40px;
   left: 40px;
 }
+.cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target:hover {
+  background: transparent;
+}
+.cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target:hover .target_fondo {
+  transform: rotate(2deg);
+}
+.cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target:hover .target_image {
+  transform: rotate(5deg);
+}
 
 /* Laptops y escritorios (1025px a 1440px) */
 /* Tablets (769px a 1024px) */
@@ -912,7 +921,7 @@
   font-style: normal;
   font-size: 16px;
   transition: 0.5s all ease-in-out;
-  color: grey;
+  color: rgb(60, 60, 60);
 }
 
 a {

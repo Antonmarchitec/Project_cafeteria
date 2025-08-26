@@ -6,7 +6,6 @@
         "desc2":"🎂 Cada bocado es un sabor único que deleita el paladar.",
         "figure":"../source/postre1.png",
         "color": "#FDC5C5",
-        "backgroundColor": "rgb(255, 255, 255)",
         "textColor": "blue"
     },
     {
@@ -16,7 +15,6 @@
         "desc2":"💡 Tú imaginas, nosotros lo hacemos realidad.",
         "figure":"../source/postre2.png",
         "color": "#C5E4FD",
-        "backgroundColor": "rgb(255, 255, 255)",
         "textColor": "blue"
     },
     {
@@ -26,7 +24,6 @@
         "desc2":"🍓 Conservamos el auténtico sabor casero.",
         "figure":"../source/postre3.png",
         "color": "#E7D0FF",
-        "backgroundColor": "rgb(255, 255, 255)",
         "textColor": "blue"
     },
     {
@@ -36,7 +33,6 @@
         "desc2":"📍 Rápido, seguro y con todo el cuidado.",
         "figure":"../source/postre5.png",
         "color": "#D1F2EB",
-        "backgroundColor": "rgb(255, 255, 255)",
         "textColor": "blue"
     }
     
