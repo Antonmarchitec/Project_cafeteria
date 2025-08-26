@@ -31,6 +31,7 @@ const pintarTarjetas = (res)=>{
         template_target.querySelector("#target_legend").textContent = element.legend
         template_target.querySelector("#figureTarget").setAttribute("src",element.figure)
         template_target.querySelector("#figureTarget").setAttribute("alt",element.legend)
+        template_target.querySelector("#target_legend").style.color = element.color
 
         template_target.querySelector("#target_fondo").style.background = element.color
         template_target.querySelector("#blockTarget").style.borderBottom = `8px solid ${element.color}`

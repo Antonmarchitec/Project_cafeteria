@@ -7,12 +7,13 @@
     padding: 100px 0px;
     background:rgb(255, 255, 255);
     .cont_sectionCards_h2{
-        width: 60%;
+        width: 40%;
         margin: auto;
         font-size: 50px;
         text-align: center;
         text-transform: uppercase;
         font-weight: 700;
+        font-family: curvita;
     }
 
     .cont_sectionCards_descripcion{
@@ -26,8 +27,9 @@
         margin: auto;
         margin-top: 80px;
         width: 91%;
+        border-radius: 20px;
         padding: 10px 80px;
-        background: rgba(199, 199, 199, 0.148);
+        background: rgba(255, 255, 252, 0.995);
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -50,18 +52,18 @@
             }
 
             .target_image{
-                width:320px;
+                width:380px;
                 height:380px;
                 position: absolute;
                 top: 0px;
-                left: calc(20%);
+                left: calc(10%);
                 transform: rotate(10deg);
             }
 
              .target_legend{
-                width: 200px;
-                line-height: 38px;
-                font-size: 30px;
+                width: 250px;
+                line-height: 44px;
+                font-size: 45px;
                 font-weight: 500;
                 position: absolute;
                 bottom: 40px;
