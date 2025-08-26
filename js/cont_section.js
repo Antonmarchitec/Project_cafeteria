@@ -33,6 +33,8 @@ const pintarTarjetas = (res)=>{
         template_target.querySelector("#figureTarget").setAttribute("alt",element.legend)
 
         template_target.querySelector("#target_fondo").style.background = element.color
+        template_target.querySelector("#blockTarget").style.borderBottom = `8px solid ${element.color}`
+
 
 
         
