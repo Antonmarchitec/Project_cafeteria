@@ -36,3 +36,37 @@
 
 Desaparece linea horizontal
 //Toggle Word Wrap
+
+
+
+
+🟤 Contenido de las tarjetas
+
+1. Pasteles Artesanales
+✨ Hechos con ingredientes frescos y naturales.
+🎂 Cada bocado es un sabor único que deleita el paladar.
+
+2. Diseños Personalizados
+🎨 Creamos pasteles a tu medida.
+💡 Tú imaginas, nosotros lo hacemos realidad.
+
+3. Frescura Garantizada
+🕒 Pasteles recién horneados todos los días.
+🍓 Conservamos el auténtico sabor casero.
+
+4. Entregas a Domicilio
+🚚 Llevamos la dulzura hasta tu puerta.
+📍 Rápido, seguro y con todo el cuidado.
+
+
+Opciones de título para las 4 tarjetas:
+
+“¿Por qué elegirnos?”
+
+“El secreto de nuestros pasteles”
+
+“Endulzamos tus momentos con…”
+
+“Lo que nos hace únicos”
+
+“Tu experiencia dulce comienza aquí”

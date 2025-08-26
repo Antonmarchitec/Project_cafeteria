@@ -1,38 +1,45 @@
 [
     {
         "id":1,
-        "title1":"Landing Gamer",
-        "title2":"GitHub",
-        "dataImage":"dataImage1",
-        "dataGitHub":"dataGitHub1",
-        "imagenFondo":"./img/IMG_TEMPLATES/GAMER_TEMPLATE.jpg"
-    },   
+        "legend":" Pasteles Artesanales ",
+        "desc1":"✨ Hechos con ingredientes frescos y naturales.",
+        "desc2":"🎂 Cada bocado es un sabor único que deleita el paladar.",
+        "figure":"./img/IMG_TEMPLATES/RESTAURANT-TEMPLATE2.jpg",
+        "color": "#ff0000",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "textColor": "blue"
+    },
     {
         "id":2,
-        "title1":"Landing Financial",
-        "title2":"GitHub",
-        "dataImage":"dataImage2",
-        "dataGitHub":"dataGitHub2",
-        "imagenFondo":"./img/IMG_TEMPLATES/FINANCIAL_TEMPLATE.jpg"
+        "legend":" Diseños Personalizados ",
+        "desc1":"🎨 Creamos pasteles a tu medida.",
+        "desc2":"💡 Tú imaginas, nosotros lo hacemos realidad.",
+        "figure":"./img/IMG_TEMPLATES/RESTAURANT-TEMPLATE2.jpg",
+        "color": "#ff0000",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "textColor": "blue"
     },
     {
         "id":3,
-        "title1":"Landing Restaurant",
-        "title2":"GitHub",
-        "dataImage":"dataImage3",
-        "dataGitHub":"dataGitHub3",
-        "imagenFondo":"./img/IMG_TEMPLATES/RESTAURANT-TEMPLATE.jpg"
-    },
-
-    {
-        "id":1,
-        "legend":" Descripcion name",
+        "legend":" Frescura Garantizada ",
+        "desc1":"🕒 Pasteles recién horneados todos los días.",
+        "desc2":"🍓 Conservamos el auténtico sabor casero.",
         "figure":"./img/IMG_TEMPLATES/RESTAURANT-TEMPLATE2.jpg",
-        "image": "https://example.com/logo.png",
+        "color": "#ff0000",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "textColor": "blue"
+    },
+    {
+        "id":4,
+        "legend":" Entregas a Domicilio ",
+        "desc1":"🚚 Llevamos la dulzura hasta tu puerta.",
+        "desc2":"📍 Rápido, seguro y con todo el cuidado.",
+        "figure":"./img/IMG_TEMPLATES/RESTAURANT-TEMPLATE2.jpg",
         "color": "#ff0000",
         "backgroundColor": "rgb(255, 255, 255)",
         "textColor": "blue"
     }
+    
 ]  
 
 
