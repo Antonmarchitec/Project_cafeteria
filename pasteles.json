@@ -4,8 +4,8 @@
         "legend":" Pasteles Artesanales ",
         "desc1":"✨ Hechos con ingredientes frescos y naturales.",
         "desc2":"🎂 Cada bocado es un sabor único que deleita el paladar.",
-        "figure":"./img/IMG_TEMPLATES/RESTAURANT-TEMPLATE2.jpg",
-        "color": "#ff0000",
+        "figure":"../source/postre1.png",
+        "color": "#ff5757",
         "backgroundColor": "rgb(255, 255, 255)",
         "textColor": "blue"
     },
@@ -14,7 +14,7 @@
         "legend":" Diseños Personalizados ",
         "desc1":"🎨 Creamos pasteles a tu medida.",
         "desc2":"💡 Tú imaginas, nosotros lo hacemos realidad.",
-        "figure":"./img/IMG_TEMPLATES/RESTAURANT-TEMPLATE2.jpg",
+        "figure":"../source/postre2.png",
         "color": "#ff0000",
         "backgroundColor": "rgb(255, 255, 255)",
         "textColor": "blue"
@@ -24,7 +24,7 @@
         "legend":" Frescura Garantizada ",
         "desc1":"🕒 Pasteles recién horneados todos los días.",
         "desc2":"🍓 Conservamos el auténtico sabor casero.",
-        "figure":"./img/IMG_TEMPLATES/RESTAURANT-TEMPLATE2.jpg",
+        "figure":"../source/postre3.png",
         "color": "#ff0000",
         "backgroundColor": "rgb(255, 255, 255)",
         "textColor": "blue"
@@ -34,7 +34,7 @@
         "legend":" Entregas a Domicilio ",
         "desc1":"🚚 Llevamos la dulzura hasta tu puerta.",
         "desc2":"📍 Rápido, seguro y con todo el cuidado.",
-        "figure":"./img/IMG_TEMPLATES/RESTAURANT-TEMPLATE2.jpg",
+        "figure":"../source/postre5.png",
         "color": "#ff0000",
         "backgroundColor": "rgb(255, 255, 255)",
         "textColor": "blue"
