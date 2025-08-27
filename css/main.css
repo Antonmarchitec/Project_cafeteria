@@ -836,24 +836,22 @@
   background: rgb(255, 255, 255);
 }
 .cont_sectionCards .cont_sectionCards_h2 {
-  width: 40%;
+  width: 80%;
   margin: auto;
-  font-size: 50px;
+  font-size: 90px;
   text-align: center;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family: curvita;
+  font-family: curvita_bold;
 }
 .cont_sectionCards .cont_sectionCards_descripcion {
   width: 80%;
   text-align: center;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .cont_sectionCards .cont_sectionCards_block {
   margin: auto;
   margin-top: 80px;
-  width: 91%;
+  width: 80%;
   border-radius: 20px;
   padding: 10px 80px;
   background: rgba(255, 255, 252, 0.995);
@@ -889,11 +887,12 @@
 }
 .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target .target_legend {
   width: 250px;
-  line-height: 44px;
-  font-size: 45px;
+  line-height: 38px;
+  font-size: 35px;
   font-weight: 500;
+  font-family: normal_medium;
   position: absolute;
-  bottom: 40px;
+  bottom: 42px;
   left: 40px;
 }
 .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target:hover {
@@ -907,23 +906,119 @@
 }
 
 /* Laptops y escritorios (1025px a 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .cont_sectionCards {
+    width: 100%;
+    padding: 100px 0px;
+  }
+  .cont_sectionCards .cont_sectionCards_h2 {
+    width: 80%;
+    margin: auto;
+    font-size: 80px;
+    line-height: 70px;
+    text-align: center;
+    font-family: curvita_bold;
+  }
+  .cont_sectionCards .cont_sectionCards_descripcion {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .cont_sectionCards .cont_sectionCards_block {
+    margin: auto;
+    margin-top: 80px;
+    width: 90%;
+    border-radius: 20px;
+    padding: 10px 80px;
+    background: rgba(255, 255, 252, 0.995);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target {
+    width: 380px;
+    height: 530px;
+    position: relative;
+    margin-bottom: 100px;
+    border-bottom: 4px solid rgb(223, 255, 43);
+    border-radius: 20px;
+  }
+  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target .target_fondo {
+    width: 100%;
+    height: 220px;
+    background: rgb(242, 235, 45);
+    position: absolute;
+    top: 80px;
+    border-radius: 20px;
+  }
+  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target .target_image {
+    width: 380px;
+    height: 380px;
+    position: absolute;
+    top: 0px;
+    left: 10%;
+    transform: rotate(10deg);
+  }
+  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target .target_legend {
+    width: 250px;
+    line-height: 38px;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: normal_medium;
+    position: absolute;
+    bottom: 42px;
+    left: 40px;
+  }
+  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target:hover {
+    background: transparent;
+  }
+  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target:hover .target_fondo {
+    transform: rotate(2deg);
+  }
+  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target:hover .target_image {
+    transform: rotate(5deg);
+  }
+}
 /* Tablets (769px a 1024px) */
 /* Móviles grandes y phablets (481px a 768px) -------------------CAMBIO BTN---------*/
 /* Móviles pequeños (hasta 480px) */
 @font-face {
-  font-family: "curvita";
-  src: url("../fonts/Dirtylane (Demo_Font).otf") format("truetype");
+  font-family: "curvita_normal";
+  src: url("../fonts/Cream Cake.otf") format("opentype");
+}
+@font-face {
+  font-family: "curvita_bold";
+  src: url("../fonts/Cream Cake Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "normal_black";
+  src: url("../fonts/CreatoDisplay-Black.otf") format("opentype");
+}
+@font-face {
+  font-family: "normal_bold";
+  src: url("../fonts/CreatoDisplay-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "normal_medium";
+  src: url("../fonts/CreatoDisplay-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "normal_regular";
+  src: url("../fonts/CreatoDisplay-Regular.otf") format("opentype");
 }
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: poppins;
   font-weight: 300;
   font-style: normal;
-  font-size: 16px;
+  font-size: 18px;
   transition: 0.5s all ease-in-out;
-  color: rgb(60, 60, 60);
+  color: rgb(34, 34, 34);
 }
 
 a {

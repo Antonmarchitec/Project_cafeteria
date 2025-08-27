@@ -11,8 +11,33 @@
 
 
 @font-face {
-    font-family: "curvita";
-    src: url("../fonts/Dirtylane\ \(Demo_Font\).otf") format("truetype");
+    font-family: "curvita_normal";
+    src: url("../fonts/Cream Cake.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "curvita_bold";
+    src: url("../fonts/Cream Cake Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "normal_black";
+    src: url("../fonts/CreatoDisplay-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "normal_bold";
+    src: url("../fonts/CreatoDisplay-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "normal_medium";
+    src: url("../fonts/CreatoDisplay-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "normal_regular";
+    src: url("../fonts/CreatoDisplay-Regular.otf") format("opentype");
 }
 
 
@@ -21,12 +46,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif  ;
+  font-family: poppins ;
   font-weight: 300;
   font-style: normal;
-  font-size: 16px;
+  font-size: 18px;
   transition: 0.5s all ease-in-out;
-  color: rgb(60, 60, 60);
+  color: rgb(34, 34, 34);
 }
 
 a{
