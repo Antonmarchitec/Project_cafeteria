@@ -48,20 +48,19 @@
   top: 0;
 }
 .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_text .slade_text_h1 {
-  font-size: 150px;
+  font-size: 220px;
   font-weight: 500;
   color: #FDC5C5;
   -webkit-text-stroke: 5px rgb(41, 41, 41);
   margin-top: 70px;
   margin-left: 100px;
-  font-family: "BlackRose";
+  font-family: "curvita_bold";
 }
 .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_text .slade_text_h2 {
   font-size: 60px;
-  margin-top: -50px;
-  margin-left: 120px;
-  font-family: "BlackRose";
-  color: #fd4e4e;
+  margin-top: -20px;
+  margin-left: 210px;
+  font-family: "normal_bold";
 }
 
 /* Laptops y escritorios (1025px a 1440px) */
