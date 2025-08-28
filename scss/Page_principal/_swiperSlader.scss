@@ -172,23 +172,21 @@
                             position: absolute;
                             top: 0;
                             .slade_text_h1{
-                                font-size:80px;
+                                font-size:120px;
                                 font-weight: 100;
                                 color: variables.$color_rosa_pastel;
                                 -webkit-text-stroke: 5px rgb(41, 41, 41);
                                 margin-top: 50px;
-                                margin-left: initial;
-                                font-family: "BlackRose";
+                                margin-left:20px;
                                 text-align: center;
 
                             }
 
                             .slade_text_h2{
-                                font-size: 50px;
-                                margin-top: -20px;
+                                font-size: 40px;
+                                margin-top: -10px;
                                 margin-left: initial;
                                 text-align: center;
-                                font-family: "BlackRose";
                                 color: variables.$color_rojo;
 
                             }
