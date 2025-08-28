@@ -9,9 +9,11 @@
     .cont_sectionCards_h2{
         width: 80%;
         margin: auto;
-        font-size: 90px;
         text-align: center;
+        color: variables.$color_rosa;
+        -webkit-text-stroke: 3px black; /* grosor y color del borde */
         font-family: curvita_bold;
+        font-size: 110px;
     }
 
     .cont_sectionCards_descripcion{
@@ -19,6 +21,7 @@
         text-align: center;
         margin: auto;
         margin-top: 50px;
+        font-size: 22px;
     }
 
     .cont_sectionCards_block{
@@ -95,9 +98,9 @@
         width: 100%;
         padding: 100px 0px;
         .cont_sectionCards_h2{
-            width: 80%;
+            width: 90%;
+            font-size: 90px;
             margin: auto;
-            font-size: 80px;
             line-height:70px ;
             text-align: center;
             font-family: curvita_bold;
@@ -178,10 +181,90 @@
 
 
 
-
-
-
 /* Tablets (769px a 1024px) */
+@media (min-width: 769px) and (max-width: 1024px){
+    .cont_sectionCards{
+        width: 100%;
+        padding: 100px 0px;
+        .cont_sectionCards_h2{
+            width: 90%;
+            font-size: 90px;
+            margin: auto;
+            line-height:70px ;
+            text-align: center;
+            font-family: curvita_bold;
+        }
+
+        .cont_sectionCards_descripcion{
+            width: 80%;
+            text-align: center;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        .cont_sectionCards_block{
+            margin: auto;
+            margin-top: 80px;
+            width: 95%;
+            border-radius: 20px;
+            padding: 10px 10px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            .cont_sectionCards_block_target{
+                width:320px;
+                height: 460px;
+                position: relative;
+                margin-bottom: 100px;
+                border-bottom: 4px solid rgb(223, 255, 43);
+                border-radius: 20px;
+                .target_fondo{
+                    width: 100%;
+                    height: 220px;
+                    background: rgb(242, 235, 45);
+                    position: absolute;
+                    top: 80px;
+                    border-radius: 20px;
+                }
+
+                .target_image{
+                    width:340px;
+                    height:340px;
+                    position: absolute;
+                    top: 0px;
+                    left: calc(10%);
+                    transform: rotate(10deg);
+                }
+
+                .target_legend{
+                    width: 250px;
+                    line-height: 38px;
+                    font-size: 35px;
+                    font-weight: 500;
+                    font-family: normal_medium;
+                    position: absolute;
+                    bottom: 42px;
+                    left: 40px;
+                }
+            }
+
+            .cont_sectionCards_block_target:hover{
+                background:transparent;
+                .target_fondo{
+                        transform: rotate(2deg);
+                    }
+
+                    .target_image{
+                        transform: rotate(5deg);
+
+                    }
+            }
+        }
+    }
+
+} 
 
 /* Móviles grandes y phablets (481px a 768px) -------------------CAMBIO BTN---------*/
 
