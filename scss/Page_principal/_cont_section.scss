@@ -5,7 +5,7 @@
 .cont_sectionCards{
     width: 100%;
     padding: 100px 0px;
-    background:rgb(255, 255, 255);
+    background: white;
     .cont_sectionCards_h2{
         width: 80%;
         margin: auto;
@@ -364,15 +364,16 @@
     .cont_sectionCards{
         width: 100%;
         padding: 100px 0px;
-        background: rgba(0, 128, 128, 0.326);
         .cont_sectionCards_h2{
             width: 90%;
             font-size: 70px;
             margin: auto;
             margin-left: 20px;
-            line-height:60px ;
+            line-height:50px ;
             text-align: center;
             font-family: curvita_bold;
+            -webkit-text-stroke: 2px black; /* grosor y color del borde */
+
         }
 
         .cont_sectionCards_descripcion{
