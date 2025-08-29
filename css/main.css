@@ -185,10 +185,11 @@
     letter-spacing: 3px;
     font-weight: 100;
     color: #FDC5C5;
-    -webkit-text-stroke: 5px rgb(41, 41, 41);
+    -webkit-text-stroke: 2.5px rgb(41, 41, 41);
     margin-top: 50px;
     margin-left: 20px;
     text-align: center;
+    font-family: curvita_normal;
   }
   .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_text .slade_text_h2 {
     font-size: 40px;
