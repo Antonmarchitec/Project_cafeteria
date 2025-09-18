@@ -6,7 +6,7 @@
     max-width: 1600px;
     //padding: 10px 0px;
     margin: auto;
-    background: rgb(255, 255, 255);
+    background: rgb(37, 37, 37);
     display: grid;
     gap:10px;
     grid-template-columns: repeat(3, 1fr);
@@ -15,6 +15,7 @@
     "grilla_header     grilla_header     grilla_header"
     "grilla_slader     grilla_slader     grilla_slader"
     "grilla_section    grilla_section    grilla_section"
+    "grilla_productos  grilla_productos  grilla_productos"
     ;
 
     .grilla_header{
@@ -32,9 +33,15 @@
     }
 
     .grilla_section{
-        background: rgb(72, 72, 72);
+        background: rgb(93, 93, 93);
         padding: 10px 0px;
         grid-area:grilla_section;
+    }
+
+    .grilla_productos{
+        background: rgb(93, 93, 93);
+        padding: 10px 0px;
+        grid-area:grilla_productos;
     }
 
 }
@@ -68,6 +75,7 @@
     "grilla_header     grilla_header     grilla_header"
     "grilla_slader     grilla_slader     grilla_slader"
     "grilla_section    grilla_section    grilla_section"
+    "grilla_productos  grilla_productos  grilla_productos"
     ;
 
     .grilla_header{
@@ -87,6 +95,12 @@
         background: rgb(126, 126, 126);
         padding: 10px 0px;
         grid-area:grilla_section;
+    }
+
+    .grilla_productos{
+        background: rgb(126, 126, 126);
+        padding: 10px 0px;
+        grid-area:grilla_productos;
     }
 
 }

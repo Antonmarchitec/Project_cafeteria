@@ -203,12 +203,12 @@
   width: 100%;
   max-width: 1600px;
   margin: auto;
-  background: rgb(255, 255, 255);
+  background: rgb(37, 37, 37);
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto auto;
-  grid-template-areas: "grilla_header     grilla_header     grilla_header" "grilla_slader     grilla_slader     grilla_slader" "grilla_section    grilla_section    grilla_section";
+  grid-template-areas: "grilla_header     grilla_header     grilla_header" "grilla_slader     grilla_slader     grilla_slader" "grilla_section    grilla_section    grilla_section" "grilla_productos  grilla_productos  grilla_productos";
 }
 .cont_grilla .grilla_header {
   height: 160px;
@@ -218,9 +218,14 @@
   grid-area: grilla_slader;
 }
 .cont_grilla .grilla_section {
-  background: rgb(72, 72, 72);
+  background: rgb(93, 93, 93);
   padding: 10px 0px;
   grid-area: grilla_section;
+}
+.cont_grilla .grilla_productos {
+  background: rgb(93, 93, 93);
+  padding: 10px 0px;
+  grid-area: grilla_productos;
 }
 
 /* Laptops y escritorios (1025px a 1440px) */
@@ -237,7 +242,7 @@
     gap: 10px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto auto;
-    grid-template-areas: "grilla_header     grilla_header     grilla_header" "grilla_slader     grilla_slader     grilla_slader" "grilla_section    grilla_section    grilla_section";
+    grid-template-areas: "grilla_header     grilla_header     grilla_header" "grilla_slader     grilla_slader     grilla_slader" "grilla_section    grilla_section    grilla_section" "grilla_productos  grilla_productos  grilla_productos";
   }
   .cont_grilla .grilla_header {
     height: 110px;
@@ -250,6 +255,11 @@
     background: rgb(126, 126, 126);
     padding: 10px 0px;
     grid-area: grilla_section;
+  }
+  .cont_grilla .grilla_productos {
+    background: rgb(126, 126, 126);
+    padding: 10px 0px;
+    grid-area: grilla_productos;
   }
 }
 /* Móviles pequeños (hasta 480px) */
@@ -1203,6 +1213,73 @@
     transform: rotate(5deg);
   }
 }
+/*
+cont_productos
+cont_productosTitle
+cont_productosBlock
+cont_productosBlock_caja
+cont_productosBlock_cajaImg
+cajaImg_title
+cajaImg_descripcion
+cajaImg_btn
+
+*/
+/* Escritorios grandes (más de 1440px) */
+.cont_productos {
+  width: 100%;
+  padding: 20px 0px;
+  background: rgb(255, 255, 255);
+}
+.cont_productos .cont_productosTitle {
+  text-align: center;
+  color: white;
+  font-family: curvita_bold;
+  font-size: 90px;
+  color: rgb(243, 142, 236);
+  -webkit-text-stroke: 3px black;
+}
+.cont_productos .cont_productosBlock {
+  margin: 50px auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cont_productos .cont_productosBlock .cont_productosBlock_caja {
+  width: 400px;
+  height: 500px;
+  padding: 20px 10px;
+  background: rgb(241, 148, 243);
+  border-radius: 10px;
+}
+.cont_productos .cont_productosBlock .cont_productosBlock_caja .cont_productosBlock_cajaImg {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+}
+.cont_productos .cont_productosBlock .cont_productosBlock_caja .cajaImg_title {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 26px;
+  margin-top: 10px;
+}
+.cont_productos .cont_productosBlock .cont_productosBlock_caja .cajaImg_descripcion {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+}
+.cont_productos .cont_productosBlock .cont_productosBlock_caja .cajaImg_btn {
+  padding: 10px 30px;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: calc(60% - 90px);
+  cursor: pointer;
+  border: none;
+}
+
 @font-face {
   font-family: "curvita_normal";
   src: url("../fonts/Cream Cake.otf") format("opentype");
