@@ -70,3 +70,78 @@ Opciones de título para las 4 tarjetas:
 “Lo que nos hace únicos”
 
 “Tu experiencia dulce comienza aquí”
+
+
+
+
+
+
+
+Encabezado (Hero Section)
+
+Imagen o video llamativo de tus pasteles o postres.
+
+Un título corto y tentador.
+
+Subtítulo con tu propuesta de valor (ej: “Pasteles artesanales para cada ocasión”).
+
+Botón principal (CTA) → “Haz tu pedido”, “Reserva ahora”.
+
+
+Catálogo Destacado / Productos Populares
+
+Fotos de alta calidad de tus productos estrella.
+
+Nombre y breve descripción.
+
+Precio opcional o un botón de “Ver más”.
+
+
+Galería / Portafolio
+
+Fotos atractivas de tus pasteles en diferentes celebraciones.
+
+Ideal mostrar variedad (bodas, cumpleaños, temáticos, etc.).
+
+
+Testimonios / Reseñas de Clientes
+
+Comentarios de clientes satisfechos.
+
+Foto de cliente o evento real (aumenta confianza).
+
+
+Sección “Sobre Nosotros”
+
+Breve historia de tu repostería.
+
+Foto del equipo o del chef pastelero.
+
+Refuerza la confianza mostrando el lado humano.
+
+
+Formulario de Contacto / Pedido Rápido
+
+Nombre, teléfono, correo.
+
+Opción de elegir tipo de pastel o consulta personalizada.
+
+Botón de envío claro (“Encargar mi pastel”).
+
+
+
+Mapa / Ubicación y Horarios
+
+Google Maps integrado.
+
+Dirección y horarios de atención.
+
+
+
+Pie de página (Footer)
+
+Redes sociales.
+
+Teléfono / WhatsApp.
+
+Política de privacidad y aviso legal.

@@ -26,7 +26,7 @@ const funcionPrincipal = async ()=>{
 const pintarTarjetas = (res)=>{
     //console.log(res)
     res.forEach( element => {
-        console.log(element)
+        //console.log(element)
 
         template_target.querySelector("#target_legend").textContent = element.legend
         template_target.querySelector("#figureTarget").setAttribute("src",element.figure)
@@ -36,7 +36,7 @@ const pintarTarjetas = (res)=>{
         template_target.querySelector("#target_fondo").style.background = element.color
         template_target.querySelector("#blockTarget").style.borderBottom = `8px solid ${element.color}`
 
-        template_target.querySelector("#blockTarget").dataset.idCuadro = element.id
+        template_target.querySelector("#blockTarget").dataset.idPastel = element.id
 
         
         const clonarTarget = template_target.cloneNode(true)
@@ -45,4 +45,24 @@ const pintarTarjetas = (res)=>{
     });
     base_sectionCards.appendChild(fragmentTarget)
 
+
+
+    //DELEGACION DE EVENTOS
+    document,addEventListener("click", (e) =>{
+        const id = e.target.dataset.idPastel
+        switch(id){
+            case "1":
+                console.log(" LE DISTE AL CUADRO 1 ");
+            break
+            case "2":
+                console.log(" LE DISTE AL CUADRO 2 ");
+            break
+            case "3":
+                console.log(" LE DISTE AL CUADRO 3 ");
+            break
+            case "4":
+                console.log(" LE DISTE AL CUADRO 4 ");
+            break
+        }
+    })
 }
