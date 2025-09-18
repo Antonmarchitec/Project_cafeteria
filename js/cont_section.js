@@ -36,7 +36,7 @@ const pintarTarjetas = (res)=>{
         template_target.querySelector("#target_fondo").style.background = element.color
         template_target.querySelector("#blockTarget").style.borderBottom = `8px solid ${element.color}`
 
-
+        template_target.querySelector("#blockTarget").dataset.idCuadro = element.id
 
         
         const clonarTarget = template_target.cloneNode(true)
