@@ -270,7 +270,7 @@
 .cont_header {
   width: 100%;
   height: 170px;
-  background: #f38eec;
+  background: rgb(255, 165, 180);
   padding: 5px 0px;
   display: flex;
   justify-content: space-between;
@@ -296,7 +296,7 @@
   width: 700px;
   padding: 5px 0px;
   margin-right: 40px;
-  background: #f38eec;
+  background: rgb(255, 165, 180);
   /*************/
   /***********/
 }
@@ -378,7 +378,7 @@
   .cont_header {
     width: 100%;
     height: 170px;
-    background: #f38eec;
+    background: rgb(255, 165, 180);
     padding: 5px 0px;
     display: flex;
     justify-content: space-between;
@@ -404,7 +404,7 @@
     width: 700px;
     padding: 5px 0px;
     margin-right: 40px;
-    background: #f38eec;
+    background: rgb(255, 165, 180);
     /*************/
     /***********/
   }
@@ -483,7 +483,7 @@
   .cont_header {
     width: 100%;
     height: 170px;
-    background: #f38eec;
+    background: rgb(255, 165, 180);
     padding: 5px 0px;
     display: flex;
     justify-content: space-between;
@@ -509,7 +509,7 @@
     width: 500px;
     padding: 5px 0px;
     margin-right: 10px;
-    background: #f38eec;
+    background: rgb(255, 165, 180);
     /*************/
     /***********/
   }
@@ -588,7 +588,7 @@
   .cont_header {
     width: 100%;
     height: 110px;
-    background: #f38eec;
+    background: rgb(255, 165, 180);
     padding: 5px 0px;
     display: flex;
     justify-content: space-between;
@@ -616,7 +616,7 @@
     height: 85vh;
     padding: 0px;
     margin-right: 10px;
-    background: #f38eec;
+    background: rgb(255, 165, 180);
     position: absolute;
     top: 80px;
     left: -100%;
@@ -654,14 +654,14 @@
   }
   .cont_header .block_navigation .block_navigation_sup .menu_secundario .menu_secundario_ul .menu_secundario_ul_li .link {
     color: rgb(109, 109, 109);
-    color: #f38eec;
+    color: rgb(255, 165, 180);
     font-size: 15px;
   }
   .cont_header .block_navigation .block_navigation_sup .redes {
     padding: 10px 20px;
   }
   .cont_header .block_navigation .block_navigation_sup .redes .iconRedes {
-    color: #f38eec;
+    color: rgb(255, 165, 180);
     font-size: 22px;
     margin: 0px 3px;
     cursor: pointer;
@@ -710,7 +710,7 @@
   .cont_header {
     width: 100%;
     height: 110px;
-    background: #f38eec;
+    background: rgb(255, 165, 180);
     padding: 5px 0px;
     display: flex;
     justify-content: space-between;
@@ -738,7 +738,7 @@
     height: 85vh;
     padding: 0px;
     margin-right: 10px;
-    background: #f38eec;
+    background: rgb(255, 165, 180);
     position: absolute;
     top: 80px;
     left: -100%;
@@ -776,14 +776,14 @@
   }
   .cont_header .block_navigation .block_navigation_sup .menu_secundario .menu_secundario_ul .menu_secundario_ul_li .link {
     color: rgb(109, 109, 109);
-    color: #f38eec;
+    color: rgb(255, 165, 180);
     font-size: 15px;
   }
   .cont_header .block_navigation .block_navigation_sup .redes {
     padding: 10px 20px;
   }
   .cont_header .block_navigation .block_navigation_sup .redes .iconRedes {
-    color: #f38eec;
+    color: rgb(255, 165, 180);
     font-size: 22px;
     margin: 0px 3px;
     cursor: pointer;
@@ -837,7 +837,7 @@
   width: 80%;
   margin: auto;
   text-align: center;
-  color: #f38eec;
+  color: rgb(255, 165, 180);
   -webkit-text-stroke: 3px black; /* grosor y color del borde */
   font-family: curvita_bold;
   font-size: 110px;
