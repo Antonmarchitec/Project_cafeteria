@@ -9,8 +9,8 @@
         color: white;
         font-family: curvita_bold;
         font-size: 90px;
-        color: rgb(243, 142, 236);
-        -webkit-text-stroke: 3px black;
+        color: rgb(255, 165, 180);
+        -webkit-text-stroke: 2px black;
     }
 
     .cont_productosParrafo{
@@ -43,7 +43,9 @@
             .cont_productosBlock_cuadroTitle{
                 text-align: center;
                 color: rgb(255, 165, 180);
-                font-size: 30px;
+                font-size: 50px;
+                font-family: "curvita_bold";
+
             }
 
             .cont_productosBlock_cuadroDesc{
