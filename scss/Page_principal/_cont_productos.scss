@@ -21,15 +21,18 @@
     }
 
     .cont_productosBlock{
-        width: 90%;
+        width: 85%;
         padding: 10px 0px;
-        background: paleturquoise;
         margin:100px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
         .cont_productosBlock_cuadro{
+            margin-bottom: 60px;
             width: 400px;
             height: 450px;
             padding: 20px;
-            background: rgba(255, 255, 255, 0.288);
             position: relative;
             .cont_productosBlock_cuadroImg{
                 width: 300px;
@@ -40,9 +43,11 @@
             .cont_productosBlock_cuadroTitle{
                 text-align: center;
                 color: rgb(255, 165, 180);
+                font-size: 30px;
             }
 
             .cont_productosBlock_cuadroDesc{
+                margin-top: 10px;
                 text-align: center;
                 color: rgb(84, 84, 84);
             }
@@ -50,14 +55,16 @@
             .cont_productosBlock_cuadroPrecio{
                 width: 100px;
                 height: 100px;
-                background: rgb(247, 142, 160);
+                background: rgb(255, 160, 176);
                 font-size: 25px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 border-radius: 100%;
+                box-shadow: 5px 5px 5px black;
                 position: absolute;
                 top: 0;
+                transform: rotate(-10deg);
             }
         }
     }
@@ -65,13 +72,3 @@
    
 }
 
-
-/*
-cont_productosBlock
-cont_productosBlock_cuadro
-cont_productosBlock_cuadroImg
-cont_productosBlock_cuadroTitle
-cont_productosBlock_cuadroDesc
-cont_productosBlock_cuadroPrecio
-
-*/
