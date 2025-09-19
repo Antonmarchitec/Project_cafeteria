@@ -215,16 +215,19 @@
   grid-area: grilla_header;
 }
 .cont_grilla .grilla_slader {
+  margin-top: 20px;
+  background: rgb(158, 158, 158);
+  padding: 20px 0px;
   grid-area: grilla_slader;
 }
 .cont_grilla .grilla_section {
-  background: rgb(93, 93, 93);
-  padding: 10px 0px;
+  background: rgb(158, 158, 158);
+  padding: 20px 0px;
   grid-area: grilla_section;
 }
 .cont_grilla .grilla_productos {
-  background: rgb(93, 93, 93);
-  padding: 10px 0px;
+  background: rgb(158, 158, 158);
+  padding: 20px 0px;
   grid-area: grilla_productos;
 }
 
@@ -1213,21 +1216,9 @@
     transform: rotate(5deg);
   }
 }
-/*
-cont_productos
-cont_productosTitle
-cont_productosBlock
-cont_productosBlock_caja
-cont_productosBlock_cajaImg
-cajaImg_title
-cajaImg_descripcion
-cajaImg_btn
-
-*/
-/* Escritorios grandes (más de 1440px) */
 .cont_productos {
   width: 100%;
-  padding: 20px 0px;
+  padding: 100px 0px;
   background: rgb(255, 255, 255);
 }
 .cont_productos .cont_productosTitle {
@@ -1238,48 +1229,60 @@ cajaImg_btn
   color: rgb(243, 142, 236);
   -webkit-text-stroke: 3px black;
 }
-.cont_productos .cont_productosBlock {
+.cont_productos .cont_productosParrafo {
   margin: 50px auto;
+  width: 80%;
+  text-align: center;
+  font-size: 22px;
+}
+.cont_productos .cont_productosBlock {
   width: 90%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  padding: 10px 0px;
+  background: paleturquoise;
+  margin: 100px auto;
 }
-.cont_productos .cont_productosBlock .cont_productosBlock_caja {
+.cont_productos .cont_productosBlock .cont_productosBlock_cuadro {
   width: 400px;
-  height: 500px;
-  padding: 20px 10px;
-  background: rgb(241, 148, 243);
-  border-radius: 10px;
+  height: 450px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.288);
+  position: relative;
 }
-.cont_productos .cont_productosBlock .cont_productosBlock_caja .cont_productosBlock_cajaImg {
-  width: 240px;
-  height: 240px;
-  border-radius: 50%;
-  overflow: hidden;
+.cont_productos .cont_productosBlock .cont_productosBlock_cuadro .cont_productosBlock_cuadroImg {
+  width: 300px;
+  height: 300px;
   margin: auto;
 }
-.cont_productos .cont_productosBlock .cont_productosBlock_caja .cajaImg_title {
-  color: rgb(255, 255, 255);
+.cont_productos .cont_productosBlock .cont_productosBlock_cuadro .cont_productosBlock_cuadroTitle {
   text-align: center;
-  font-size: 26px;
-  margin-top: 10px;
+  color: rgb(255, 165, 180);
 }
-.cont_productos .cont_productosBlock .cont_productosBlock_caja .cajaImg_descripcion {
-  margin-top: 10px;
+.cont_productos .cont_productosBlock .cont_productosBlock_cuadro .cont_productosBlock_cuadroDesc {
   text-align: center;
-  color: white;
+  color: rgb(84, 84, 84);
 }
-.cont_productos .cont_productosBlock .cont_productosBlock_caja .cajaImg_btn {
-  padding: 10px 30px;
-  margin: auto;
-  margin-top: 20px;
-  margin-left: calc(60% - 90px);
-  cursor: pointer;
-  border: none;
+.cont_productos .cont_productosBlock .cont_productosBlock_cuadro .cont_productosBlock_cuadroPrecio {
+  width: 100px;
+  height: 100px;
+  background: rgb(247, 142, 160);
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
 }
 
+/*
+cont_productosBlock
+cont_productosBlock_cuadro
+cont_productosBlock_cuadroImg
+cont_productosBlock_cuadroTitle
+cont_productosBlock_cuadroDesc
+cont_productosBlock_cuadroPrecio
+
+*/
 @font-face {
   font-family: "curvita_normal";
   src: url("../fonts/Cream Cake.otf") format("opentype");
