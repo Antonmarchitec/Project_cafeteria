@@ -1280,6 +1280,73 @@
   transform: rotate(-10deg);
 }
 
+/*
+cont_footer
+cont_footerTitle
+cont_footerNav
+cont_footerUl
+cont_footerLi
+iconLi
+cont_footerRedes
+iconRedes
+
+
+*/
+.cont_footer {
+  width: 100%;
+  padding: 20px 0px;
+  background: #2d2c2c;
+  margin: auto;
+}
+.cont_footer .cont_footerTitle {
+  text-align: center;
+  color: #ffffff;
+  font-family: curvita_normal;
+  font-size: 70px;
+}
+.cont_footer .cont_footerNav {
+  margin-top: 10px;
+  width: 55%;
+  margin: auto;
+  padding: 10px 0px;
+}
+.cont_footer .cont_footerNav .cont_footerUl {
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.cont_footer .cont_footerNav .cont_footerUl .cont_footerLi {
+  padding: 10px 0px;
+  list-style: none;
+  padding: 10px;
+}
+.cont_footer .cont_footerNav .cont_footerUl .cont_footerLi .iconLi {
+  color: rgb(255, 165, 180);
+  margin-right: 10px;
+  font-size: 18px;
+}
+.cont_footer .cont_footerNav .cont_footerUl .cont_footerLi .footerLink {
+  color: white;
+}
+.cont_footer .cont_footerRedes {
+  width: 25%;
+  padding: 10px 0px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.cont_footer .cont_footerRedes .iconRedes {
+  padding: 15px;
+  background: rgb(255, 165, 180);
+  border-radius: 50%;
+  font-size: 25px;
+}
+
 @font-face {
   font-family: "curvita_normal";
   src: url("../fonts/Cream Cake.otf") format("opentype");

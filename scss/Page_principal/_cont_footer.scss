@@ -1,2 +1,74 @@
 @use "../variables";
 
+/*
+cont_footer
+cont_footerTitle
+cont_footerNav
+cont_footerUl
+cont_footerLi
+iconLi
+cont_footerRedes
+iconRedes
+
+
+*/
+
+.cont_footer{
+    width: 100%;
+    padding: 20px 0px;
+    background: variables.$color_black_claro;
+    margin: auto;
+    .cont_footerTitle{
+        text-align: center;
+        color: variables.$color_blanco;
+        font-family:curvita_normal ;
+        font-size: 70px;
+    }
+
+    .cont_footerNav{
+        margin-top: 10px;
+        width: 55%;
+        margin: auto;
+        padding: 10px 0px;
+        //background: teal;
+        .cont_footerUl{
+            width: 100%;
+            padding: 10px 0px;
+            //background: rgb(93, 157, 157);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            .cont_footerLi{
+                padding: 10px 0px;
+                list-style: none;
+                padding: 10px;
+                .iconLi{
+                    color: variables.$color_rosa;
+                    margin-right: 10px;
+                    font-size: 18px;
+                }
+                .footerLink{
+                    color: white;
+
+                }
+            }
+        }
+    }
+
+    .cont_footerRedes{
+        width: 25%;
+        padding: 10px 0px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        .iconRedes{
+            padding: 15px;
+            background: variables.$color_rosa;
+            border-radius: 50%;
+            font-size: 25px;
+        }
+    }
+}
