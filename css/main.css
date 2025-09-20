@@ -1294,7 +1294,7 @@ iconRedes
 */
 .cont_footer {
   width: 100%;
-  padding: 20px 0px;
+  padding: 50px 0px;
   background: #2d2c2c;
   margin: auto;
 }
@@ -1302,7 +1302,7 @@ iconRedes
   text-align: center;
   color: #ffffff;
   font-family: curvita_normal;
-  font-size: 70px;
+  font-size: 90px;
 }
 .cont_footer .cont_footerNav {
   margin-top: 10px;
@@ -1326,15 +1326,16 @@ iconRedes
 .cont_footer .cont_footerNav .cont_footerUl .cont_footerLi .iconLi {
   color: rgb(255, 165, 180);
   margin-right: 10px;
-  font-size: 18px;
+  font-size: 26px;
 }
 .cont_footer .cont_footerNav .cont_footerUl .cont_footerLi .footerLink {
   color: white;
+  font-size: 18px;
 }
 .cont_footer .cont_footerRedes {
   width: 25%;
   padding: 10px 0px;
-  margin: auto;
+  margin: 10px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;

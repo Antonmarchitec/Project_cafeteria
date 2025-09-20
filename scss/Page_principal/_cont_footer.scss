@@ -15,14 +15,14 @@ iconRedes
 
 .cont_footer{
     width: 100%;
-    padding: 20px 0px;
+    padding: 50px 0px;
     background: variables.$color_black_claro;
     margin: auto;
     .cont_footerTitle{
         text-align: center;
         color: variables.$color_blanco;
         font-family:curvita_normal ;
-        font-size: 70px;
+        font-size: 90px;
     }
 
     .cont_footerNav{
@@ -46,10 +46,11 @@ iconRedes
                 .iconLi{
                     color: variables.$color_rosa;
                     margin-right: 10px;
-                    font-size: 18px;
+                    font-size: 26px;
                 }
                 .footerLink{
                     color: white;
+                    font-size: 18px;
 
                 }
             }
@@ -59,7 +60,7 @@ iconRedes
     .cont_footerRedes{
         width: 25%;
         padding: 10px 0px;
-        margin: auto;
+        margin: 10px auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
