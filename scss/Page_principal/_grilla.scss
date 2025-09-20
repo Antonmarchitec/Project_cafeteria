@@ -6,9 +6,9 @@
     max-width: 1600px;
     //padding: 10px 0px;
     margin: auto;
-    background: rgb(255, 255, 255);
+    background: rgb(69, 3, 3);
     display: grid;
-    //gap:10px;
+    gap:30px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto auto;
     grid-template-areas: 
@@ -16,6 +16,7 @@
     "grilla_slader     grilla_slader     grilla_slader"
     "grilla_section    grilla_section    grilla_section"
     "grilla_productos  grilla_productos  grilla_productos"
+    "grilla_footer     grilla_footer     grilla_footer"
     ;
 
     .grilla_header{
@@ -42,6 +43,12 @@
         //background: rgb(158, 158, 158);
         //padding: 20px 0px;
         grid-area:grilla_productos;
+    }
+
+    .grilla_footer{
+        background: rgb(158, 158, 158);
+        padding: 20px 0px;
+        grid-area:grilla_footer;
     }
 
 }
