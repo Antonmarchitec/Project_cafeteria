@@ -203,9 +203,8 @@
   width: 100%;
   max-width: 1600px;
   margin: auto;
-  background: rgb(69, 3, 3);
+  background: rgb(255, 255, 255);
   display: grid;
-  gap: 30px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto auto;
   grid-template-areas: "grilla_header     grilla_header     grilla_header" "grilla_slader     grilla_slader     grilla_slader" "grilla_section    grilla_section    grilla_section" "grilla_productos  grilla_productos  grilla_productos" "grilla_footer     grilla_footer     grilla_footer";
@@ -224,8 +223,6 @@
   grid-area: grilla_productos;
 }
 .cont_grilla .grilla_footer {
-  background: rgb(158, 158, 158);
-  padding: 20px 0px;
   grid-area: grilla_footer;
 }
 
@@ -1236,7 +1233,7 @@
 .cont_productos .cont_productosBlock {
   width: 85%;
   padding: 10px 0px;
-  margin: 100px auto;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -1346,6 +1343,10 @@ iconRedes
   background: rgb(255, 165, 180);
   border-radius: 50%;
   font-size: 25px;
+  transition: 0.3s all;
+}
+.cont_footer .cont_footerRedes .iconRedes:hover {
+  background: #ffffff;
 }
 
 @font-face {

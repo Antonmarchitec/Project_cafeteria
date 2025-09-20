@@ -70,6 +70,10 @@ iconRedes
             background: variables.$color_rosa;
             border-radius: 50%;
             font-size: 25px;
+            transition: 0.3s all;
+        }
+        .iconRedes:hover{
+            background: variables.$color_blanco;
         }
     }
 }

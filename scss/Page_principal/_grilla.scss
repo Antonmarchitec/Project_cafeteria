@@ -6,9 +6,9 @@
     max-width: 1600px;
     //padding: 10px 0px;
     margin: auto;
-    background: rgb(69, 3, 3);
+    background: rgb(255, 255, 255);
     display: grid;
-    gap:30px;
+    //gap:30px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto auto;
     grid-template-areas: 
@@ -21,14 +21,14 @@
 
     .grilla_header{
         height: 160px;
-        //background: rgb(72, 72, 72);
+        //background: rgb(158, 158, 158);
         //padding: 10px 0px;
         grid-area:grilla_header;
     }
-
+//
     .grilla_slader{
         //margin-top: 20px;
-        //background: rgb(250, 250, 250);
+        //background: rgb(158, 158, 158);
         //padding: 20px 0px;
         grid-area:grilla_slader;
     }
@@ -46,8 +46,8 @@
     }
 
     .grilla_footer{
-        background: rgb(158, 158, 158);
-        padding: 20px 0px;
+        //background: rgb(158, 158, 158);
+        //padding: 20px 0px;
         grid-area:grilla_footer;
     }
 
