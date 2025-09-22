@@ -203,7 +203,7 @@
   width: 100%;
   max-width: 1600px;
   margin: auto;
-  background: rgb(255, 255, 255);
+  background: rgb(61, 255, 70);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto auto;
@@ -266,6 +266,7 @@
   width: 100%;
   height: 170px;
   background: rgb(255, 165, 180);
+  box-shadow: 0px 5px 10px rgb(133, 39, 109);
   padding: 5px 0px;
   display: flex;
   justify-content: space-between;
@@ -828,14 +829,14 @@
 .cont_sectionCards {
   width: 100%;
   padding: 100px 0px;
-  background: white;
+  background: #FDC5C5;
 }
 .cont_sectionCards .cont_sectionCards_h2 {
   width: 80%;
   margin: auto;
   text-align: center;
-  color: rgb(255, 165, 180);
-  -webkit-text-stroke: 3px black; /* grosor y color del borde */
+  color: #ffffff;
+  -webkit-text-stroke: 2px black; /* grosor y color del borde */
   font-family: curvita_bold;
   font-size: 110px;
 }
@@ -845,6 +846,7 @@
   margin: auto;
   margin-top: 50px;
   font-size: 22px;
+  color: #2d2c2c;
 }
 .cont_sectionCards .cont_sectionCards_block {
   margin: auto;
@@ -852,7 +854,6 @@
   width: 80%;
   border-radius: 20px;
   padding: 10px 80px;
-  background: rgba(255, 255, 252, 0.995);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

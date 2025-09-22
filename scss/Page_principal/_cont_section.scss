@@ -5,13 +5,13 @@
 .cont_sectionCards{
     width: 100%;
     padding: 100px 0px;
-    background: white;
+    background: variables.$color_rosa_pastel;
     .cont_sectionCards_h2{
         width: 80%;
         margin: auto;
         text-align: center;
-        color: variables.$color_rosa;
-        -webkit-text-stroke: 3px black; /* grosor y color del borde */
+        color: variables.$color_blanco;
+        -webkit-text-stroke: 2px black; /* grosor y color del borde */
         font-family: curvita_bold;
         font-size: 110px;
     }
@@ -22,6 +22,8 @@
         margin: auto;
         margin-top: 50px;
         font-size: 22px;
+        color: variables.$color_black_claro;
+
     }
 
     .cont_sectionCards_block{
@@ -30,7 +32,6 @@
         width: 80%;
         border-radius: 20px;
         padding: 10px 80px;
-        background: rgba(255, 255, 252, 0.995);
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
