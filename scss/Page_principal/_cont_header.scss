@@ -35,7 +35,6 @@
         /*************/
         .block_navigation_sup{
             width: 100%;
-            padding: 5px 0px;
             //background: white;
             display: flex;
             flex-direction: row;
@@ -45,7 +44,6 @@
             /****************/
             .menu_secundario{
                 padding: 5px;
-                //background: green;
                
                 .menu_secundario_ul{
                     //background: teal;
@@ -61,7 +59,7 @@
                         .link{
                             color: variables.$color_grey;
                             color: white;
-                            font-size: 15px;
+                            font-size: 16px;
                         }
                     }
                 }
@@ -73,10 +71,15 @@
                 padding: 5px 10px;
                 //background: rgb(255, 255, 255);
                 .iconRedes{
-                    color: variables.$color_menta_suave;
-                    font-size: 22px;
+                    font-size: 36px;
                     margin: 0px 3px;
                     cursor: pointer;
+                    color: variables.$color_blanco;
+                    transition: 0.2s all;
+                }
+                .iconRedes:hover{
+                    color:rgb(233, 233, 233);
+
                 }
             }
 
@@ -85,7 +88,7 @@
         /***********/
         .block_navigation_inf{
             padding: 2px 0px;
-            //background: rgb(255, 255, 255);
+            //background: rgb(183, 181, 181);
             .block_navigation_inf_ul{
                 padding: 0px 5px;
                 //background: greenyellow;
@@ -109,7 +112,6 @@
                     }
                     .link:hover{
                         border-bottom: 2px solid variables.$color_lila_pastel;
-                        color: variables.$color_lila_pastel;
 
                     }
                 }
