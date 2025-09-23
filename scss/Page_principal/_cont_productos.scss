@@ -26,20 +26,36 @@
         align-items: center;
         .bloqueText{
             width: 350px;
-            height: 200px;
-            padding: 10px 0px;
+            background:variables.$color_amarillo_crema;
+            border-radius: 20px;
+            padding: 50px 40px;
+            text-align: center;
 
             .bloqueTextTitle{
+                height: 50px;
                 color: variables.$color_rojo;
+                line-height: 26px;
+                font-weight: 500;
             }
             .bloqueTextParrafo{
                 margin-top: 10px;
+                height: 120px;
+            }
+            .bloqueTextBtn{
+                margin-left: calc(50% - 140px);
+                margin-top: 20px;
+                padding: 10px 50px;
+                border: none;
+                cursor: pointer;
+                font-size: 16px;
+                border-radius: 5px;
+                background: variables.$color_black_claro;
+                color: variables.$color_blanco;
             }
         }
     }
 
    
-
     .cont_productosBlock{
         width: 85%;
         padding: 10px 0px;
@@ -48,7 +64,6 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-       
         .cont_productosBlock_cuadro{
             margin-bottom: 60px;
             width: 400px;

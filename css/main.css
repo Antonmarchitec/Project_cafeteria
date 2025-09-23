@@ -1244,14 +1244,31 @@
 }
 .cont_productos .cont_productos_bloque .bloqueText {
   width: 350px;
-  height: 200px;
-  padding: 10px 0px;
+  background: #FFF6B7;
+  border-radius: 20px;
+  padding: 50px 40px;
+  text-align: center;
 }
 .cont_productos .cont_productos_bloque .bloqueText .bloqueTextTitle {
+  height: 50px;
   color: #f58b8b;
+  line-height: 26px;
+  font-weight: 500;
 }
 .cont_productos .cont_productos_bloque .bloqueText .bloqueTextParrafo {
   margin-top: 10px;
+  height: 120px;
+}
+.cont_productos .cont_productos_bloque .bloqueText .bloqueTextBtn {
+  margin-left: calc(50% - 140px);
+  margin-top: 20px;
+  padding: 10px 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  background: #2d2c2c;
+  color: #ffffff;
 }
 .cont_productos .cont_productosBlock {
   width: 85%;
