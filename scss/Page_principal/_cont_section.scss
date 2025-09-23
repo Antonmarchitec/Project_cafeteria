@@ -5,12 +5,12 @@
 .cont_sectionCards{
     width: 100%;
     padding: 100px 0px;
-    background: variables.$color_rosa_pastel;
+    background: variables.$color_blanco;
     .cont_sectionCards_h2{
         width: 80%;
         margin: auto;
         text-align: center;
-        color: variables.$color_blanco;
+        color: variables.$color_rojo;
         -webkit-text-stroke: 2px black; /* grosor y color del borde */
         font-family: curvita_bold;
         font-size: 110px;
@@ -37,6 +37,7 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
+        background: rgb(232, 243, 126);
         .cont_sectionCards_block_target{
             width:410px;
             height: 530px;
@@ -51,6 +52,8 @@
                 position: absolute;
                 top: 80px;
                 border-radius: 20px;
+                box-shadow: 5px 5px 10px;
+
             }
 
             .target_image{
@@ -60,6 +63,7 @@
                 top: 0px;
                 left: calc(10%);
                 transform: rotate(10deg);
+                
             }
 
              .target_legend{

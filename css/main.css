@@ -50,7 +50,7 @@
 .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_text .slade_text_h1 {
   font-size: 220px;
   font-weight: 500;
-  color: #FDC5C5;
+  color: #fcd7d7;
   -webkit-text-stroke: 5px rgb(41, 41, 41);
   margin-top: 70px;
   margin-left: 100px;
@@ -118,7 +118,7 @@
     font-size: 140px;
     letter-spacing: 3px;
     font-weight: 100;
-    color: #FDC5C5;
+    color: #fcd7d7;
     -webkit-text-stroke: 5px rgb(41, 41, 41);
     margin-top: 50px;
     margin-left: 20px;
@@ -184,7 +184,7 @@
     font-size: 80px;
     letter-spacing: 3px;
     font-weight: 100;
-    color: #FDC5C5;
+    color: #fcd7d7;
     -webkit-text-stroke: 2.5px rgb(41, 41, 41);
     margin-top: 50px;
     margin-left: 20px;
@@ -829,13 +829,13 @@
 .cont_sectionCards {
   width: 100%;
   padding: 100px 0px;
-  background: #FDC5C5;
+  background: #ffffff;
 }
 .cont_sectionCards .cont_sectionCards_h2 {
   width: 80%;
   margin: auto;
   text-align: center;
-  color: #ffffff;
+  color: #f79a9a;
   -webkit-text-stroke: 2px black; /* grosor y color del borde */
   font-family: curvita_bold;
   font-size: 110px;
@@ -859,6 +859,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  background: rgb(232, 243, 126);
 }
 .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target {
   width: 410px;
@@ -875,6 +876,7 @@
   position: absolute;
   top: 80px;
   border-radius: 20px;
+  box-shadow: 5px 5px 10px;
 }
 .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target .target_image {
   width: 380px;
