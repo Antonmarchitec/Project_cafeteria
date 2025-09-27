@@ -8,12 +8,12 @@
         width: 60%;
         margin: auto;
         text-align: center;
-        color: white;
-        font-family: curvita_bold;
-        font-size: 140px;
         color: rgb(255, 165, 180);
         -webkit-text-stroke: 2px black;
+        font-family: curvita_bold;
+        font-size: variables.$font_h2;
     }
+
 
     .cont_productos_bloque{
         width: 90%;
@@ -30,20 +30,27 @@
             border-radius: 20px;
             padding: 50px 40px;
             text-align: center;
-
+            transition: transform 0.3s all;
+            box-shadow: 2px 2px 2px transparent;
+            border: 2px solid transparent;
             .bloqueTextTitle{
-                height: 50px;
+                height: 68px;
                 color: variables.$color_rojo;
-                line-height: 26px;
+                line-height: 32px;
                 font-weight: 500;
+                font-size: variables.$font_h3;
+
             }
+
             .bloqueTextParrafo{
                 margin-top: 10px;
-                height: 120px;
+                padding: 10px 0px;
+                font-size: variables.$font_p;
             }
+            
             .bloqueTextBtn{
                 margin-left: calc(50% - 140px);
-                margin-top: 20px;
+                margin-top: 30px;
                 padding: 10px 50px;
                 border: none;
                 cursor: pointer;
@@ -53,7 +60,15 @@
                 color: variables.$color_blanco;
             }
         }
+
+        .bloqueText:hover{
+            transform: scale3d(1.04, 1.04);
+            box-shadow: 2px 2px 2px rgb(118, 118, 118);
+            border: 2px solid grey;
+          
+        }
     }
+   
 
    
     .cont_productosBlock{
