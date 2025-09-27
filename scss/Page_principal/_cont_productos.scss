@@ -1,4 +1,5 @@
 @use "../variables";
+@use "../mixins";
 
 .cont_productos{
     width: 100%;
@@ -8,8 +9,8 @@
         width: 60%;
         margin: auto;
         text-align: center;
-        color: rgb(255, 165, 180);
-        -webkit-text-stroke: 2px black;
+        color: variables.$color_rojo;
+        -webkit-text-stroke: 2px black; /* grosor y color del borde */
         font-family: curvita_bold;
         font-size: variables.$font_h2;
     }
@@ -49,15 +50,7 @@
             }
             
             .bloqueTextBtn{
-                margin-left: calc(50% - 140px);
-                margin-top: 30px;
-                padding: 10px 50px;
-                border: none;
-                cursor: pointer;
-                font-size: 16px;
-                border-radius: 5px;
-                background: variables.$color_black_claro;
-                color: variables.$color_blanco;
+                @include mixins.botones;
             }
         }
 

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Definición del boton */
 /* Escritorios grandes (más de 1440px) */
 .cont_slader .container_swiper { /******mi contenedor controla el WIDTH Y HEIGHT************************/
   width: 100%;
@@ -1226,8 +1227,8 @@
   width: 60%;
   margin: auto;
   text-align: center;
-  color: rgb(255, 165, 180);
-  -webkit-text-stroke: 2px black;
+  color: #f58b8b;
+  -webkit-text-stroke: 2px black; /* grosor y color del borde */
   font-family: curvita_bold;
   font-size: 140px;
 }
@@ -1265,14 +1266,14 @@
 }
 .cont_productos .cont_productos_bloque .bloqueText .bloqueTextBtn {
   margin-left: calc(50% - 140px);
-  margin-top: 30px;
   padding: 10px 50px;
   border: none;
   cursor: pointer;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 10px;
   background: #2d2c2c;
   color: #ffffff;
+  margin-top: 30px;
 }
 .cont_productos .cont_productos_bloque .bloqueText:hover {
   transform: scale3d(1.04, 1.04);

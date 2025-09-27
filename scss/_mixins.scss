@@ -1,0 +1,15 @@
+@use "./variables";
+
+
+/* Definición del boton */
+@mixin botones { 
+    margin-left: calc(50% - 140px);
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    background: variables.$color_black_claro;
+    color: variables.$color_blanco;
+    margin-top: 30px;
+}

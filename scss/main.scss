@@ -1,5 +1,5 @@
-@use "./variables";
-
+@use "../scss/variables";
+@use "../scss/mixins";
 
 
 @use "../scss/Page_principal/swiperSlader";
@@ -8,7 +8,6 @@
 @use "../scss/Page_principal/cont_section";
 @use "../scss/Page_principal/cont_productos";
 @use "../scss/Page_principal/cont_footer";
-
 
 
 
@@ -59,3 +58,5 @@
 a{
   text-decoration: none;
 }
+
+
