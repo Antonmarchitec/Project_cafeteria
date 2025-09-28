@@ -3,7 +3,7 @@
     "id": 1,
     "titulo": "Pastel Red Velvet",
     "descripcion": "Un clásico irresistible de bizcocho suave con cacao, relleno y cobertura de crema de queso. Perfecto para momentos especiales.",
-    "imagen": "./img/red_velvet.jpg"
+    "imagen": "./source/logo.png"
   },
   {
     "id": 2,
