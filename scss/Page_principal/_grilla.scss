@@ -40,13 +40,17 @@
         //background: rgb(158, 158, 158);
         //padding: 20px 0px;
         grid-area:grilla_section;
+        background-image:url(/source/CONTACTO/fondo.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 
     .grilla_productos{
         //background: rgb(158, 158, 158);
         //padding: 20px 0px;
         grid-area:grilla_productos;
-        background-image: url(/source/CATALOGO/fondoFranja.png);
+        background-image:url(/source/CATALOGO/fondoFranja.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -57,6 +61,11 @@
         //background: rgb(158, 158, 158);
         //padding: 20px 0px;
         grid-area:grilla_maps;
+        background-image:url(/source/CONTACTO/fondo.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
     }
 
     .grilla_contacto{

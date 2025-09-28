@@ -33,10 +33,12 @@ $radio: 12px;
     
     .contContacto_bloqueImage{
       width: 650px;
-      height: 800px;
+      height: 650px;
       padding: 10px 0px;
-      border-radius: 100px;
       overflow: hidden;
+      background-image: url(/source/postre2.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
     }
 
 

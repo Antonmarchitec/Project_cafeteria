@@ -219,6 +219,10 @@
 }
 .cont_grilla .grilla_section {
   grid-area: grilla_section;
+  background-image: url(/source/CONTACTO/fondo.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .cont_grilla .grilla_productos {
   grid-area: grilla_productos;
@@ -229,6 +233,10 @@
 }
 .cont_grilla .grilla_maps {
   grid-area: grilla_maps;
+  background-image: url(/source/CONTACTO/fondo.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .cont_grilla .grilla_contacto {
   grid-area: grilla_contacto;
@@ -844,7 +852,6 @@
 .cont_sectionCards {
   width: 100%;
   padding: 100px 0px;
-  background: #ffffff;
 }
 .cont_sectionCards .cont_sectionCards_h2 {
   width: 80%;
@@ -1363,12 +1370,9 @@
   font-family: curvita_bold;
 }
 .contMapa .contMaps {
-  width: 90%;
+  width: 100%;
   height: 600px;
   margin: 30px auto;
-  border: 2px solid #ff2b2b;
-  border-radius: 10px;
-  overflow: hidden;
 }
 
 .contContacto {
@@ -1393,10 +1397,12 @@
 }
 .contContacto .contContacto_bloque .contContacto_bloqueImage {
   width: 650px;
-  height: 800px;
+  height: 650px;
   padding: 10px 0px;
-  border-radius: 100px;
   overflow: hidden;
+  background-image: url(/source/postre2.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 .contContacto .contContacto_bloque .wrap {
   min-height: 50%;
