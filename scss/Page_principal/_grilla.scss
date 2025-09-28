@@ -16,7 +16,10 @@
     "grilla_slader     grilla_slader     grilla_slader"
     "grilla_section    grilla_section    grilla_section"
     "grilla_productos  grilla_productos  grilla_productos"
+    "grilla_maps       grilla_maps       grilla_maps"
+    "grilla_contacto   grilla_contacto   grilla_contacto"
     "grilla_footer     grilla_footer     grilla_footer"
+   
     ;
 
     .grilla_header{
@@ -48,11 +51,26 @@
         background-repeat: no-repeat;
     }
 
+    .grilla_maps{
+        //background: rgb(158, 158, 158);
+        //padding: 20px 0px;
+        grid-area:grilla_maps;
+    }
+
+
+    .grilla_contacto{
+        background: rgb(158, 158, 158);
+        padding: 20px 0px;
+        grid-area:grilla_contacto;
+    }
+
     .grilla_footer{
         //background: rgb(158, 158, 158);
         //padding: 20px 0px;
         grid-area:grilla_footer;
     }
+
+    
 
 }
 

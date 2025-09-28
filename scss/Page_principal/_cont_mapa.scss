@@ -1,0 +1,25 @@
+@use "../variables";
+
+
+.contMapa{
+    width: 100%;
+    padding: 100px 0px;
+    .contMapa_title{
+        text-align: center;
+        font-size:variables.$font_h2;
+        color: #fe3b3b;
+        -webkit-text-stroke: 2px black;
+        font-family:curvita_bold ;
+    }
+
+    
+    .contMaps{
+        width: 90%;
+        height: 600px;
+        margin: 30px auto;
+        border: 2px solid #ff2b2b;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+}
+

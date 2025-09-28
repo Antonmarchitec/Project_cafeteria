@@ -271,6 +271,107 @@
       
     </div>
 
+    <div class="grilla_maps">
+      <div class="contMapa">
+        <!----------------->
+        <h2 class="contMapa_title"> Visítanos en nuestra tienda </h2>
+
+        <!----------------->
+        <div class="contMaps">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15198.94605265867!2d-63.10297161340715!3d-17.757050031223205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1e5005e7c5fa7%3A0x234a1c2e4a4fcbc6!2sBarber%20Studio%20Daniel%20Vega!5e0!3m2!1ses-419!2sbo!4v1759090339194!5m2!1ses-419!2sbo" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </div>
+      
+    </div>
+
+    <div class="grilla_contacto">
+      <!-------------------------->
+      <div class="wrap">
+        <div class="card" role="region" aria-labelledby="form-title">
+          <div class="header">
+            <div class="logo">PC</div>
+            <div>
+              <h1 id="form-title">Pedido - Pastelería</h1>
+              <p class="lead">Rápido y sencillo. Usa este formulario para encargos o consultas.</p>
+            </div>
+          </div>
+
+          <div id="successBox" class="success" role="alert" aria-live="polite">
+            ✅ Pedido listo para enviarse. Verifica los datos y presiona "Enviar pedido".
+          </div>
+
+          <form id="pedidoForm" novalidate>
+            <!-- Nombre -->
+            <div class="full">
+              <label for="nombre">Nombre completo *</label>
+              <input id="nombre" name="nombre" type="text" placeholder="Ej. María Pérez" required minlength="2" />
+              <div class="error-msg" id="error-nombre" aria-live="polite"></div>
+            </div>
+
+            <!-- Contacto: email -->
+            <div>
+              <label for="email">Correo electrónico</label>
+              <input id="email" name="email" type="email" placeholder="ejemplo@mail.com" />
+              <div class="error-msg" id="error-email" aria-live="polite"></div>
+            </div>
+
+            <!-- Contacto: teléfono -->
+            <div>
+              <label for="telefono">Teléfono (WhatsApp)</label>
+              <input id="telefono" name="telefono" type="tel" placeholder="+591 7 1234567" />
+              <div class="error-msg" id="error-tel" aria-live="polite"></div>
+              <div class="small">Al menos <strong>correo</strong> o <strong>teléfono</strong> debe ser válido.</div>
+            </div>
+
+            <!-- Producto -->
+            <div>
+              <label for="producto">Producto *</label>
+              <select id="producto" name="producto" required>
+                <option value="">-- selecciona --</option>
+                <option>Pastel de vainilla (8 porciones)</option>
+                <option>Pastel de chocolate (8 porciones)</option>
+                <option>Torta de frutos rojos (10 porciones)</option>
+                <option>Cupcakes surtidos (docena)</option>
+                <option>Bocaditos personalizados</option>
+              </select>
+              <div class="error-msg" id="error-producto"></div>
+            </div>
+
+            <!-- Cantidad -->
+            <div>
+              <label for="cantidad">Cantidad *</label>
+              <input id="cantidad" name="cantidad" type="number" min="1" value="1" required />
+              <div class="error-msg" id="error-cantidad"></div>
+            </div>
+
+            <!-- Fecha de entrega -->
+            <div>
+              <label for="fecha">Fecha de entrega *</label>
+              <input id="fecha" name="fecha" type="date" required />
+              <div class="error-msg" id="error-fecha"></div>
+            </div>
+
+            <!-- Hora (opcional) -->
+            <div>
+              <label for="hora">Hora aproximada (opcional)</label>
+              <input id="hora" name="hora" type="text" placeholder="Ej. 16:00" />
+            </div>
+
+            <!-- Mensaje -->
+            <div class="full">
+              <label for="mensaje">Notas / Personalización</label>
+              <textarea id="mensaje" name="mensaje" placeholder="Indica sabores, texto para la torta, alérgenos, etc."></textarea>
+            </div>
+
+            <div class="actions full">
+              <button type="button" class="ghost" id="resetBtn">Borrar</button>
+              <button type="submit" id="submitBtn">Enviar pedido</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
 
     <div class="grilla_footer">
       <div class="cont_footer">
@@ -326,6 +427,6 @@
     <script src="./js/cont_section.js"></script>
     <script src="./js/menu.js"></script>
     <script src="./js/catalogo.js"></script>
-
+    <script src="./js/contacto.js"></script>
 
 </html>
