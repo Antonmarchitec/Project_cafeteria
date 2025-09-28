@@ -285,91 +285,108 @@
     </div>
 
     <div class="grilla_contacto">
-      <!-------------------------->
-      <div class="wrap">
-        <div class="card" role="region" aria-labelledby="form-title">
-          <div class="header">
-            <div class="logo">PC</div>
-            <div>
-              <h1 id="form-title">Pedido - Pastelería</h1>
-              <p class="lead">Rápido y sencillo. Usa este formulario para encargos o consultas.</p>
+      <div class="contContacto">
+
+        <!-------------------------->
+        <h2 class="contContacto_title"> Contacto</h2>
+
+        <!------------------------------>
+        <div class="contContacto_bloque">
+          <!----------------------->          
+          <figure class="contContacto_bloqueImage">
+            <img src="" alt="imgContacto" style="width: 100%;height: 100%;">
+          </figure>
+
+          <!------------------------->
+          <div class="wrap">
+            <div class="card" role="region" aria-labelledby="form-title">
+              <div class="header">
+                <div class="logo">PC</div>
+                <div>
+                  <h1 id="form-title">Pedido - Pastelería</h1>
+                  <p class="lead">Rápido y sencillo. Usa este formulario para encargos o consultas.</p>
+                </div>
+              </div>
+
+              <div id="successBox" class="success" role="alert" aria-live="polite">
+                ✅ Pedido listo para enviarse. Verifica los datos y presiona "Enviar pedido".
+              </div>
+
+              <form id="pedidoForm" novalidate>
+                <!-- Nombre -->
+                <div class="full">
+                  <label for="nombre">Nombre completo *</label>
+                  <input id="nombre" name="nombre" type="text" placeholder="Ej. María Pérez" required minlength="2" />
+                  <div class="error-msg" id="error-nombre" aria-live="polite"></div>
+                </div>
+
+                <!-- Contacto: email -->
+                <div>
+                  <label for="email">Correo electrónico</label>
+                  <input id="email" name="email" type="email" placeholder="ejemplo@mail.com" />
+                  <div class="error-msg" id="error-email" aria-live="polite"></div>
+                </div>
+
+                <!-- Contacto: teléfono -->
+                <div>
+                  <label for="telefono">Teléfono (WhatsApp)</label>
+                  <input id="telefono" name="telefono" type="tel" placeholder="+591 7 1234567" />
+                  <div class="error-msg" id="error-tel" aria-live="polite"></div>
+                  <div class="small">Al menos <strong>correo</strong> o <strong>teléfono</strong> debe ser válido.</div>
+                </div>
+
+                <!-- Producto -->
+                <div>
+                  <label for="producto">Producto *</label>
+                  <select id="producto" name="producto" required>
+                    <option value="">-- selecciona --</option>
+                    <option>Pastel de vainilla (8 porciones)</option>
+                    <option>Pastel de chocolate (8 porciones)</option>
+                    <option>Torta de frutos rojos (10 porciones)</option>
+                    <option>Cupcakes surtidos (docena)</option>
+                    <option>Bocaditos personalizados</option>
+                  </select>
+                  <div class="error-msg" id="error-producto"></div>
+                </div>
+
+                <!-- Cantidad -->
+                <div>
+                  <label for="cantidad">Cantidad *</label>
+                  <input id="cantidad" name="cantidad" type="number" min="1" value="1" required />
+                  <div class="error-msg" id="error-cantidad"></div>
+                </div>
+
+                <!-- Fecha de entrega -->
+                <div>
+                  <label for="fecha">Fecha de entrega *</label>
+                  <input id="fecha" name="fecha" type="date" required />
+                  <div class="error-msg" id="error-fecha"></div>
+                </div>
+
+                <!-- Hora (opcional) -->
+                <div>
+                  <label for="hora">Hora aproximada (opcional)</label>
+                  <input id="hora" name="hora" type="text" placeholder="Ej. 16:00" />
+                </div>
+
+                <!-- Mensaje -->
+                <div class="full">
+                  <label for="mensaje">Notas / Personalización</label>
+                  <textarea id="mensaje" name="mensaje" placeholder="Indica sabores, texto para la torta, alérgenos, etc."></textarea>
+                </div>
+
+                <div class="actions full">
+                  <button type="button" class="ghost" id="resetBtn">Borrar</button>
+                  <button type="submit" id="submitBtn">Enviar pedido</button>
+                </div>
+              </form>
             </div>
           </div>
-
-          <div id="successBox" class="success" role="alert" aria-live="polite">
-            ✅ Pedido listo para enviarse. Verifica los datos y presiona "Enviar pedido".
-          </div>
-
-          <form id="pedidoForm" novalidate>
-            <!-- Nombre -->
-            <div class="full">
-              <label for="nombre">Nombre completo *</label>
-              <input id="nombre" name="nombre" type="text" placeholder="Ej. María Pérez" required minlength="2" />
-              <div class="error-msg" id="error-nombre" aria-live="polite"></div>
-            </div>
-
-            <!-- Contacto: email -->
-            <div>
-              <label for="email">Correo electrónico</label>
-              <input id="email" name="email" type="email" placeholder="ejemplo@mail.com" />
-              <div class="error-msg" id="error-email" aria-live="polite"></div>
-            </div>
-
-            <!-- Contacto: teléfono -->
-            <div>
-              <label for="telefono">Teléfono (WhatsApp)</label>
-              <input id="telefono" name="telefono" type="tel" placeholder="+591 7 1234567" />
-              <div class="error-msg" id="error-tel" aria-live="polite"></div>
-              <div class="small">Al menos <strong>correo</strong> o <strong>teléfono</strong> debe ser válido.</div>
-            </div>
-
-            <!-- Producto -->
-            <div>
-              <label for="producto">Producto *</label>
-              <select id="producto" name="producto" required>
-                <option value="">-- selecciona --</option>
-                <option>Pastel de vainilla (8 porciones)</option>
-                <option>Pastel de chocolate (8 porciones)</option>
-                <option>Torta de frutos rojos (10 porciones)</option>
-                <option>Cupcakes surtidos (docena)</option>
-                <option>Bocaditos personalizados</option>
-              </select>
-              <div class="error-msg" id="error-producto"></div>
-            </div>
-
-            <!-- Cantidad -->
-            <div>
-              <label for="cantidad">Cantidad *</label>
-              <input id="cantidad" name="cantidad" type="number" min="1" value="1" required />
-              <div class="error-msg" id="error-cantidad"></div>
-            </div>
-
-            <!-- Fecha de entrega -->
-            <div>
-              <label for="fecha">Fecha de entrega *</label>
-              <input id="fecha" name="fecha" type="date" required />
-              <div class="error-msg" id="error-fecha"></div>
-            </div>
-
-            <!-- Hora (opcional) -->
-            <div>
-              <label for="hora">Hora aproximada (opcional)</label>
-              <input id="hora" name="hora" type="text" placeholder="Ej. 16:00" />
-            </div>
-
-            <!-- Mensaje -->
-            <div class="full">
-              <label for="mensaje">Notas / Personalización</label>
-              <textarea id="mensaje" name="mensaje" placeholder="Indica sabores, texto para la torta, alérgenos, etc."></textarea>
-            </div>
-
-            <div class="actions full">
-              <button type="button" class="ghost" id="resetBtn">Borrar</button>
-              <button type="submit" id="submitBtn">Enviar pedido</button>
-            </div>
-          </form>
         </div>
+        
       </div>
+      
+      
     </div>
 
 

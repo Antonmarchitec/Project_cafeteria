@@ -225,14 +225,17 @@
   background-image: url(/source/CATALOGO/fondoFranja.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .cont_grilla .grilla_maps {
   grid-area: grilla_maps;
 }
 .cont_grilla .grilla_contacto {
-  background: rgb(158, 158, 158);
-  padding: 20px 0px;
   grid-area: grilla_contacto;
+  background-image: url(/source/CONTACTO/fondo.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .cont_grilla .grilla_footer {
   grid-area: grilla_footer;
@@ -1368,28 +1371,41 @@
   overflow: hidden;
 }
 
-* {
-  box-sizing: border-box;
+.contContacto {
+  width: 100%;
+  padding: 20px 0px;
 }
-
-html, body {
-  height: 100%;
-  margin: 0;
-  background: #f5f5f5;
-  color: #222;
-  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-  -webkit-font-smoothing: antialiased;
+.contContacto .contContacto_title {
+  text-align: center;
+  color: #fe3b3b;
+  -webkit-text-stroke: 2px black;
+  font-family: curvita_bold;
+  font-size: 140px;
 }
-
-.wrap {
-  min-height: 100vh;
+.contContacto .contContacto_bloque {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px auto;
+  /***********************/
+}
+.contContacto .contContacto_bloque .contContacto_bloqueImage {
+  width: 650px;
+  height: 800px;
+  padding: 10px 0px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+.contContacto .contContacto_bloque .wrap {
+  min-height: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 28px;
 }
-
-.card {
+.contContacto .contContacto_bloque .wrap .card {
   background: #ffffff;
   width: 100%;
   max-width: 720px;
@@ -1398,13 +1414,13 @@ html, body {
   padding: 28px;
   border: 1px solid rgba(0, 0, 0, 0.04);
 }
-.card .header {
+.contContacto .contContacto_bloque .wrap .card .header {
   display: flex;
   align-items: center;
   gap: 12px;
   margin-bottom: 18px;
 }
-.card .header .logo {
+.contContacto .contContacto_bloque .wrap .card .header .logo {
   width: 44px;
   height: 44px;
   border-radius: 10px;
@@ -1417,33 +1433,33 @@ html, body {
   font-size: 18px;
   box-shadow: 0 6px 18px rgba(255, 123, 123, 0.15);
 }
-.card .header h1 {
+.contContacto .contContacto_bloque .wrap .card .header h1 {
   margin: 0;
   font-size: 18px;
   letter-spacing: 0.2px;
 }
-.card .header .lead {
+.contContacto .contContacto_bloque .wrap .card .header .lead {
   margin: 6px 0 0;
   color: #666;
   font-size: 13px;
 }
-.card form {
+.contContacto .contContacto_bloque .wrap .card form {
   margin-top: 14px;
   display: grid;
   gap: 12px;
   grid-template-columns: repeat(2, 1fr);
 }
-.card form .full {
+.contContacto .contContacto_bloque .wrap .card form .full {
   grid-column: 1/-1;
 }
-.card form label {
+.contContacto .contContacto_bloque .wrap .card form label {
   display: block;
   font-size: 13px;
   margin-bottom: 6px;
 }
-.card form input,
-.card form select,
-.card form textarea {
+.contContacto .contContacto_bloque .wrap .card form input,
+.contContacto .contContacto_bloque .wrap .card form select,
+.contContacto .contContacto_bloque .wrap .card form textarea {
   width: 100%;
   padding: 10px 12px;
   border-radius: 10px;
@@ -1453,22 +1469,22 @@ html, body {
   outline: none;
   transition: box-shadow 0.14s, border-color 0.14s;
 }
-.card form input:focus,
-.card form select:focus,
-.card form textarea:focus {
+.contContacto .contContacto_bloque .wrap .card form input:focus,
+.contContacto .contContacto_bloque .wrap .card form select:focus,
+.contContacto .contContacto_bloque .wrap .card form textarea:focus {
   box-shadow: 0 6px 18px rgba(255, 123, 123, 0.12);
   border-color: #ff7b7b;
 }
-.card form textarea {
+.contContacto .contContacto_bloque .wrap .card form textarea {
   min-height: 100px;
   resize: vertical;
   padding-top: 10px;
 }
-.card form .small {
+.contContacto .contContacto_bloque .wrap .card form .small {
   font-size: 12px;
   color: #666;
 }
-.card form .actions {
+.contContacto .contContacto_bloque .wrap .card form .actions {
   display: flex;
   gap: 10px;
   justify-content: flex-end;
@@ -1476,7 +1492,7 @@ html, body {
   margin-top: 6px;
   grid-column: 1/-1;
 }
-.card form button {
+.contContacto .contContacto_bloque .wrap .card form button {
   cursor: pointer;
   border: 0;
   padding: 10px 16px;
@@ -1486,18 +1502,18 @@ html, body {
   color: #ffffff;
   box-shadow: 0 8px 20px rgba(255, 123, 123, 0.12);
 }
-.card form button.ghost {
+.contContacto .contContacto_bloque .wrap .card form button.ghost {
   background: transparent;
   color: #ff7b7b;
   border: 1px solid rgba(255, 123, 123, 0.12);
   box-shadow: none;
 }
-.card form .error-msg {
+.contContacto .contContacto_bloque .wrap .card form .error-msg {
   color: #d9534f;
   font-size: 12px;
   margin-top: 6px;
 }
-.card .success {
+.contContacto .contContacto_bloque .wrap .card .success {
   display: none;
   padding: 12px;
   border-radius: 10px;
@@ -1506,19 +1522,19 @@ html, body {
   font-weight: 600;
   border: 1px solid rgba(47, 122, 47, 0.08);
 }
-
 @media (max-width: 720px) {
-  .card form {
+  .contContacto .contContacto_bloque .wrap .card form {
     grid-template-columns: 1fr;
   }
-  .card form .actions {
+  .contContacto .contContacto_bloque .wrap .card form .actions {
     justify-content: stretch;
     flex-direction: column;
   }
-  .card form button {
+  .contContacto .contContacto_bloque .wrap .card form button {
     width: 100%;
   }
 }
+
 /*
 cont_footer
 cont_footerTitle

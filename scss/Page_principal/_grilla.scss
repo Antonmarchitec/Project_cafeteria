@@ -49,6 +49,8 @@
         background-image: url(/source/CATALOGO/fondoFranja.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
+        background-attachment: fixed;
+
     }
 
     .grilla_maps{
@@ -57,11 +59,14 @@
         grid-area:grilla_maps;
     }
 
-
     .grilla_contacto{
-        background: rgb(158, 158, 158);
-        padding: 20px 0px;
+        //background: rgb(158, 158, 158);
+        //padding: 20px 0px;
         grid-area:grilla_contacto;
+        background-image:url(/source/CONTACTO/fondo.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 
     .grilla_footer{
