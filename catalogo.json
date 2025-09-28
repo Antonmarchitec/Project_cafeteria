@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "titulo": "Pastel Red Velvet",
+    "descripcion": "Un clásico irresistible de bizcocho suave con cacao, relleno y cobertura de crema de queso. Perfecto para momentos especiales.",
+    "imagen": "./img/red_velvet.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Torta de Tres Leches",
+    "descripcion": "Esponjoso y húmedo, bañado en la tradicional mezcla de leches y decorado con crema fresca. Un postre que nunca pasa de moda.",
+    "imagen": "./img/tres_leches.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "Cheesecake de Frutos Rojos",
+    "descripcion": "Cremoso cheesecake sobre base de galleta, coronado con una mezcla fresca de frutillas, moras y arándanos.",
+    "imagen": "./img/cheesecake_frutos_rojos.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "Pastel de Chocolate Intenso",
+    "descripcion": "Bizcocho húmedo con chocolate puro, relleno de ganache y decorado con virutas de cacao. Ideal para los amantes del chocolate.",
+    "imagen": "./img/pastel_chocolate.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "Tarta de Frutillas Frescas",
+    "descripcion": "Base crujiente de masa dulce, rellena de crema pastelera y cubierta con frutillas recién cortadas. Refrescante y ligera.",
+    "imagen": "./img/tarta_frutillas.jpg"
+  },
+  {
+    "id": 6,
+    "titulo": "Cupcakes Variados",
+    "descripcion": "Pequeñas delicias en diferentes sabores (vainilla, chocolate y limón) con coberturas coloridas y divertidas decoraciones.",
+    "imagen": "./img/cupcakes.jpg"
+  }
+]
