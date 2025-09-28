@@ -222,6 +222,9 @@
 }
 .cont_grilla .grilla_productos {
   grid-area: grilla_productos;
+  background-image: url(/source/CATALOGO/fondoFranja.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 .cont_grilla .grilla_footer {
   grid-area: grilla_footer;
@@ -838,7 +841,7 @@
   margin-top: -50px;
   text-align: center;
   line-height: 100px;
-  color: #f58b8b;
+  color: #fe3b3b;
   -webkit-text-stroke: 2px black; /* grosor y color del borde */
   font-family: curvita_bold;
   font-size: 140px;
@@ -1221,13 +1224,12 @@
 .cont_productos {
   width: 100%;
   padding: 50px 0px;
-  background: rgb(255, 255, 255);
 }
 .cont_productos .cont_productosTitle {
   width: 60%;
   margin: auto;
   text-align: center;
-  color: #f58b8b;
+  color: #fe3b3b;
   -webkit-text-stroke: 2px black; /* grosor y color del borde */
   font-family: curvita_bold;
   font-size: 140px;
@@ -1254,7 +1256,7 @@
 }
 .cont_productos .cont_productos_bloque .bloqueText .bloqueTextTitle {
   height: 68px;
-  color: #f58b8b;
+  color: #fe3b3b;
   line-height: 32px;
   font-weight: 500;
   font-size: 32px;
@@ -1292,7 +1294,7 @@
 .cont_productos .cont_productosBlock .cont_productosBlock_cuadro {
   margin-bottom: 60px;
   width: 400px;
-  height: 450px;
+  height: 540px;
   padding: 20px;
   position: relative;
 }
@@ -1303,9 +1305,10 @@
 }
 .cont_productos .cont_productosBlock .cont_productosBlock_cuadro .cont_productosBlock_cuadroTitle {
   text-align: center;
-  color: rgb(255, 165, 180);
+  color: rgb(255, 44, 79);
   font-size: 50px;
   font-family: "curvita_bold";
+  line-height: 42px;
 }
 .cont_productos .cont_productosBlock .cont_productosBlock_cuadro .cont_productosBlock_cuadroDesc {
   margin-top: 10px;
@@ -1313,9 +1316,8 @@
   color: rgb(84, 84, 84);
 }
 .cont_productos .cont_productosBlock .cont_productosBlock_cuadro .cont_productosBlock_cuadroPrecio {
-  width: 100px;
-  height: 100px;
-  background: rgb(255, 160, 176);
+  padding: 20px;
+  background: #fe3b3b;
   font-size: 25px;
   display: flex;
   justify-content: center;
@@ -1325,6 +1327,17 @@
   position: absolute;
   top: 0;
   transform: rotate(-10deg);
+}
+.cont_productos .cont_productosBlock .cont_productosBlock_cuadro .cont_productosBlock_cuadroPrecio .cuadroPrecio {
+  font-weight: 500;
+  margin-right: 5px;
+  font-size: 32px;
+}
+.cont_productos .cont_productosBlock .cont_productosBlock_cuadro .cont_productosBlock_cuadroPrecio .dolar {
+  font-weight: 500;
+  margin-right: 5px;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
 }
 
 /*

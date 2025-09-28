@@ -1,12 +1,4 @@
-/*
-cont_productosBlock_base
-templateCatalogo
-cuadroFigura
-cuadroTitle
-cuadroDesc
-cuadroPrecio
 
-*/ 
 let cont_productosBlock_base = document.getElementById("cont_productosBlock_base")
 let fragmentCatalogo = document.createDocumentFragment()
 let templateCatalogo = document.getElementById("templateCatalogo").content
@@ -43,6 +35,8 @@ const pintarElementos = (data) => {
         clone.querySelector("#cuadroFigura").setAttribute("alt", element.titulo)
         clone.querySelector("#cuadroTitle").textContent = element.titulo
         clone.querySelector("#cuadroDesc").textContent = element.descripcion
+        clone.querySelector("#cuadroPrecio").textContent = element.precio
+
 
          // Agregar al fragmento
         fragmentCatalogo.appendChild(clone)
