@@ -112,7 +112,8 @@
                         transition: 0.3s all;
                     }
                     .link:hover{
-                        border-bottom: 2px solid variables.$color_lila_pastel;
+                        border-bottom: 5px solid variables.$color_rojo;
+                        ccolor: variables.$color_rojo;
 
                     }
                 }
@@ -160,16 +161,16 @@
         }
 
         /************/
+        /************/
         .block_navigation{
             margin-top: 30px;
-            width: 700px;
+            width: 580px;
             padding: 5px 0px;
-            margin-right: 40px;
-            background: variables.$color_rosa;
+            margin-right: 20px;
+            //background: variables.$color_rosa;
             /*************/
             .block_navigation_sup{
                 width: 100%;
-                padding: 5px 0px;
                 //background: white;
                 display: flex;
                 flex-direction: row;
@@ -179,7 +180,6 @@
                 /****************/
                 .menu_secundario{
                     padding: 5px;
-                    //background: green;
                 
                     .menu_secundario_ul{
                         //background: teal;
@@ -195,7 +195,7 @@
                             .link{
                                 color: variables.$color_grey;
                                 color: white;
-                                font-size: 15px;
+                                font-size: 16px;
                             }
                         }
                     }
@@ -207,10 +207,15 @@
                     padding: 5px 10px;
                     //background: rgb(255, 255, 255);
                     .iconRedes{
-                        color: variables.$color_menta_suave;
-                        font-size: 22px;
+                        font-size: 32px;
                         margin: 0px 3px;
                         cursor: pointer;
+                        color: variables.$color_blanco;
+                        transition: 0.2s all;
+                    }
+                    .iconRedes:hover{
+                        color: variables.$color_rojo;
+
                     }
                 }
 
@@ -219,7 +224,7 @@
             /***********/
             .block_navigation_inf{
                 padding: 2px 0px;
-                //background: rgb(255, 255, 255);
+                //background: rgb(183, 181, 181);
                 .block_navigation_inf_ul{
                     padding: 0px 5px;
                     //background: greenyellow;
@@ -229,7 +234,6 @@
                     align-items: center;
                     .block_navigation_inf_ul_li{
                         padding: 5px;
-                        //background: rgb(68, 67, 67);
                         margin-left: 16px;
                         list-style: none;
                         .link{
@@ -238,12 +242,13 @@
                             text-transform: uppercase;
                             text-decoration: none;
                             font-weight: 500;
-                            border-bottom: 2px solid transparent;
+                            border-bottom: 5px solid transparent;
                             transition: 0.3s all;
                         }
                         .link:hover{
-                            border-bottom: 2px solid variables.$color_lila_pastel;
-                            color: variables.$color_lila_pastel;
+                            border-bottom: 5px solid variables.$color_rojo;
+                            color: variables.$color_rojo;
+
 
                         }
                     }
@@ -397,7 +402,7 @@
 
 
 
-/* Móviles grandes y phablets (481px a 768px) -------------------CAMBIO BTN---------*/
+/* Móviles grandes y phablets (481px a 768px) */
 @media (min-width:481px) and (max-width:768px){ 
      .cont_header{
         width: 100%;
@@ -535,7 +540,7 @@
             height: 50px;
             //background: grey;
             margin-right: 20px;
-            display: block;
+            display: none;
         }
     }
 }
@@ -543,7 +548,7 @@
 
 
 
-/* Móviles pequeños (350px a 480px)-*/
+/* Móviles pequeños (350px a 480px)-*/   /*-------------------CAMBIO BTN---------*/
 @media (min-width:350px) and (max-width:768px){ 
      .cont_header{
         width: 100%;
