@@ -8,7 +8,7 @@
     margin: auto;
     background: rgb(75, 233, 54);
     display: grid;
-    //gap:30px;
+    //gap:50px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto auto;
     grid-template-areas: 
@@ -27,6 +27,7 @@
         //background: rgb(158, 158, 158);
         //padding: 10px 0px;
         grid-area:grilla_header;
+        
     }
 //
     .grilla_slader{
@@ -34,26 +35,30 @@
         //background: rgb(158, 158, 158);
         //padding: 20px 0px;
         grid-area:grilla_slader;
+        background: white;
+
     }
 
     .grilla_section{
         //background: rgb(158, 158, 158);
         //padding: 20px 0px;
         grid-area:grilla_section;
-        background-image:url(/source/CONTACTO/fondo.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+        //background-image:url(/source/CONTACTO/fondo.png);
+        //background-size: 100% 100%;
+        //background-repeat: no-repeat;
+        //background-attachment: fixed;
+        display: none;
     }
 
     .grilla_productos{
         //background: rgb(158, 158, 158);
         //padding: 20px 0px;
         grid-area:grilla_productos;
-        background-image:url(/source/CATALOGO/fondoFranja.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+        //background-image:url(/source/CATALOGO/fondoFranja.png);
+        //background-size: 100% 100%;
+        //background-repeat: no-repeat;
+        //background-attachment: fixed;
+        display: none;
 
     }
 
@@ -65,6 +70,7 @@
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        display: none;
 
     }
 
@@ -76,12 +82,14 @@
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        display: none;
     }
 
     .grilla_footer{
         //background: rgb(158, 158, 158);
         //padding: 20px 0px;
         grid-area:grilla_footer;
+        display: none;
     }
 
     
@@ -101,16 +109,16 @@
 
 
 
-/* Tablets (769px a 1024px) */
+/*  Tablets (769px a 1024px) */
 @media (min-width:769px) and (max-width:1024px){ 
   .cont_grilla{
         width: 100%;
         //max-width: 1600px;
         //padding: 10px 0px;
         margin: auto;
-        background: rgb(95, 238, 85);
+        //background: rgb(95, 238, 85);
+        //gap:30px;
         display: grid;
-        gap:30px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto auto auto;
         grid-template-areas: 
@@ -130,13 +138,12 @@
             padding: 10px 0px;
             grid-area:grilla_header;
         }
-    //
+
         .grilla_slader{
             //margin-top: 20px;
-            background: rgb(158, 158, 158);
-            padding: 20px 0px;
+            //background: rgb(158, 158, 158);
+            //padding: 20px 0px;
             grid-area:grilla_slader;
-            display: none;
         }
 
         .grilla_section{
@@ -147,8 +154,7 @@
             background-size: 100% 100%;
             background-repeat: no-repeat;
             background-attachment: fixed;
-                        display: none;
-
+            display: none;
         }
 
         .grilla_productos{
@@ -207,9 +213,6 @@
 
 
 /* Móviles grandes y phablets (481px a 768px) ----*/
-
-
-
 
 
 

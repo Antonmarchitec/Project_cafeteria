@@ -9,7 +9,7 @@
         width: 100%;
         margin: auto;
         .swiper{   /*********width y height NO AFECTAN*************/
-            //background: brown;
+            //background: white;
             //padding: 10px 0px;
             .swiper-wrapper{   /*********width y height NO AFECTAN*************/
                 //background:rgb(196, 187, 187);
@@ -17,6 +17,7 @@
                 .swiper-slide{   /*********width y height NO AFECTAN*************/
                     //background:rgb(175, 171, 171);
                     //padding: 10px 0px;
+                    
                     position: relative;
                     
                     /******Estilos las tres imagenes**************/
@@ -55,6 +56,7 @@
                         height: 500px;
                         position: absolute;
                         top: 0;
+                        
                     }
 
                     .slade_text{
@@ -94,29 +96,14 @@
 
 
 /* Laptops y escritorios (1025px a 1440px) */
-
-
-
-
-
-
-/* Tablets (769px a 1024px) */
-
-
-
-
-
-
-/* Móviles grandes y phablets (481px a 768px)-------------------CAMBIO BTN--------*/
-@media (min-width:481px) and (max-width:768px){
-     .cont_slader{
-    //background: rgb(39, 195, 75);
-    //padding: 10px 0px;
+@media (min-width:1025px) and (max-width:1440px){
+    .cont_slader{
+        //padding: 10px 0px;
         .container_swiper{   /******mi contenedor controla el WIDTH Y HEIGHT************************/
             width: 100%;
             margin: auto;
             .swiper{   /*********width y height NO AFECTAN*************/
-                //background: brown;
+                //background: white;
                 //padding: 10px 0px;
                 .swiper-wrapper{   /*********width y height NO AFECTAN*************/
                     //background:rgb(196, 187, 187);
@@ -124,34 +111,35 @@
                     .swiper-slide{   /*********width y height NO AFECTAN*************/
                         //background:rgb(175, 171, 171);
                         //padding: 10px 0px;
+                        
                         position: relative;
                         
                         /******Estilos las tres imagenes**************/
 
                         .slade_imageFondo1{     /*******mi contenedor controla el WIDTH Y HEGHT********************/
                             width: 100%;
-                            height: 400px;
-                            background-image: url(../source/Ice_cream.png);
+                            height: 500px;
+                            background-image: url(../source/fondo1.png);
                             background-repeat: no-repeat;
-                            background-size: 100% 100%;
+                            background-size: cover;
                             background-position: center;
                         }
 
                         .slade_imageFondo2{
                             width: 100%;
-                            height: 400px;
-                            background-image: url(../source/Ice_cream2.png);
+                            height: 500px;
+                            background-image: url(../source/fondo2.png);
                             background-repeat: no-repeat;
-                            background-size: 100% 100%;
+                            background-size: cover;
                             background-position: center;
                         }
 
                         .slade_imageFondo3{
                             width: 100%;
-                            height: 400px;
-                            background-image: url(../source/Ice_cream3.png);
+                            height: 500px;
+                            background-image: url(../source/fondo3.png);
                             background-repeat: no-repeat;
-                            background-size: 100% 100%;
+                            background-size: cover;
                             background-position: center;
                         }
                         /******fin Estilos las tres imagenes**************/
@@ -159,33 +147,234 @@
 
                         .slade_cubierta{
                             width: 100%;
-                            height: 400px;
+                            height: 500px;
                             position: absolute;
                             top: 0;
+                            
                         }
 
                         .slade_text{
                             width: 100%;
-                            height: 400px;
+                            height: 450px;
                             position: absolute;
                             top: 0;
                             .slade_text_h1{
-                                font-size:140px;
-                                letter-spacing: 3px;
-                                font-weight: 100;
-                                color: variables.$color_rosa_pastel;
-                                -webkit-text-stroke: 5px rgb(41, 41, 41);
-                                margin-top: 50px;
-                                margin-left:20px;
                                 text-align: center;
-
+                                font-size: 200px;
+                                font-weight: 500;
+                                color: white;
+                                -webkit-text-stroke: 5px rgb(41, 41, 41);
+                                margin-top: 70px;
+                                margin-left: 100px;
+                                font-family: "curvita_bold";
+                                letter-spacing: 4px;
                             }
 
                             .slade_text_h2{
-                                font-size: 50px;
-                                margin-top: -10px;
-                                margin-left: initial;
                                 text-align: center;
+                                font-size: 60px;
+                                margin-top: -20px;
+                                margin-left: 100px;
+                                font-family: "normal_bold";
+                                
+
+                            }
+                        }
+                    
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/* Tablets (769px a 1024px)  -----------------CAMBIO BTN--------  */
+@media (min-width:769px) and (max-width:1024px){
+    .cont_slader{
+        //background: rgb(189, 255, 23);
+        //padding: 10px 0px;
+        .container_swiper{   /******mi contenedor controla el WIDTH Y HEIGHT************************/
+            width: 100%;
+            margin: auto;
+            .swiper{   /*********width y height NO AFECTAN*************/
+                //background: white;
+                //padding: 10px 0px;
+                .swiper-wrapper{   /*********width y height NO AFECTAN*************/
+                    //background:rgb(196, 187, 187);
+                    //padding: 10px 0px;
+                    .swiper-slide{   /*********width y height NO AFECTAN*************/
+                        //background:rgb(175, 171, 171);
+                        //padding: 10px 0px;
+                        
+                        position: relative;
+                        
+                        /******Estilos las tres imagenes**************/
+
+                        .slade_imageFondo1{     /*******mi contenedor controla el WIDTH Y HEGHT********************/
+                            width: 100%;
+                            height: 500px;
+                            background-image: url(../source/fondo1.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                        }
+
+                        .slade_imageFondo2{
+                            width: 100%;
+                            height: 500px;
+                            background-image: url(../source/fondo2.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                        }
+
+                        .slade_imageFondo3{
+                            width: 100%;
+                            height: 500px;
+                            background-image: url(../source/fondo3.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                        }
+                        /******fin Estilos las tres imagenes**************/
+
+
+                        .slade_cubierta{
+                            width: 100%;
+                            height: 500px;
+                            position: absolute;
+                            top: 0;
+                            
+                        }
+
+                        .slade_text{
+                            width: 100%;
+                            height: 450px;
+                            position: absolute;
+                            top: 0;
+                            .slade_text_h1{
+                                text-align: start;
+                                font-size: 150px;
+                                font-weight: 500;
+                                color: white;
+                                -webkit-text-stroke: 5px rgb(41, 41, 41);
+                                margin-top: 70px;
+                                margin-left: 100px;
+                                font-family: "curvita_bold";
+                                letter-spacing: 4px;
+                            }
+
+                            .slade_text_h2{
+                                text-align: center;
+                                font-size: 60px;
+                                margin-top: -20px;
+                                margin-left: 100px;
+                                font-family: "normal_bold";
+                                
+
+                            }
+                        }
+                    
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/* Móviles grandes y phablets (481px a 768px)--*/
+@media (min-width:481px) and (max-width:768px){
+    .cont_slader{
+        //background: rgb(189, 255, 23);
+        //padding: 10px 0px;
+        .container_swiper{   /******mi contenedor controla el WIDTH Y HEIGHT************************/
+            width: 100%;
+            margin: auto;
+            .swiper{   /*********width y height NO AFECTAN*************/
+                //background: white;
+                //padding: 10px 0px;
+                .swiper-wrapper{   /*********width y height NO AFECTAN*************/
+                    //background:rgb(196, 187, 187);
+                    //padding: 10px 0px;
+                    .swiper-slide{   /*********width y height NO AFECTAN*************/
+                        //background:rgb(175, 171, 171);
+                        //padding: 10px 0px;
+                        
+                        position: relative;
+                        
+                        /******Estilos las tres imagenes**************/
+
+                        .slade_imageFondo1{     /*******mi contenedor controla el WIDTH Y HEGHT********************/
+                            width: 100%;
+                            height: 500px;
+                            background-image: url(../source/fondo1.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                        }
+
+                        .slade_imageFondo2{
+                            width: 100%;
+                            height: 500px;
+                            background-image: url(../source/fondo2.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                        }
+
+                        .slade_imageFondo3{
+                            width: 100%;
+                            height: 500px;
+                            background-image: url(../source/fondo3.png);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                        }
+                        /******fin Estilos las tres imagenes**************/
+
+
+                        .slade_cubierta{
+                            width: 100%;
+                            height: 500px;
+                            position: absolute;
+                            top: 0;
+                            
+                        }
+
+                        .slade_text{
+                            width: 100%;
+                            height: 450px;
+                            position: absolute;
+                            top: 0;
+                            .slade_text_h1{
+                                width: 300px;
+                                text-align:center;
+                                margin: 5px auto;
+                                margin-top: 80px;
+                                font-size: 120px;
+                                font-weight: 500;
+                                color: white;
+                                -webkit-text-stroke: 5px rgb(41, 41, 41);
+                                font-family: "curvita_bold";
+                                letter-spacing: 4px;
+                                line-height:80px;
+                            }
+
+                            .slade_text_h2{
+                                text-align: center;
+                                font-size: 50px;
+                                margin-top: 20px;
+                                margin-left:initial;
+                                font-family: "normal_bold";
+                                
 
                             }
                         }
@@ -204,13 +393,13 @@
 /*Móviles pequeños (hasta 480px) -*/
 @media (min-width:350px) and (max-width:480px){
      .cont_slader{
-    //background: rgb(39, 195, 75);
-    //padding: 10px 0px;
+        //background: rgb(189, 255, 23);
+        //padding: 10px 0px;
         .container_swiper{   /******mi contenedor controla el WIDTH Y HEIGHT************************/
             width: 100%;
             margin: auto;
             .swiper{   /*********width y height NO AFECTAN*************/
-                //background: brown;
+                //background: white;
                 //padding: 10px 0px;
                 .swiper-wrapper{   /*********width y height NO AFECTAN*************/
                     //background:rgb(196, 187, 187);
@@ -218,34 +407,35 @@
                     .swiper-slide{   /*********width y height NO AFECTAN*************/
                         //background:rgb(175, 171, 171);
                         //padding: 10px 0px;
+                        
                         position: relative;
                         
                         /******Estilos las tres imagenes**************/
 
                         .slade_imageFondo1{     /*******mi contenedor controla el WIDTH Y HEGHT********************/
                             width: 100%;
-                            height: 400px;
-                            background-image: url(../source/Ice_cream.png);
+                            height: 500px;
+                            background-image: url(../source/fondo1.png);
                             background-repeat: no-repeat;
-                            background-size: 100% 100%;
+                            background-size: cover;
                             background-position: center;
                         }
 
                         .slade_imageFondo2{
                             width: 100%;
-                            height: 400px;
-                            background-image: url(../source/Ice_cream2.png);
+                            height: 500px;
+                            background-image: url(../source/fondo2.png);
                             background-repeat: no-repeat;
-                            background-size: 100% 100%;
+                            background-size: cover;
                             background-position: center;
                         }
 
                         .slade_imageFondo3{
                             width: 100%;
-                            height: 400px;
-                            background-image: url(../source/Ice_cream3.png);
+                            height: 500px;
+                            background-image: url(../source/fondo3.png);
                             background-repeat: no-repeat;
-                            background-size: 100% 100%;
+                            background-size: cover;
                             background-position: center;
                         }
                         /******fin Estilos las tres imagenes**************/
@@ -253,33 +443,38 @@
 
                         .slade_cubierta{
                             width: 100%;
-                            height: 400px;
+                            height: 500px;
                             position: absolute;
                             top: 0;
+                            
                         }
 
                         .slade_text{
                             width: 100%;
-                            height: 400px;
+                            height: 450px;
                             position: absolute;
                             top: 0;
                             .slade_text_h1{
-                                font-size:80px;
-                                letter-spacing: 3px;
-                                font-weight: 100;
-                                color: variables.$color_rosa_pastel;
-                                -webkit-text-stroke: 2.5px rgb(41, 41, 41);
-                                margin-top: 50px;
-                                margin-left:20px;
-                                text-align: center;
-                                font-family:curvita_normal;
+                                width: 300px;
+                                text-align:center;
+                                margin: 5px auto;
+                                margin-top: 80px;
+                                font-size: 120px;
+                                font-weight: 500;
+                                color: white;
+                                -webkit-text-stroke: 5px rgb(41, 41, 41);
+                                font-family: "curvita_bold";
+                                letter-spacing: 4px;
+                                line-height:80px;
                             }
 
                             .slade_text_h2{
-                                font-size: 40px;
-                                margin-top: -10px;
-                                margin-left: initial;
+                                width: 90%;
                                 text-align: center;
+                                font-size: 40px;
+                                margin: 20px auto;
+                                font-family: "normal_bold";
+
 
                             }
                         }

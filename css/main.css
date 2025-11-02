@@ -65,8 +65,142 @@
 }
 
 /* Laptops y escritorios (1025px a 1440px) */
-/* Tablets (769px a 1024px) */
-/* Móviles grandes y phablets (481px a 768px)-------------------CAMBIO BTN--------*/
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .cont_slader .container_swiper { /******mi contenedor controla el WIDTH Y HEIGHT************************/
+    width: 100%;
+    margin: auto;
+  }
+  .cont_slader .container_swiper .swiper { /*********width y height NO AFECTAN*************/ }
+  .cont_slader .container_swiper .swiper .swiper-wrapper { /*********width y height NO AFECTAN*************/ }
+  .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide { /*********width y height NO AFECTAN*************/
+    position: relative;
+    /******Estilos las tres imagenes**************/
+    /******fin Estilos las tres imagenes**************/
+  }
+  .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_imageFondo1 { /*******mi contenedor controla el WIDTH Y HEGHT********************/
+    width: 100%;
+    height: 500px;
+    background-image: url(../source/fondo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_imageFondo2 {
+    width: 100%;
+    height: 500px;
+    background-image: url(../source/fondo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_imageFondo3 {
+    width: 100%;
+    height: 500px;
+    background-image: url(../source/fondo3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_cubierta {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+  }
+  .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_text {
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top: 0;
+  }
+  .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_text .slade_text_h1 {
+    text-align: center;
+    font-size: 200px;
+    font-weight: 500;
+    color: white;
+    -webkit-text-stroke: 5px rgb(41, 41, 41);
+    margin-top: 70px;
+    margin-left: 100px;
+    font-family: "curvita_bold";
+    letter-spacing: 4px;
+  }
+  .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_text .slade_text_h2 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: -20px;
+    margin-left: 100px;
+    font-family: "normal_bold";
+  }
+}
+/* Tablets (769px a 1024px)  -----------------CAMBIO BTN--------  */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cont_slader .container_swiper { /******mi contenedor controla el WIDTH Y HEIGHT************************/
+    width: 100%;
+    margin: auto;
+  }
+  .cont_slader .container_swiper .swiper { /*********width y height NO AFECTAN*************/ }
+  .cont_slader .container_swiper .swiper .swiper-wrapper { /*********width y height NO AFECTAN*************/ }
+  .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide { /*********width y height NO AFECTAN*************/
+    position: relative;
+    /******Estilos las tres imagenes**************/
+    /******fin Estilos las tres imagenes**************/
+  }
+  .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_imageFondo1 { /*******mi contenedor controla el WIDTH Y HEGHT********************/
+    width: 100%;
+    height: 500px;
+    background-image: url(../source/fondo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_imageFondo2 {
+    width: 100%;
+    height: 500px;
+    background-image: url(../source/fondo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_imageFondo3 {
+    width: 100%;
+    height: 500px;
+    background-image: url(../source/fondo3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_cubierta {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+  }
+  .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_text {
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top: 0;
+  }
+  .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_text .slade_text_h1 {
+    text-align: start;
+    font-size: 150px;
+    font-weight: 500;
+    color: white;
+    -webkit-text-stroke: 5px rgb(41, 41, 41);
+    margin-top: 70px;
+    margin-left: 100px;
+    font-family: "curvita_bold";
+    letter-spacing: 4px;
+  }
+  .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_text .slade_text_h2 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: -20px;
+    margin-left: 100px;
+    font-family: "normal_bold";
+  }
+}
+/* Móviles grandes y phablets (481px a 768px)--*/
 @media (min-width: 481px) and (max-width: 768px) {
   .cont_slader .container_swiper { /******mi contenedor controla el WIDTH Y HEIGHT************************/
     width: 100%;
@@ -81,55 +215,59 @@
   }
   .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_imageFondo1 { /*******mi contenedor controla el WIDTH Y HEGHT********************/
     width: 100%;
-    height: 400px;
-    background-image: url(../source/Ice_cream.png);
+    height: 500px;
+    background-image: url(../source/fondo1.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
   }
   .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_imageFondo2 {
     width: 100%;
-    height: 400px;
-    background-image: url(../source/Ice_cream2.png);
+    height: 500px;
+    background-image: url(../source/fondo2.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
   }
   .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_imageFondo3 {
     width: 100%;
-    height: 400px;
-    background-image: url(../source/Ice_cream3.png);
+    height: 500px;
+    background-image: url(../source/fondo3.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
   }
   .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_cubierta {
     width: 100%;
-    height: 400px;
+    height: 500px;
     position: absolute;
     top: 0;
   }
   .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_text {
     width: 100%;
-    height: 400px;
+    height: 450px;
     position: absolute;
     top: 0;
   }
   .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_text .slade_text_h1 {
-    font-size: 140px;
-    letter-spacing: 3px;
-    font-weight: 100;
-    color: #fcd7d7;
-    -webkit-text-stroke: 5px rgb(41, 41, 41);
-    margin-top: 50px;
-    margin-left: 20px;
+    width: 300px;
     text-align: center;
+    margin: 5px auto;
+    margin-top: 80px;
+    font-size: 120px;
+    font-weight: 500;
+    color: white;
+    -webkit-text-stroke: 5px rgb(41, 41, 41);
+    font-family: "curvita_bold";
+    letter-spacing: 4px;
+    line-height: 80px;
   }
   .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_text .slade_text_h2 {
-    font-size: 50px;
-    margin-top: -10px;
-    margin-left: initial;
     text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: initial;
+    font-family: "normal_bold";
   }
 }
 /*Móviles pequeños (hasta 480px) -*/
@@ -147,56 +285,59 @@
   }
   .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_imageFondo1 { /*******mi contenedor controla el WIDTH Y HEGHT********************/
     width: 100%;
-    height: 400px;
-    background-image: url(../source/Ice_cream.png);
+    height: 500px;
+    background-image: url(../source/fondo1.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
   }
   .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_imageFondo2 {
     width: 100%;
-    height: 400px;
-    background-image: url(../source/Ice_cream2.png);
+    height: 500px;
+    background-image: url(../source/fondo2.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
   }
   .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_imageFondo3 {
     width: 100%;
-    height: 400px;
-    background-image: url(../source/Ice_cream3.png);
+    height: 500px;
+    background-image: url(../source/fondo3.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
   }
   .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_cubierta {
     width: 100%;
-    height: 400px;
+    height: 500px;
     position: absolute;
     top: 0;
   }
   .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_text {
     width: 100%;
-    height: 400px;
+    height: 450px;
     position: absolute;
     top: 0;
   }
   .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_text .slade_text_h1 {
-    font-size: 80px;
-    letter-spacing: 3px;
-    font-weight: 100;
-    color: #fcd7d7;
-    -webkit-text-stroke: 2.5px rgb(41, 41, 41);
-    margin-top: 50px;
-    margin-left: 20px;
+    width: 300px;
     text-align: center;
-    font-family: curvita_normal;
+    margin: 5px auto;
+    margin-top: 80px;
+    font-size: 120px;
+    font-weight: 500;
+    color: white;
+    -webkit-text-stroke: 5px rgb(41, 41, 41);
+    font-family: "curvita_bold";
+    letter-spacing: 4px;
+    line-height: 80px;
   }
   .cont_slader .container_swiper .swiper .swiper-wrapper .swiper-slide .slade_text .slade_text_h2 {
-    font-size: 40px;
-    margin-top: -10px;
-    margin-left: initial;
+    width: 90%;
     text-align: center;
+    font-size: 40px;
+    margin: 20px auto;
+    font-family: "normal_bold";
   }
 }
 /* Escritorios grandes (más de 1440px) */
@@ -216,20 +357,15 @@
 }
 .cont_grilla .grilla_slader {
   grid-area: grilla_slader;
+  background: white;
 }
 .cont_grilla .grilla_section {
   grid-area: grilla_section;
-  background-image: url(/source/CONTACTO/fondo.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  display: none;
 }
 .cont_grilla .grilla_productos {
   grid-area: grilla_productos;
-  background-image: url(/source/CATALOGO/fondoFranja.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  display: none;
 }
 .cont_grilla .grilla_maps {
   grid-area: grilla_maps;
@@ -237,6 +373,7 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  display: none;
 }
 .cont_grilla .grilla_contacto {
   grid-area: grilla_contacto;
@@ -244,20 +381,20 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  display: none;
 }
 .cont_grilla .grilla_footer {
   grid-area: grilla_footer;
+  display: none;
 }
 
 /* Laptops y escritorios (1025px a 1440px) */
-/* Tablets (769px a 1024px) */
+/*  Tablets (769px a 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
   .cont_grilla {
     width: 100%;
     margin: auto;
-    background: rgb(95, 238, 85);
     display: grid;
-    gap: 30px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto auto;
     grid-template-areas: "grilla_header     grilla_header     grilla_header" "grilla_slader     grilla_slader     grilla_slader" "grilla_section    grilla_section    grilla_section" "grilla_productos  grilla_productos  grilla_productos" "grilla_maps       grilla_maps       grilla_maps" "grilla_contacto   grilla_contacto   grilla_contacto" "grilla_footer     grilla_footer     grilla_footer";
@@ -269,10 +406,7 @@
     grid-area: grilla_header;
   }
   .cont_grilla .grilla_slader {
-    background: rgb(158, 158, 158);
-    padding: 20px 0px;
     grid-area: grilla_slader;
-    display: none;
   }
   .cont_grilla .grilla_section {
     background: rgb(158, 158, 158);
@@ -678,6 +812,7 @@
 .cont_sectionCards {
   width: 100%;
   padding: 100px 0px;
+  background: white;
 }
 .cont_sectionCards .cont_sectionCards_h2 {
   width: 80%;
@@ -1068,6 +1203,7 @@
 .cont_productos {
   width: 100%;
   padding: 50px 0px;
+  background: rgb(255, 255, 255);
 }
 .cont_productos .cont_productosTitle {
   width: 60%;
@@ -1187,6 +1323,7 @@
 .contMapa {
   width: 100%;
   padding: 100px 0px;
+  background: rgb(255, 255, 255);
 }
 .contMapa .contMapa_title {
   text-align: center;
@@ -1204,6 +1341,7 @@
 .contContacto {
   width: 100%;
   padding: 20px 0px;
+  background: white;
 }
 .contContacto .contContacto_title {
   text-align: center;
