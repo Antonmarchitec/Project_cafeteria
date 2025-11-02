@@ -896,7 +896,7 @@
     background: rgb(255, 255, 255);
   }
   .cont_sectionCards .cont_sectionCards_h2 {
-    width: 90%;
+    width: 60%;
     font-size: 90px;
     margin: auto;
     line-height: 70px;
@@ -973,7 +973,83 @@
     padding: 100px 0px;
   }
   .cont_sectionCards .cont_sectionCards_h2 {
+    width: 80%;
+    font-size: 90px;
+    margin: auto;
+    line-height: 70px;
+    text-align: center;
+    font-family: curvita_bold;
+  }
+  .cont_sectionCards .cont_sectionCards_descripcion {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .cont_sectionCards .cont_sectionCards_block {
+    margin: auto;
+    margin-top: 80px;
     width: 90%;
+    border-radius: 20px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target {
+    width: 300px;
+    height: 440px;
+    position: relative;
+    margin-bottom: 60px;
+    border-bottom: 4px solid rgb(223, 255, 43);
+    border-radius: 20px;
+  }
+  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target .target_fondo {
+    width: 100%;
+    height: 220px;
+    background: rgb(242, 235, 45);
+    position: absolute;
+    top: 80px;
+    border-radius: 20px;
+  }
+  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target .target_image {
+    width: 300px;
+    height: 280px;
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    transform: rotate(10deg);
+  }
+  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target .target_legend {
+    width: 250px;
+    line-height: 38px;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: normal_medium;
+    position: absolute;
+    bottom: 42px;
+    left: 40px;
+  }
+  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target:hover {
+    background: transparent;
+  }
+  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target:hover .target_fondo {
+    transform: rotate(2deg);
+  }
+  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target:hover .target_image {
+    transform: rotate(5deg);
+  }
+}
+/* Móviles grandes y phablets (481px a 768px) -*/
+@media (min-width: 481px) and (max-width: 768px) {
+  .cont_sectionCards {
+    width: 100%;
+    padding: 100px 0px;
+  }
+  .cont_sectionCards .cont_sectionCards_h2 {
+    width: 80%;
     font-size: 90px;
     margin: auto;
     line-height: 70px;
@@ -999,89 +1075,10 @@
     align-items: center;
   }
   .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target {
-    width: 320px;
-    height: 460px;
-    position: relative;
-    margin-bottom: 100px;
-    border-bottom: 4px solid rgb(223, 255, 43);
-    border-radius: 20px;
-  }
-  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target .target_fondo {
-    width: 100%;
-    height: 220px;
-    background: rgb(242, 235, 45);
-    position: absolute;
-    top: 80px;
-    border-radius: 20px;
-  }
-  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target .target_image {
-    width: 340px;
-    height: 340px;
-    position: absolute;
-    top: 0px;
-    left: 10%;
-    transform: rotate(10deg);
-  }
-  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target .target_legend {
-    width: 250px;
-    line-height: 38px;
-    font-size: 35px;
-    font-weight: 500;
-    font-family: normal_medium;
-    position: absolute;
-    bottom: 42px;
-    left: 40px;
-  }
-  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target:hover {
-    background: transparent;
-  }
-  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target:hover .target_fondo {
-    transform: rotate(2deg);
-  }
-  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target:hover .target_image {
-    transform: rotate(5deg);
-  }
-}
-/* Móviles grandes y phablets (481px a 768px) -*/
-@media (min-width: 481px) and (max-width: 768px) {
-  .cont_sectionCards {
-    width: 100%;
-    padding: 100px 0px;
-    background: rgb(255, 255, 255);
-  }
-  .cont_sectionCards .cont_sectionCards_h2 {
-    width: 90%;
-    font-size: 70px;
-    margin: auto;
-    margin-left: 20px;
-    line-height: 60px;
-    text-align: center;
-    font-family: curvita_bold;
-  }
-  .cont_sectionCards .cont_sectionCards_descripcion {
-    width: 80%;
-    text-align: center;
-    margin: auto;
-    margin-top: 50px;
-    font-size: 16px;
-  }
-  .cont_sectionCards .cont_sectionCards_block {
-    margin: auto;
-    margin-top: 80px;
-    width: 95%;
-    border-radius: 20px;
-    padding: 10px 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target {
     width: 360px;
-    height: 490px;
+    height: 440px;
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     border-bottom: 4px solid rgb(223, 255, 43);
     border-radius: 20px;
   }
@@ -1094,17 +1091,17 @@
     border-radius: 20px;
   }
   .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target .target_image {
-    width: 340px;
-    height: 340px;
+    width: 300px;
+    height: 280px;
     position: absolute;
-    top: 0px;
+    top: 10px;
     left: 10%;
     transform: rotate(10deg);
   }
   .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target .target_legend {
     width: 250px;
     line-height: 38px;
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 500;
     font-family: normal_medium;
     position: absolute;
@@ -1122,27 +1119,24 @@
   }
 }
 /* Móviles pequeños (hasta 480px) */
-@media (min-width: 350px) and (max-width: 480px) {
+@media (min-width: 423px) and (max-width: 480px) {
   .cont_sectionCards {
     width: 100%;
     padding: 100px 0px;
   }
   .cont_sectionCards .cont_sectionCards_h2 {
-    width: 90%;
-    font-size: 70px;
+    width: 80%;
+    font-size: 90px;
     margin: auto;
-    margin-left: 20px;
-    line-height: 50px;
+    line-height: 70px;
     text-align: center;
     font-family: curvita_bold;
-    -webkit-text-stroke: 2px black; /* grosor y color del borde */
   }
   .cont_sectionCards .cont_sectionCards_descripcion {
     width: 80%;
     text-align: center;
     margin: auto;
     margin-top: 50px;
-    font-size: 16px;
   }
   .cont_sectionCards .cont_sectionCards_block {
     margin: auto;
@@ -1158,9 +1152,9 @@
   }
   .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target {
     width: 360px;
-    height: 490px;
+    height: 440px;
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     border-bottom: 4px solid rgb(223, 255, 43);
     border-radius: 20px;
   }
@@ -1173,17 +1167,17 @@
     border-radius: 20px;
   }
   .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target .target_image {
-    width: 340px;
-    height: 340px;
+    width: 300px;
+    height: 280px;
     position: absolute;
-    top: 0px;
+    top: 10px;
     left: 10%;
     transform: rotate(10deg);
   }
   .cont_sectionCards .cont_sectionCards_block .cont_sectionCards_block_target .target_legend {
     width: 250px;
     line-height: 38px;
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 500;
     font-family: normal_medium;
     position: absolute;
