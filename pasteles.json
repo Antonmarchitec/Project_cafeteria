@@ -4,7 +4,7 @@
         "legend":" Pasteles Artesanales ",
         "desc1":"✨ Hechos con ingredientes frescos y naturales.",
         "desc2":"🎂 Cada bocado es un sabor único que deleita el paladar.",
-        "figure":"../source/postre1.png",
+        "figure":"./source/postre1.png",
         "color": "#f56b6b",
         "textColor": "blue"
     },
@@ -13,7 +13,7 @@
         "legend":" Diseños Personalizados ",
         "desc1":"🎨 Creamos pasteles a tu medida.",
         "desc2":"💡 Tú imaginas, nosotros lo hacemos realidad.",
-        "figure":"../source/postre2.png",
+        "figure":"/source/postre2.png",
         "color": "#6661ff",
         "textColor": "blue"
     },
