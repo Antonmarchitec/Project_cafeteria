@@ -6,7 +6,7 @@
     width: 100%;
     height: 170px;
     //max-width: 1600px;
-    background: variables.$color_rosa;
+    background: variables.$color_black_claro;
     box-shadow: 0px 5px 10px rgb(133, 39, 109);
     padding: 5px 0px;
     display: flex;
@@ -32,7 +32,7 @@
         width: 700px;
         padding: 5px 0px;
         margin-right: 40px;
-        background: variables.$color_rosa;
+        background: variables.$color_black_claro;
         /*************/
         .block_navigation_sup{
             width: 100%;
@@ -135,13 +135,15 @@
 
 
 
+
+
+
 /* Laptops y escritorios (1025px a 1440px) */
 @media (min-width:1025px) and (max-width:1439px){ 
    .cont_header{
         width: 100%;
         height: 170px;
         //max-width: 1600px;
-        background: variables.$color_rosa;
         padding: 5px 0px;
         display: flex;
         justify-content: space-between;
@@ -270,13 +272,17 @@
 
 
 
-/* Tablets (769px a 1024px) */
-@media (min-width:769px) and (max-width:1024px){ 
+
+
+
+
+/* Tablets (769px a 1024px) */   /*-------------------CAMBIO BTN---------*/
+@media (min-width:350px) and (max-width:1024px){ 
    .cont_header{
         width: 100%;
         height: 120px;
         //max-width: 1600px;
-        background: variables.$color_rosa;
+        background: variables.$color_black_claro;
         padding: 5px 0px;
         display: flex;
         justify-content: space-between;
@@ -303,11 +309,12 @@
             height: 85vh;
             padding: 0px;
             margin-right: 10px;
-            background: variables.$color_rosa;
+            background: variables.$color_black_claro;
             position: absolute;
             top:80px;
             left: -100%;
             transition: 0.2s ease-in-out all;
+           
             /*************/
             .block_navigation_sup{
                 width: 100%;
@@ -319,17 +326,17 @@
                 justify-content: flex-start;
                 align-items: flex-start;
                 backdrop-filter: blur(2px);
-
                 /*****************/
                 .redes{
                     margin:auto;
-                    padding:initial;
                     background: transparent;
                     .iconRedes{
                         font-size: 30px;
+                        padding: 2px;
                     }
                     .iconRedes:hover{
-                        color: variables.$color_rojo;
+                        color: violet;
+                        cursor: pointer;
                     }
                 }
                 
@@ -338,27 +345,28 @@
                     width: 100%;
                     padding: initial;
                     padding: 30px 0px;
-                    background: teal;
 
                     .menu_secundario_ul{
                         width: 100%;
-                        padding: 10px 0px;
+                        padding: 10px 20px;
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
                         align-items: flex-start;
                         list-style: none;
+
                         .menu_secundario_ul_li{
-                            width: 100%;
-                            height: 40px;
-                            padding: 0px 20px;
+                            padding: 5px;
                             margin: 0px 2px;
-                            background: brown;
                             text-align: start;
+
                             .link{
+                                color: rgb(255, 62, 236);
+                                font-size: 20px;
+                            }
+                            .link:hover{
                                 color: variables.$color_blanco;
                                 font-size: 20px;
-                                background: teal;
                             }
                         }
                     }
@@ -371,22 +379,23 @@
 
             /***********/
             .block_navigation_inf{
-                padding: initial;
-                padding: 26px 0px;
-                background: transparent;
+                padding-bottom:30px;
+                background: variables.$color_black_claro;
                 backdrop-filter: blur(22px);
                 .block_navigation_inf_ul{
-                    padding:0px;
+                    padding:initial;
                     //background: greenyellow;
                     display: flex;
                     flex-direction: column;
                     justify-content: flex-start;
                     align-items: flex-start;
+
                     .block_navigation_inf_ul_li{
-                        padding: 5px;
+                        padding: 5px 20px;
                         //background: rgb(68, 67, 67);
-                        margin-left: 16px;
+                        margin-left: initial;
                         list-style: none;
+
                         .link{
                             font-size: 24px;
                             color: variables.$color_blanco;
@@ -395,10 +404,11 @@
                             font-weight: 500;
                             border-bottom: 2px solid transparent;
                             transition: 0.3s all;
+
                         }
                         .link:hover{
-                            border-bottom: 2px solid variables.$color_rojo;
-                            color: variables.$color_rojo;
+                            border-bottom: 2px solid violet;
+                            color: violet;
 
                         }
                     }
@@ -421,298 +431,23 @@
         }
     }
 }
+
+
+
 
 
 
 
 /* Móviles grandes y phablets (481px a 768px) */
-@media (min-width:481px) and (max-width:768px){ 
-     .cont_header{
-        width: 100%;
-        height: 110px;
-        //max-width: 1600px;
-        background: variables.$color_rosa;
-        padding: 5px 0px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        left: 0;    
-        top: 0;
-        right: 0;
-        margin: auto;
-        z-index: 100;
-        /**************/
-        .block_logo{
-            margin-top:50px;
-            margin-left: 20px;
-            width: 220px;
-            height: 220px;
-            z-index: 100;
-        }
-
-        /************/
-        .block_navigation{
-            margin-top: 30px;
-            width: 220px;
-            height: 85vh;
-            padding: 0px;
-            margin-right: 10px;
-            background: variables.$color_rosa;
-            position: absolute;
-            top:80px;
-            left: -100%;
-            transition: 0.2s ease-in-out all;
-            /*************/
-            .block_navigation_sup{
-                width: 100%;
-                padding: initial;
-                padding-top: 60px;
-                //background: white;
-                display: flex;
-                flex-direction: column-reverse;
-                justify-content: flex-start;
-                align-items: flex-start;
-                background-color: variables.$color_lila_pastel;
-                backdrop-filter: blur(2px);
-                /****************/
-                .menu_secundario{
-                    padding: 10px 0px;
-                    
-                    .menu_secundario_ul{
-                        //background: teal;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: flex-start;
-                        align-items: flex-start;
-                        list-style: none;
-                        .menu_secundario_ul_li{
-                            padding: 0px 20px;
-                            margin: 0px 2px;
-                            //background: brown;
-                            text-align: start;
-                            .link{
-                                color: variables.$color_grey;
-                                color: variables.$color_rosa;
-                                font-size: 15px;
-                            }
-                        }
-                    }
-                    
-                }
-
-                /*****************/
-                .redes{
-                    padding: 10px 20px;
-                    //background: rgb(255, 255, 255);
-                    .iconRedes{
-                        color: variables.$color_rosa;
-                        font-size: 22px;
-                        margin: 0px 3px;
-                        cursor: pointer;
-                    }
-                }
-
-            }
-
-            /***********/
-            .block_navigation_inf{
-                padding: 20px 0px;
-                //background: rgb(255, 255, 255);
-                backdrop-filter: blur(22px);
-
-                .block_navigation_inf_ul{
-                    padding: 0px 5px;
-                    //background: greenyellow;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: flex-start;
-                    align-items: flex-start;
-                    .block_navigation_inf_ul_li{
-                        padding: 5px;
-                        //background: rgb(68, 67, 67);
-                        margin-left: 16px;
-                        list-style: none;
-                        .link{
-                            font-size: 16px;
-                            color: variables.$color_blanco;
-                            text-transform: uppercase;
-                            text-decoration: none;
-                            font-weight: 500;
-                            border-bottom: 2px solid transparent;
-                            transition: 0.3s all;
-                        }
-                        .link:hover{
-                            border-bottom: 2px solid variables.$color_lila_pastel;
-                            color: variables.$color_lila_pastel;
-
-                        }
-                    }
-                }
-            
-            }
-        }
-
-        .block_navigation_JS{
-            left: 0px;
-        }
-
-        /*************/
-        .block_btnResponsive{
-            width: 50px;
-            height: 50px;
-            //background: grey;
-            margin-right: 20px;
-            display: none;
-        }
-    }
-}
 
 
 
 
-/* Móviles pequeños (350px a 480px)-*/   /*-------------------CAMBIO BTN---------*/
-@media (min-width:350px) and (max-width:768px){ 
-     .cont_header{
-        width: 100%;
-        height: 110px;
-        //max-width: 1600px;
-        background: variables.$color_rosa;
-        padding: 5px 0px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        left: 0;    
-        top: 0;
-        right: 0;
-        margin: auto;
-        z-index: 100;
-        /**************/
-        .block_logo{
-            margin-top:50px;
-            margin-left: 20px;
-            width: 220px;
-            height: 220px;
-            z-index: 100;
-        }
 
-        /************/
-        .block_navigation{
-            margin-top: 30px;
-            width: 220px;
-            height: 85vh;
-            padding: 0px;
-            margin-right: 10px;
-            background: variables.$color_rosa;
-            position: absolute;
-            top:80px;
-            left: -100%;
-            transition: 0.2s ease-in-out all;
-            /*************/
-            .block_navigation_sup{
-                width: 100%;
-                padding: initial;
-                padding-top: 60px;
-                //background: white;
-                display: flex;
-                flex-direction: column-reverse;
-                justify-content: flex-start;
-                align-items: flex-start;
-                background-color: variables.$color_lila_pastel;
-                backdrop-filter: blur(2px);
-                /****************/
-                .menu_secundario{
-                    padding: 10px 0px;
-                    
-                    .menu_secundario_ul{
-                        //background: teal;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: flex-start;
-                        align-items: flex-start;
-                        list-style: none;
-                        .menu_secundario_ul_li{
-                            padding: 0px 20px;
-                            margin: 0px 2px;
-                            //background: brown;
-                            text-align: start;
-                            .link{
-                                color: variables.$color_grey;
-                                color: variables.$color_rosa;
-                                font-size: 15px;
-                            }
-                        }
-                    }
-                    
-                }
 
-                /*****************/
-                .redes{
-                    padding: 10px 20px;
-                    //background: rgb(255, 255, 255);
-                    .iconRedes{
-                        color: variables.$color_rosa;
-                        font-size: 22px;
-                        margin: 0px 3px;
-                        cursor: pointer;
-                    }
-                }
 
-            }
+/* Móviles pequeños (350px a 480px)-*/   
 
-            /***********/
-            .block_navigation_inf{
-                padding: 20px 0px;
-                //background: rgb(255, 255, 255);
-                backdrop-filter: blur(22px);
-
-                .block_navigation_inf_ul{
-                    padding: 0px 5px;
-                    //background: greenyellow;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: flex-start;
-                    align-items: flex-start;
-                    .block_navigation_inf_ul_li{
-                        padding: 5px;
-                        //background: rgb(68, 67, 67);
-                        margin-left: 16px;
-                        list-style: none;
-                        .link{
-                            font-size: 16px;
-                            color: variables.$color_blanco;
-                            text-transform: uppercase;
-                            text-decoration: none;
-                            font-weight: 500;
-                            border-bottom: 2px solid transparent;
-                            transition: 0.3s all;
-                        }
-                        .link:hover{
-                            border-bottom: 2px solid variables.$color_lila_pastel;
-                            color: variables.$color_lila_pastel;
-
-                        }
-                    }
-                }
-            
-            }
-        }
-
-        .block_navigation_JS{
-            left: 0px;
-        }
-
-        /*************/
-        .block_btnResponsive{
-            width: 50px;
-            height: 50px;
-            //background: grey;
-            margin-right: 20px;
-            display: block;
-        }
-    }
-}
 
 
 
