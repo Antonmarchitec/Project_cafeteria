@@ -1119,10 +1119,11 @@
   }
 }
 /* Móviles pequeños (hasta 480px) */
-@media (min-width: 423px) and (max-width: 480px) {
+@media (min-width: 350px) and (max-width: 480px) {
   .cont_sectionCards {
     width: 100%;
     padding: 100px 0px;
+    background: teal;
   }
   .cont_sectionCards .cont_sectionCards_h2 {
     width: 80%;
