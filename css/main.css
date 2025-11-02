@@ -390,7 +390,7 @@
 
 /* Laptops y escritorios (1025px a 1440px) */
 /*  Tablets (769px a 1024px) */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 350px) and (max-width: 1024px) {
   .cont_grilla {
     width: 100%;
     margin: auto;
