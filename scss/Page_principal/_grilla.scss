@@ -47,7 +47,7 @@
         //background-size: 100% 100%;
         //background-repeat: no-repeat;
         //background-attachment: fixed;
-        display: none;
+        
     }
 
     .grilla_productos{
@@ -116,7 +116,7 @@
         //max-width: 1600px;
         //padding: 10px 0px;
         margin: auto;
-        //background: rgb(95, 238, 85);
+        background: rgb(75, 233, 54);
         //gap:30px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -148,13 +148,12 @@
 
         .grilla_section{
             background: rgb(158, 158, 158);
-            padding: 20px 0px;
+            //padding: 20px 0px;
             grid-area:grilla_section;
             background-image:url(/source/CONTACTO/fondo.png);
             background-size: 100% 100%;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            display: none;
         }
 
         .grilla_productos{

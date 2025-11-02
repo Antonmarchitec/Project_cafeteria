@@ -104,6 +104,7 @@
     .cont_sectionCards{
         width: 100%;
         padding: 100px 0px;
+        background: rgb(255, 255, 255);
         .cont_sectionCards_h2{
             width: 90%;
             font-size: 90px;
@@ -188,7 +189,7 @@
 
 
 
-/* Tablets (769px a 1024px) */
+/* Tablets (769px a 1024px)  -------------------CAMBIO BTN--------*/
 @media (min-width: 769px) and (max-width: 1024px){
     .cont_sectionCards{
         width: 100%;
@@ -276,11 +277,13 @@
 
 
 
-/* Móviles grandes y phablets (481px a 768px) -------------------CAMBIO BTN---------*/
+/* Móviles grandes y phablets (481px a 768px) -*/
 @media (min-width: 481px) and (max-width: 768px){
     .cont_sectionCards{
         width: 100%;
         padding: 100px 0px;
+        background: rgb(255, 255, 255);
+
         .cont_sectionCards_h2{
             width: 90%;
             font-size: 70px;
