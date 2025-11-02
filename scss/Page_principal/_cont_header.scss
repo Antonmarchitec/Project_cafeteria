@@ -59,7 +59,7 @@
                         text-align: center;
                         .link{
                             color: variables.$color_grey;
-                            color: white;
+                            color: violet;
                             font-size: 16px;
                         }
                     }
@@ -72,14 +72,14 @@
                 padding: 5px 10px;
                 //background: rgb(255, 255, 255);
                 .iconRedes{
-                    font-size: 36px;
+                    font-size: 32px;
                     margin: 0px 3px;
                     cursor: pointer;
                     color: variables.$color_blanco;
                     transition: 0.2s all;
                 }
                 .iconRedes:hover{
-                    color:rgb(233, 233, 233);
+                    color:violet;
 
                 }
             }
@@ -112,8 +112,8 @@
                         transition: 0.3s all;
                     }
                     .link:hover{
-                        border-bottom: 5px solid variables.$color_rojo;
-                        color: variables.$color_rojo;
+                        border-bottom: 3px solid violet;
+                        color: violet;
 
                     }
                 }
@@ -209,14 +209,14 @@
                     padding: 5px 10px;
                     //background: rgb(255, 255, 255);
                     .iconRedes{
-                        font-size: 32px;
+                        font-size: 30px;
                         margin: 0px 3px;
                         cursor: pointer;
                         color: variables.$color_blanco;
                         transition: 0.2s all;
                     }
                     .iconRedes:hover{
-                        color: variables.$color_rojo;
+                        color: violet;
 
                     }
                 }
@@ -248,8 +248,8 @@
                             transition: 0.3s all;
                         }
                         .link:hover{
-                            border-bottom: 5px solid variables.$color_rojo;
-                            color: variables.$color_rojo;
+                            border-bottom: 3px solid violet;
+                            color: violet;
 
 
                         }

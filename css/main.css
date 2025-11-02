@@ -381,21 +381,21 @@
 }
 .cont_header .block_navigation .block_navigation_sup .menu_secundario .menu_secundario_ul .menu_secundario_ul_li .link {
   color: rgb(109, 109, 109);
-  color: white;
+  color: violet;
   font-size: 16px;
 }
 .cont_header .block_navigation .block_navigation_sup .redes {
   padding: 5px 10px;
 }
 .cont_header .block_navigation .block_navigation_sup .redes .iconRedes {
-  font-size: 36px;
+  font-size: 32px;
   margin: 0px 3px;
   cursor: pointer;
   color: #ffffff;
   transition: 0.2s all;
 }
 .cont_header .block_navigation .block_navigation_sup .redes .iconRedes:hover {
-  color: rgb(233, 233, 233);
+  color: violet;
 }
 .cont_header .block_navigation .block_navigation_inf {
   padding: 2px 0px;
@@ -422,8 +422,8 @@
   transition: 0.3s all;
 }
 .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul .block_navigation_inf_ul_li .link:hover {
-  border-bottom: 5px solid #fe3b3b;
-  color: #fe3b3b;
+  border-bottom: 3px solid violet;
+  color: violet;
 }
 .cont_header .block_btnResponsive {
   width: 50px;
@@ -498,14 +498,14 @@
     padding: 5px 10px;
   }
   .cont_header .block_navigation .block_navigation_sup .redes .iconRedes {
-    font-size: 32px;
+    font-size: 30px;
     margin: 0px 3px;
     cursor: pointer;
     color: #ffffff;
     transition: 0.2s all;
   }
   .cont_header .block_navigation .block_navigation_sup .redes .iconRedes:hover {
-    color: #fe3b3b;
+    color: violet;
   }
   .cont_header .block_navigation .block_navigation_inf {
     padding: 2px 0px;
@@ -532,8 +532,8 @@
     transition: 0.3s all;
   }
   .cont_header .block_navigation .block_navigation_inf .block_navigation_inf_ul .block_navigation_inf_ul_li .link:hover {
-    border-bottom: 5px solid #fe3b3b;
-    color: #fe3b3b;
+    border-bottom: 3px solid violet;
+    color: violet;
   }
   .cont_header .block_btnResponsive {
     display: none;
