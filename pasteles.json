@@ -13,7 +13,7 @@
         "legend":" Diseños Personalizados ",
         "desc1":"🎨 Creamos pasteles a tu medida.",
         "desc2":"💡 Tú imaginas, nosotros lo hacemos realidad.",
-        "figure":"/source/postre2.png",
+        "figure":"./source/postre2.png",
         "color": "#6661ff",
         "textColor": "blue"
     },
@@ -22,7 +22,7 @@
         "legend":" Frescura Garantizada ",
         "desc1":"🕒 Pasteles recién horneados todos los días.",
         "desc2":"🍓 Conservamos el auténtico sabor casero.",
-        "figure":"../source/postre3.png",
+        "figure":"./source/postre3.png",
         "color": "#ff48ea",
         "textColor": "blue"
     },
@@ -31,7 +31,7 @@
         "legend":" Entregas a Domicilio ",
         "desc1":"🚚 Llevamos la dulzura hasta tu puerta.",
         "desc2":"📍 Rápido, seguro y con todo el cuidado.",
-        "figure":"../source/postre5.png",
+        "figure":"./source/postre5.png",
         "color": "#48daff",
         "textColor": "blue"
     }
