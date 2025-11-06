@@ -129,7 +129,7 @@
             width: 90%;
             border-radius: 20px;
             padding: 10px 80px;
-            background: rgba(255, 255, 252, 0.995);
+            background: variables.$color_rosa_pastel;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -294,6 +294,7 @@
             line-height:70px ;
             text-align: center;
             font-family: curvita_bold;
+
         }
 
         .cont_sectionCards_descripcion{
