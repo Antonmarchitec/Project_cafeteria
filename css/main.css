@@ -364,7 +364,6 @@
 }
 .cont_grilla .grilla_productos {
   grid-area: grilla_productos;
-  display: none;
 }
 .cont_grilla .grilla_maps {
   grid-area: grilla_maps;
@@ -393,7 +392,6 @@
   .cont_grilla {
     width: 100%;
     margin: auto;
-    background: rgb(75, 233, 54);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto auto;
@@ -424,7 +422,6 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    display: none;
   }
   .cont_grilla .grilla_maps {
     background: rgb(158, 158, 158);
