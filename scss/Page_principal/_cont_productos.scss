@@ -1,6 +1,8 @@
 @use "../variables";
 @use "../mixins";
 
+
+/* Escritorios grandes (más de 1440px) */
 .cont_productos{
     width: 100%;
     padding: 50px 0px;
@@ -124,8 +126,138 @@
                 }
             }
         }
-    }
-
-   
+    }   
 }
 
+
+/* Laptops y escritorios (1025px a 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .cont_productos{
+        width: 100%;
+        padding: 50px 0px;
+        background: rgb(255, 255, 255);
+        background: teal    ;
+        .cont_productosTitle{
+            width: 60%;
+            margin: auto;
+            text-align: center;
+            color: variables.$color_rojo;
+            -webkit-text-stroke: 2px black; /* grosor y color del borde */
+            font-family: curvita_bold;
+            font-size: 90px;
+        }
+
+
+        .cont_productos_bloque{
+            width: 95%;
+            padding: 50px 0px;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            .bloqueText{
+                width: 320px;
+                background:variables.$color_amarillo_crema;
+                border-radius: 20px;
+                padding: 50px 40px;
+                text-align: center;
+                transition: transform 0.3s all;
+                box-shadow: 2px 2px 2px transparent;
+                border: 2px solid transparent;
+                .bloqueTextTitle{
+                    height: 68px;
+                    color: variables.$color_rojo;
+                    line-height: 32px;
+                    font-weight: 500;
+                    font-size: variables.$font_h3;
+
+
+                }
+
+                .bloqueTextParrafo{
+                    margin-top: 10px;
+                    padding: 10px 0px;
+                    font-size: variables.$font_p;
+                    
+                }
+                
+                .bloqueTextBtn{
+                    @include mixins.botones;
+                }
+            }
+
+            .bloqueText:hover{
+                transform: scale3d(1.04, 1.04);
+                box-shadow: 2px 2px 2px rgb(118, 118, 118);
+                border: 2px solid grey;
+            
+            }
+        }
+    
+
+    
+        .cont_productosBlock{
+            width: 85%;
+            padding: 10px 0px;
+            margin:auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            .cont_productosBlock_cuadro{
+                margin-bottom: 60px;
+                width: 400px;
+                height: 540px;
+                padding: 20px;
+                position: relative;
+                .cont_productosBlock_cuadroImg{
+                    width: 300px;
+                    height: 300px;
+                    margin: auto;
+                }
+
+                .cont_productosBlock_cuadroTitle{
+                    text-align: center;
+                    color: rgb(255, 44, 79);
+                    font-size: 50px;
+                    font-family: "curvita_bold";
+                    line-height: 42px;
+                }
+
+                .cont_productosBlock_cuadroDesc{
+                    margin-top: 10px;
+                    text-align: center;
+                    color: rgb(84, 84, 84);
+                }
+
+                .cont_productosBlock_cuadroPrecio{
+                    padding: 20px;
+                    background: variables.$color_rojo;
+                    font-size: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 100%;
+                    box-shadow: 5px 5px 5px black;
+                    position: absolute;
+                    top: 0;
+                    transform: rotate(-10deg);
+                    .cuadroPrecio{
+                        font-weight: 500;
+                        margin-right: 5px;
+                        font-size: 32px;
+                    }
+
+                    .dolar{
+                        font-weight: 500;
+                        margin-right: 5px;
+                        font-size: 32px;
+                        color: rgb(255, 255, 255);
+                    }
+                }
+            }
+        }   
+    }
+}
