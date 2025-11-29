@@ -1,4 +1,4 @@
-## RESPONSIVE DESING OFICIAL NUEVO
+## RESPONSIVE DESING OFICIAL NUEVO 44
 ##### @media (min-width:1025px) and (max-width:1600px){}     175px  1544+266 = 1810
 ##### @media (min-width:900px)  and (max-width:1024px){}     124px  1278+266 = 1544
 ##### @media (min-width:770px)  and (max-width:899px){}      129px  1012+266 = 1278
